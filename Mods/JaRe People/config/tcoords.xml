@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!-- PASSENGER -->
+<Coord id="9BE1510B" x="0" y="0" w="32" h="32" />
+<Coord id="9BE1510C" x="32" y="0" w="32" h="32" />
+<Coord id="9BE1510D" x="64" y="0" w="32" h="32" />
+<Coord id="9DE08E0B" x="1" y="33" w="15" h="17" />
+<Coord id="9DE08E0C" x="16" y="33" w="15" h="17" />
+<Coord id="9DE08E0D" x="32" y="33" w="15" h="17" />
+<!-- MAIL -->
+<Coord id="9BE15108" x="96" y="0" w="32" h="32" />
+<Coord id="9BE15109" x="128" y="0" w="32" h="32" />
+<Coord id="9BE1510A" x="160" y="0" w="32" h="32" />
+<Coord id="9DE081E8" x="96" y="32" w="15" h="17" />
+<Coord id="9DE081E9" x="112" y="32" w="15" h="17" />
+<Coord id="9DE081EA" x="128" y="32" w="15" h="17" />
+<!-- STONE -->
+<Coord id="9BE1510E" x="192" y="0" w="32" h="32" />
+<Coord id="9BE1510F" x="224" y="0" w="32" h="32" />
+<Coord id="9DE081EE" x="192" y="32" w="17" h="17" />
+<Coord id="9DE081EF" x="224" y="32" w="17" h="17" />
+<!-- TANNE -->
+<Coord id="9BE15110" x="256" y="0" w="32" h="32" />
+<Coord id="9DE081F0" x="256" y="32" w="15" h="15" />
+<!-- WALL -->
+<Coord id="9BE15111" x="288" y="0" w="32" h="32" />
+<Coord id="9DE081F1" x="288" y="32" w="16" h="17" />
+<!-- FOOD -->
+<Coord id="9BE15112" x="320" y="0" w="32" h="32" />
+<Coord id="9DE081F2" x="320" y="32" w="16" h="15" />
+<Coord id="9BE15113" x="352" y="0" w="32" h="32" />
+<Coord id="9DE081F3" x="352" y="32" w="16" h="15" />
+<Coord id="9BE15114" x="384" y="0" w="32" h="32" />
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="00223914" caption="English" icon="54A213EF">
+
+
+	<string name="DF21CC00">Heap</string>
+
+	<string name="980EEDFC">Alpen $ Bricks</string>
+	<string name="980EEDFD">Wild west $ Bricks</string>
+	<string name="980EEDFF">Volcano $ Bricks</string>
+	<string name="980EEE40">Moss $ Bricks</string>
+	<string name="980EEE41">Sand $ Bricks</string>
+	<string name="980EEE42">Onyx $ Bricks</string>
+
+	<!-- Names of cargo types -->
+	<string name="0BA4584C">Brick</string>
+	<string name="0BA4584D">Brick Token</string>
+	<!-- Names of building types -->
+	<string name="DA21CC9A">Quarry</string>
+	<string name="DA21CC9B">Brick</string>
+	<string name="DA21CC9C">Crusher</string>
+
+
+</resources>
+
+<resources name="01B31887" caption="?e?tina" icon="603BC4CF">
+
+	<string name="980EEDFC">Alpen $ kamen</string>
+	<string name="980EEDFD">Wild west $ kamen</string>
+	<string name="980EEDFF">Vulkan $ kamen</string>
+	<string name="980EEE40">Mech $ kamen</string>
+	<string name="980EEE41">Pisek $ kamen</string>
+
+
+</resources>
+
+<!--
+Deutsche šbersetzung
+-->
+<resources name="0279C016" caption="Deutsch" icon="80979E87">
+
+	<string name="DF21CC00">Halde</string>
+
+	<string name="980EEDFC">Alpen $ Steine</string>
+	<string name="980EEDFD">Westen $ Steine</string>
+	<string name="980EEDFF">Vulkan $ Steine</string>
+	<string name="980EEE40">Moos $ Steine</string>
+	<string name="980EEE41">Sand $ Steine</string>
+	<string name="980EEE42">Onyx $ Steine</string>
+
+	<!-- Names of cargo types -->
+	<string name="0BA4584C">Bruchstein</string>
+	<string name="0BA4584D">Stein Token</string>
+	<!-- Names of building types -->
+	<string name="DA21CC9A">Steinbruch</string>
+	<string name="DA21CC9B">Bruchstein</string>
+	<string name="DA21CC9C">Crusher</string>
+
+</resources>
+

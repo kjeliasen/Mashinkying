@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!-- QUESTS -->
+ 
+<!-- script director-->
+<Quest id="00000000" icon="59E16819" text="3" type="4" >      
+	<PartScript> -- // QT.XML
+
+  {"state", "iEpoch", "iEpochLast", "bTutEnabled", "bSandboxQuests", "bTutEnabled",  
+  "iYearEpoch1Start", "iYearEpoch2Start", "iYearEpoch3Start",  "iYearEpoch4Start",
+  "iYearEpoch5Start","iYearEpoch6Start", "iYearEpoch7Start",
+	"b000000a2", "b12000004", "b12000005", "b12000007", "b12000009", 
+  "b23000003", "b23100001", "b23000002", "b23000004", "b23000005", "b23000006", 
+  "b23000009", "b23000011",
+  "b34000001", "b34000002", "b34000003", "b34000004", "b34000005", "b34000006",
+  "b34000007", "b34000009",
+  "iXMLVersion", "iGameVersion", "sCSV_QuestOldState" }
+    
+  iYearEpoch1Start = 20000
+  iYearEpoch2Start = 20000
+  iYearEpoch3Start = 20000
+  iYearEpoch4Start = 20000
+  iYearEpoch5Start = 20000
+  iYearEpoch6Start = 20000
+  iYearEpoch7Start = 20000
+
+  -- quests bool  (quest once)
+	b000000a2 = true	-- borrow
+  b12000001 = 1  -- pass delivery
+	b12000004 = true  -- num  trains
+	b12000005 = true	-- numtrains
+	b12000009 = true	-- forest cut (event)
+  b23000002 = true	-- logsIn
+	b23000003 = true	-- onstart2 oreCoal
+	b23000004 = true	-- own depo upgrade
+  b23000005 = true	-- connect city
+	b23000009 = true	-- hard choice
+	b23000011 = true	-- church (event)
+	b23100001 = true	-- buy train
+  b34000001 = true	-- oil
+  b34000002 = true	-- goods
+  b34000003 = true	-- build rails
+  b34000004 = true	-- dontDelivery
+  b34000005 = true	-- delivery random
+  b34000006 = true	-- traveler
+  b34000007 = true	-- visit10cities
+  b34000009 = true	-- oil in
+  
+	-- // ------------------------------------------------------------------
+	-- // ------------------------------------------------------------------
+
+    state = -1
+    iXMLVersion = -1
+    sCSV_QuestOldState = ""
+
+		function OnStart()
+      iXMLVersion = 1      -- // set custom xml version !
+      DbgTextClear()    -- // clear debug window
+
+      DbgText("clr -------------------- QT.XML id=00000000 OnStart() --------------------------------- ")
+      state = 0
+
+      iGameVersion = GetGameVersion()         -- // YYYYMMDD
+      local iSaveVersion = GetSaveVersion()   -- // int (24 atd.)
+      DbgText("  ----- QT.XML  |  state: "..state.."  |  GameVer.:"..iGameVersion.."  |   SaveVersion: "..iSaveVersion.."   |")
+
+      -- // start Tcash
+      local tStartCash = { [0] = 500, [1] = 1000, [2] = 2000, [3] = 5000 }
+      if not ( tStartCash[GetStartCash()] == nil ) then 
+          BorrowTokens( tStartCash[GetStartCash()] )
+      else
+          BorrowTokens(23)
+          DbgText("  ----- QT.XML  |  Tcash issue | GetStartCash() "..GetStartCash() )
+      end
+
+      -- // Set epoch + Quests 
+      local iStartingEpoch = GetEpoch()  
+      DbgText("  ----- QT.XML  | iStartingEpoch "..iStartingEpoch )
+
+      -- SetYear ( GetStartYear(iStartingEpoch) )      -- // set year
+      AddQuest( GetStartEraQuest(iStartingEpoch) )	-- // Choose milestone 
+
+      if IsSandboxQuestEnabled() then 
+			  AddQuest("17000000")	-- // Vanila quest controller
+      end
+
+ 	    state = 1    
+			return true
+		end
+
+    function GetStartEraQuest(iStartEra)
+      tEras = {
+        [1] = "12000000",
+        [2] = "23000000",
+        [3] = "34000000",
+        [4] = "45000000",
+        [5] = "56000000",
+        [6] = "67000000",
+        [7] = "78000000"}
+
+      if (tEras[iStartEra] == nil) then return "12000000"        --// some issue solve
+      else return tEras[iStartEra]                            --// get quest hash from table
+      end
+		end
+
+    function GetStartYear(iStartEra)
+      tYears = {
+        [1] = "1920",
+        [2] = "1930",
+        [3] = "1940",
+        [4] = "1950",
+        [5] = "1960",
+        [6] = "1970",
+        [7] = "1980"}
+
+      if (tYears[iStartEra] == nil) then return "1920"       --// some issue solve
+      else return tYears[iStartEra]                            --// get year from table
+      end
+		end
+
+
+    function OnLoad()
+      DbgTextClear()    -- // clear debug window
+
+      local iSaveVersion = GetSaveVersion()   --// int (24 atd.)
+      DbgText(" ----------------------------- QT.XML OnLoad() --------------------------------- "..state.."\n - SaveVersion "..iSaveVersion)
+      DbgText(" ----- QT.XML OnLoad()  |  iXMLVersion: "..iXMLVersion)
+
+      if ( iXMLVersion == nil or iXMLVersion &lt; 1 ) then   -- // old type of saves ?
+        DbgText(" ------ QT.XML OnLoad() | ! OLD XML TYPE ! | -------------- ")
+
+        local iRemQCLua_Version = GetRemoteQuestVariable("17000000", "state") 
+        DbgText(" ------ QT.XML OnLoad() 17000000 iRemQCLua_Version: "..iRemQCLua_Version)
+
+        if (iRemQCLua_Version == "") then
+          DbgText(" ------ QT.XML OnLoad() |  GetOldValus + AddQuest : 17000000 ----   ") 
+
+          GetOldValues()   
+          AddQuest("17000000")
+
+        else
+          DbgText(" ------ QT.XML OnLoad() |  ERR : 17000000 is already active ----   ") 
+        end  
+
+        iXMLVersion = 1      -- // set custom xml version !
+      else
+        DbgText(" ------ QT.XML new type, nothing to do -----  ")
+      end
+
+      return true 
+    end 
+
+
+    function GetOldValues()
+      DbgText(" ------ QT.XML OnLoad() Trying restore old quest values ---")
+        
+			local bSandboxQuests = IsSandboxQuestEnabled()	
+			local bTutEnabled = IsTutorialEnabled()	  
+			local iYear = GetYear()
+			local iMonth = GetMonth()
+
+      if (bSandboxQuests) then 
+
+        if bTutEnabled then
+			    if (iYear &gt;= 1920 and iMonth &gt;= 8) then AddOldState("12000001","1") end
+          if not b23000004 then AddOldState("23000004","1")  end                              -- depo upgrade info (not a quest)
+         else
+          AddOldState("12000001","1")
+        end 
+
+        if (iYear &gt;= 1921 and iMonth &gt;= 5) then AddOldState("12000002","1") end -- 12 logs
+        if (iYear &gt;= 1926 and iMonth &gt;= 5) then AddOldState("12000006","1") end -- 12 addon
+        if ((iYear &gt;= iYearEpoch2Start + 8) and (iMonth == 5))  then AddOldState("12000006","1") end --
+        --// false : already added!
+        if not b12000004 then AddOldState("12000004","1") end -- 12 coal
+        if not b12000005 then AddOldState("12000005","1") end -- 12 own train
+        if not b12000009 then AddOldState("12000009","1") end -- 12 forest cut
+
+        if not b23000002 then AddOldState("23000002","1") end -- 23 logsin
+        if not b23000003 then AddOldState("23000003","1") end -- 23 oreCoal (OnStart) -----
+        if not b23000005 then AddOldState("23000005","1") end -- 23 connect city
+        if not b23000011 then AddOldState("23000011","1") end -- 23 church
+        if not b23100001 then AddOldState("23100001","1") end -- 23 buy train
+
+        if not b34000001 then AddOldState("34000001","1") end -- delivery oil  (OnStart) -----
+        if not b34000002 then AddOldState("34000002","1") end -- delivery goods 
+        if not b34000003 then AddOldState("34000003","1") end -- bul rail 12000007
+        if not b34000005 then AddOldState("34000005","1") end --
+        if not b34000006 then AddOldState("34000006","1") end --
+        if not b34000007 then AddOldState("34000007","1") end -- visit 10 cities 
+
+      end
+      
+      return true
+    end
+
+    function AddOldState(sHash, sState)
+      DbgText(" -------- QT.XML | AddOldState: "..sHash.." | ".. sState)
+      sCSV_QuestOldState = sCSV_QuestOldState..sHash..","..sState..","
+      return sCSV_QuestOldState
+    end
+
+	</PartScript>
+</Quest> 
+
+<!-- /script director ------------------------------------------------------------
+-- PartScript src --------------------------------------------------------------
+-- 0=era, 1=event, 2=tutorial, 3=sandbox -->
+
+<!-- Quest ke spojeni dvou vyroben -->
+<Quest id="00000001" icon="02D833B5" text="3" type="2" face="type=1;img=route" >      
+  <PartScript src="script/tut_connect2stations.lua" />
+</Quest>
+
+<!-- Quest Controller -------------------------------------------------- -->
+<Quest id="17000000" icon="8DF01ACB" text="3" type="3" >      
+    <PartScript src="script/QuestController.lua" />
+</Quest>
+
+
+<!-- mileston quest source ----------------------- -->
+
+<!-- milestone 12 -->
+<Quest id="12000000" icon="875463EE" text="3" type="0" face="type=1;img=era1" >      
+	<PartScript src="script/milestone12.lua" />
+</Quest>
+
+<!-- milestone 23 -->
+<Quest id="23000000" icon="875463EE" text="3" type="0" face="type=1;img=era2">      
+	<PartScript src="script/milestone23.lua" />
+</Quest>
+
+<!-- milestone 34 -->
+<Quest id="34000000" icon="875463EE" text="3" type="0" face="type=1;img=era3">      
+	<PartScript src="script/milestone34.lua" />
+</Quest>
+
+<!-- milestone 45 -->
+<Quest id="45000000" icon="875463EE" text="3" type="0" face="type=1;img=era4">      
+	<PartScript src="script/milestone45.lua" />
+</Quest>
+
+<!-- milestone 56 -->
+<Quest id="56000000" icon="875463EE" text="3" type="0" face="type=1;img=era5">      
+	<PartScript src="script/milestone56.lua" />
+</Quest>
+
+<!-- milestone 67 -->
+<Quest id="67000000" icon="875463EE" text="3" type="0" face="type=1;img=era5">      
+	<PartScript src="script/milestone67.lua" />
+</Quest>
+
+<!-- milestone 70 -->
+<Quest id="70000000" icon="875463EE" text="3" type="0" face="type=1;img=era5">      
+	<PartScript src="script/milestone70.lua" />
+</Quest>
+
+-- quest source --------------------------
+
+<!-- 12 borrow -->
+<Quest id="000000a2" icon="3C98A8F0" text="3" type="2" >      
+	<PartScript src="script/tut_borrow.lua" />
+</Quest>
+
+<!-- 12 people to city -->
+<Quest id="12000001" icon="1BE1510B" text="3" type="3" face="type=0;background=wall;clothes=suit;base=base;hair=curly;chin=fat;eyes=suspicious">       
+	<PartScript src="script/12people2city.lua" />
+</Quest>
+
+<!-- 12 delivery logs -->
+<Quest id="12000002" icon="9B91E911" text="3" type="3" face="type=0;background=wall;clothes=suit;base=base;hair=blond;chin=beard;eyes=brown" >      
+	<PartScript src="script/12deliverylogs.lua" />
+</Quest>
+
+<!-- 12 delivery wood -->
+<Quest id="12000003" icon="EDF8C41C" text="3" type="3" face="type=0;background=wall;clothes=suit;base=base;hair=blond;chin=beard;eyes=brown"  >      
+	<PartScript src="script/12deliverywood.lua" />
+</Quest>
+
+<!-- 12 delivery coal Balboni-->
+<Quest id="12000004" icon="8DE905C6" text="3" type="3" face="type=0;background=wall;clothes=suit;base=base;tie=tie;mouth=moustache" >      
+	<PartScript src="script/12deliverycoal.lua" />
+</Quest>
+
+<!-- 12 num of train -->
+<Quest id="12000005" icon="7EFC708B" text="3" type="3" >      
+	<PartScript src="script/12numoftrain.lua" />
+</Quest>
+
+<!-- 12 num of addon -->
+<Quest id="12000006" icon="0E7EE127" text="3" type="3" >      
+	<PartScript src="script/12numofaddon.lua" />
+</Quest>
+
+<!-- 12 forest cut -->
+<Quest id="12000009" icon="DB255BC1" text="3" type="1" face="type=1;img=quest1"  >      
+	<PartScript src="script/12forestcut.lua" />
+</Quest>
+
+<!-- 12 resale -->
+<Quest id="12000010" icon="7B8669C0" text="3" type="3"  >      
+	<PartScript src="script/12resale.lua" />
+</Quest>
+
+-- 23
+
+<!-- 23 deliveryore -->
+<Quest id="23000001" icon="6981426F" text="3" type="3" >      
+  <PartScript src="script/23deliveryore.lua" />
+</Quest>
+
+<!-- 23 deliverylogsin -->
+<Quest id="23000002" icon="9B91E911" text="3" type="3" >      
+  <PartScript src="script/23deliverylogsin.lua" />
+</Quest>
+
+<!-- 23 delivery ore and coal -->
+<Quest id="23000003" icon="123F0064" text="3" type="3" >      
+  <PartScript src="script/23deliveryorecoal.lua" />
+</Quest>
+
+<!-- 23 tut Depo upgrade own -->
+<Quest id="23000004" icon="EAEB89AA" text="3" type="2" >      
+  <PartScript src="script/23owndepoaddon.lua" />
+</Quest>
+
+<!-- 23 connect2city -->
+<Quest id="23000005" icon="02D833B5" text="3" type="3" >      
+  <PartScript src="script/23connect2city.lua" />
+</Quest>
+
+<!-- 23 delivery post -->
+<Quest id="23000007" icon="21D57F07" text="3" type="3" >      
+  <PartScript src="script/23deliverypost.lua" />
+</Quest>
+
+<!-- 23 deliverywood -->
+<Quest id="23000008" icon="EDF8C41C" text="3" type="3" >      
+  <PartScript src="script/23deliverywood.lua" />
+</Quest>
+
+<!-- 23 delivery iron -->
+<Quest id="23000010" icon="3D29FC8E" text="3" type="3" >      
+  <PartScript src="script/23deliveryiron.lua" />
+</Quest>
+
+<!-- 23 church -->
+<Quest id="23000011" icon="313DF09D" text="3" type="1" face="type=1;img=quest2">      
+  <PartScript src="script/23Church.lua" />
+</Quest>
+
+<!-- 23 Hard choice -->
+<Quest id="23000013" icon="8EB66346" text="3" type="3" >      
+  <PartScript src="script/23deliveryX.lua" />
+</Quest>
+
+<!-- 23 1 buytrain -->
+<Quest id="23100001" icon="7EFC708B" text="3" type="3" >      
+  <PartScript src="script/231buytrain.lua" />
+</Quest>
+
+<!-- 23 14 forgotten Train -->
+<Quest id="23000014" icon="7EFC708B" text="3" type="3" >      
+  <PartScript src="script/23forgottenTrain.lua" />
+</Quest>
+
+
+<!-- 34  -->
+
+<!-- 34 Delivery oil -->
+<Quest id="34000001" icon="733C5A02" text="3" type="3" face="type=1;img=quest8" >      
+  <PartScript src="script/34deliveryoil.lua" />
+</Quest>
+
+<!-- 34 Delivery goods -->
+<Quest id="34000002" icon="C11D5E48" text="3" type="3" >      
+  <PartScript src="script/34deliverygoods.lua" />
+</Quest>
+
+<!-- 34 BuildRail from 12 -->
+<Quest id="34000003" icon="5525D2B6" text="3" type="3" >      
+  <PartScript src="script/12buildrail.lua" />
+</Quest>
+                                                                        
+<!-- 34 random delivery-->
+<Quest id="34000005" icon="DE098BD0" text="3" type="3" >      
+  <PartScript src="script/34deliveryrandom.lua" />
+</Quest>
+
+<!-- 34 traveler -->
+<Quest id="34000006" icon="7EFC708B" text="3" type="3" >      
+  <PartScript src="script/34traveler.lua" />
+</Quest>
+
+<!-- 34 visit10cities-->
+<Quest id="34000007" icon="775DA75E" text="3" type="1" face="type=1;img=quest3" >      
+  <PartScript src="script/34visit10cities.lua" />
+</Quest>     
+
+<!-- TEST-->
+<Quest id="34000008" icon="8EBAAE5A" text="3" type="3" >      
+  <PartScript src="script/12deliverylogs.lua" />
+</Quest>   
+
+<!-- 34 delivery oil in-->
+<Quest id="34000009" icon="8EBAAE5A" text="3" type="3" >      
+  <PartScript src="script/34deliveryoilin.lua" />
+</Quest>  
+
+<!-- 45  -->
+
+<!-- 45 delivery steel -- --------------------------->
+<Quest id="45000001" icon="97B64A50" text="3" type="3" >      
+  <PartScript src="script/45deliverySteel.lua" />
+</Quest>  ´
+
+<!-- 45 trafic -->
+<Quest id="45000002" icon="B87AB512" text="3" type="3" >      
+    <PartScript src="script/45trafic.lua" />
+</Quest>
+
+<!-- 45 express train -->
+<Quest id="45000003" icon="065AECFB" text="3" type="1" face="type=1;img=quest4" >      
+    <PartScript src="script/45expressTrain.lua" />
+</Quest>
+
+<!-- 45 nfs -->
+<Quest id="45000008" icon="EAE56602" text="3" type="3" face="type=1;img=quest5" >      
+    <PartScript src="script/45needForSpeed.lua" />
+</Quest>
+
+<!-- 45 expo -->
+<Quest id="45000009" icon="8EB66346" text="3" type="1" >      
+    <PartScript src="script/45collector.lua" />
+</Quest>
+
+<!-- 45 pledge -->
+<Quest id="45000010" icon="09D313DF" text="3" type="3" >      
+    <PartScript src="script/45pledge.lua" />
+</Quest>
+
+<!-- 45 acknowledgement-->
+<Quest id="45000011" icon="09D313DF" text="3" type="3" >      
+    <PartScript src="script/45acknowledgment.lua" />
+</Quest>
+
+<!-- 45 suplier -->
+<Quest id="45000012" icon="ADB05942" text="3" type="3" >      
+    <PartScript src="script/45supplier.lua" />
+</Quest>
+
+<!-- // ----------------------------------- -->
+<!-- 45 test-->
+<Quest id="45000099" icon="09D313DF" text="3" type="3" >      
+    <PartScript src="script/test.lua" />
+</Quest>
+
+
+<!-- 56 01 delivery Tele -->
+<Quest id="56000001" icon="675A4833" text="3" type="3" face="type=0;background=wall;clothes=suit;base=base;tie=tie;mouth=moustache" >      
+	<PartScript src="script/56deliveryTele.lua" />
+</Quest>
+
+<!-- 56 02 delivery food  -->
+<Quest id="56000002" icon="BD9A9260" text="3" type="3" >      
+	<PartScript src="script/56deliveryFood.lua" />
+</Quest>
+
+<!-- 56 042 glassworks  -->
+<Quest id="56000004" icon="890EED09" text="3" type="3" face="type=0;background=wall;clothes=suit;base=base;chin=beard;eyes=suspicious" >      
+	<PartScript src="script/56glassworks.lua" />
+</Quest>
+
+<!-- 56 05 build ele rails  -->
+<Quest id="56000005" icon="1D31D3F5" text="3" type="3" >      
+	<PartScript src="script/56buildEleRails.lua" />
+</Quest>
+
+<!-- 56 06 // Capital city -->
+<Quest id="56000006" icon="18EEB9CD" text="3" type="1" face="type=1;img=quest7" >      
+	<PartScript src="script/56capitalCity.lua" />
+</Quest>
+
+<!-- 56 08 // Fall of Youwing Oil -->
+<Quest id="56000008" icon="09D313DF" text="3" type="3" >      
+	<PartScript src="script/56fallOf.lua" />
+</Quest>
+
+<!-- 56 09 // longer -->
+<Quest id="56000009" icon="06568F50" text="3" type="3" face="type=1;img=quest6"  >      
+	<PartScript src="script/56blackMesa.lua" />
+</Quest>
+
+
+<!-- 56 F1 TUT rails ( or a quest? )  -->
+<Quest id="560000F1" icon="1D31D3F5" text="3" type="2" >      
+	<PartScript src="script/tut_eleRails.lua" />
+</Quest>
+
+
+<!-- PartScript src ----------------------------------- -->
+
+
+<!-- Tutorial uvod  -  obliceje pomoci treba    face="type=0;chin=fat;clothes=working" -->
+<Quest id="4221EE31" icon="4355DF2B" text="3" priority="1005" type="2" >      
+  <PartScript src="script/tut_cameracontrol.lua" />
+</Quest> 
+
+ 
+<!-- Tutorial na ZOOMOVANI kamerou -->
+<Quest id="fd01c09b" icon="4355DF2B" text="3" priority="1004" type="2" >      
+  <PartScript src="script/tut_camerazoom.lua" />
+</Quest> 
+  
+ 
+ <!-- Tutorial na ROTOVANI kamerou -->
+<Quest id="ae01559b" icon="4355DF2B" text="3" priority="1003" type="2" >      
+  <PartScript src="script/tut_camerarotate.lua" />
+</Quest> 
+ 
+
+ <!-- Tutorial na POHYB kamerou -->
+<Quest id="01ce2559" icon="4355DF2B" text="3" priority="1002" type="2" >      
+  <PartScript src="script/tut_cameramove.lua" />		
+</Quest>  
+ 
+ 
+<!-- Tutorial s prepinanim do sharp a do kochaciho -->
+<Quest id="dcf00129" icon="875DFA12" text="3" priority="1001" type="2" >      
+  <PartScript src="script/tut_cameramode.lua" />
+</Quest>    
+              
+
+<!-- Tutorial zmeny vysky terenu -->
+<Quest id="1aca0e02" icon="80BE1223" text="3" priority="1000" type="2" >      
+  <PartScript src="script/tut_terrainedit.lua" />
+</Quest> 
+
+<!-- Tutorial stamp -->
+<Quest id="1baba321" icon="2387D0C0" text="3" priority="999" type="2" >      
+  <PartScript src="script/tut_stampUse.lua" />
+</Quest> 
+
+
+<!-- Tutorial na num Quest -->
+<Quest id="17FFFFF1" icon="7B8669C0" text="3" priority="1000" type="2" >      
+  <PartScript src="script/tut_numQuest.lua" />
+</Quest> 
+
+<!--  sample src ----------------------------------- -->
+
+<!-- sample -->
+<Quest id="99999999" icon="8DF01ACB" text="3" type="3" >      
+	<PartScript src="script/sample_delivery.lua" />
+</Quest>
+
+
+
+
