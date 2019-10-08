@@ -1,0 +1,96 @@
+<WagonType id="000AC020" name="USC logs" 
+vehicle_type="0"  cargo="3199AA74" epoch="3-6" level="0" track="0" capacity="15" cost="-20[F27DB683]" sell="10[F27DB683]"  weight_empty="15" weight_full="30" 
+ icon_texture="map/gui/logcar.png" icon="000AC020" 	  shader="uni" anim_speed="15.0" 
+length="0.365" front_wheel="-0.18" rear_wheel="-0.18" hipoly="model/train/usc_log/usc_log11.x"    lowpoly="model/train/usc_log/usc_log10.x"			  
+head_length="0.28" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"             		        
+tail_length="0.28" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"                 
+depo_upgrade="0"
+ >           
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>  
+</WagonType>
+
+<WagonType id="000AC021" name="USC Lumber" 
+vehicle_type="0"  cargo="448DDF23" epoch="3-6" level="0" track="0" capacity="16" cost="-20[F27DB683]" sell="10[F27DB683]"   weight_empty="15" weight_full="47" 
+ icon_texture="map/gui/lumbercar0.png" icon="000AC021" 	  shader="uni" anim_speed="15.0" 
+length="0.345" front_wheel="-0.18" rear_wheel="-0.18" hipoly="model/train/usc_lumber/us_lumberng_.x"    lowpoly="model/train/usc_lumber/usc_lumber_low_.x"			  
+head_length="0.29" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.29" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"                          
+depo_upgrade="0"
+ >           
+
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>  
+</WagonType>
+
+
+<WagonType id="000AC022" name="USC hopper coal" 
+vehicle_type="0"  cargo="6ACBCBA9" epoch="3-6" level="0" track="0" capacity="25" cost="-20[F27DB683]" sell="10[F27DB683]"  weight_empty="20" weight_full="70" 
+ icon_texture="map/gui/hopper.png" icon="000AC022" 	  shader="uni" 
+length="0.17" front_wheel="-0.25" rear_wheel="-0.25" hipoly="model/train/usc_hopper/usc_hopper_.x"    lowpoly="model/train/usc_hopper/usc_hopper_low_.x"			  
+head_length="0.29" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.29" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"                         
+depo_upgrade="0"
+ >           
+
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>  
+</WagonType>
+
+<WagonType id="000AC023" name="USC hopper iron" 
+vehicle_type="0"  cargo="61A13BCE" epoch="3-6" level="0" track="0" capacity="25" cost="-20[F27DB683]" sell="10[F27DB683]"  weight_empty="22" weight_full="72" 
+ icon_texture="map/gui/hopperi.png" icon="000AC023" 	  shader="uni"  
+length="0.17" front_wheel="-0.25" rear_wheel="-0.25" hipoly="model/train/usc_hopperi/usc_hopperi_.x"    lowpoly="model/train/usc_hopperi/usc_hopperi_low_.x"			  
+head_length="0.29" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.29" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"             
+depo_upgrade="0"
+ >           
+
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>  
+</WagonType>
+
+<WagonType id="000AC024" name="USC flat Iron" 
+vehicle_type="0"  cargo="7C13D1C9" epoch="3-6" level="0" track="0" capacity="10" cost="-20[F27DB683]" sell="10[F27DB683]"  weight_empty="20" weight_full="70" 
+ icon_texture="map/gui/flatbiron.png" icon="000AC024" 	  shader="uni"  
+length="0.341" front_wheel="-0.18" rear_wheel="-0.18" hipoly="model/train/usc_flatcarbi/usc_flatbiron_.x"    lowpoly="model/train/usc_flatcarbi/usc_flatbiron_low_.x"			  
+
+head_length="0.29" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.29" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"                         
+depo_upgrade="0"
+ >           
+
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>  
+</WagonType>
+
+<WagonType id="000AC025" name="USC tanker M" vehicle_type="0" cargo="19CFBDA7" epoch="3-7" level="0" track="0" capacity="15" cost="-60[F27DB683]" sell="20[F27DB683]" shader="uni" weight_empty="25" weight_full="55"          
+           icon_texture="map/gui/cisterns.png" icon="000AC025" 
+			  
+                length="0.358" front_wheel="-0.15" rear_wheel="-0.15" 
+hipoly="model/train/usc_tankercar/usc_tankerm_.x" lowpoly="model/train/usc_tankercar/usc_tankerm_low_.x"
+ 
+head_length="0.28" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.28" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"                         
+depo_upgrade="0"			   >
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>                     
+</WagonType>   
+
+<WagonType id="000AC026" name="USC chem M" vehicle_type="0" cargo="53F1B093" epoch="3-7" level="0" track="0" capacity="24" cost="-60[F27DB683]" sell="20[F27DB683]" shader="uni" weight_empty="25" weight_full="72"          
+           icon_texture="map/gui/cisterns.png" icon="000AC026" 
+			  
+                length="0.358" front_wheel="-0.15" rear_wheel="-0.15" 
+hipoly="model/train/usc_tankercar/usc_chemm_.x" lowpoly="model/train/usc_tankercar/usc_chemm_low_.x"
+ head_length="0.28" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.28" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"                         
+depo_upgrade="0"                      
+			  
+			   >
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>                     
+</WagonType>  
+
+<WagonType id="000AC028" name="USC hopper sand" 
+vehicle_type="0"  cargo="94032E35" epoch="3-6" level="0" track="0" capacity="20" cost="-30[F27DB683]" sell="10[F27DB683]"  weight_empty="24" weight_full="64" 
+ icon_texture="map/gui/hoppers.png" icon="000AC028" 	  shader="uni"  
+length="0.156" front_wheel="-0.25" rear_wheel="-0.25" hipoly="model/train/usc_hoppers/usc_hoppers11.x"    lowpoly="model/train/usc_hoppers/usc_hoppers10.x"			  
+head_length="0.29" head_front_wheel="0.08" head_rear_wheel="0.08" head_hipoly="model/train/usc_bogie/usc_bogie11.x" head_lowpoly="model/train/usc_bogie/usc_bogie10.x"    
+tail_length="0.29" tail_front_wheel="0.08" tail_rear_wheel="0.08" tail_hipoly="model/train/usc_bogie/usc_bogie11.x" tail_lowpoly="model/train/usc_bogie/usc_bogie10.x"             
+depo_upgrade="0"
+ >  
+  <Camera position="0.00, 0.33, 0.0" direction="0,0,-1"/>  
+</WagonType>  
