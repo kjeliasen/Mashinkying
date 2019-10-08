@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="00223914" caption="English" icon="54A213EF">
+
+
+	<!-- Names of cargo types -->
+	<string name="0BA45841">Pass. worker</string>
+	<string name="0BA45842">Pass. returner</string>
+	<string name="0BA45843">Pass. technician</string>
+
+	<string name="0BA45940">Appel</string>
+	<string name="0BA45941">Fish</string>
+
+	<!-- Names of buildings -->
+	<string name="0BA45A40">Orchard</string>
+	<string name="0BA45A41">Fisherman</string>
+
+
+</resources>
+<resources name="01B31887" caption="Čeština" icon="603BC4CF">
+
+
+	<!-- Names of cargo types -->
+	<string name="0BA45841">Cest. pracovn�k</string>
+	<string name="0BA45842">Cest. navr�til</string>
+	<string name="0BA45843">Cest. technik</string>
+
+	<string name="0BA45940">Jablko</string>
+	<string name="0BA45941">Ryby</string>
+
+	<!-- Names of buildings -->
+	<string name="0BA45A40">Ovocny sad</string>
+	<string name="0BA45A41">Rybar</string>
+
+
+</resources>
+<!--
+Deutsche Übersetzung
+-->
+<resources name="0279C016" caption="Deutsch" icon="80979E87">
+
+	<!-- Names of cargo types -->
+	<string name="0BA45841">Pass. Arbeiter</string>
+	<string name="0BA45842">Pass. Rückkehrer</string>
+	<string name="0BA45843">Pass. Techniker</string>
+
+	<string name="0BA45940">Apfel</string>
+	<string name="0BA45941">Fisch</string>
+
+	<!-- Names of buildings -->
+	<string name="0BA45A40">Obstplantage</string>
+	<string name="0BA45A41">Fisher</string>
+
+</resources>
+

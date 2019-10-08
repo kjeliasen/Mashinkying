@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+
+
+<LandscapeType id="F3059846" iconId="59EEF7BD" name="980EEDFC"
+           texture_basic="map/terrain/grass.jpg" texture_dry="map/terrain/grass_dry.jpg" texture_wet="map/terrain/grass_wet.jpg"
+           texture_rock="map/terrain/rock.jpg" texture_snow="map/terrain/snow.dds"
+           sea_deep_color="1c1c1c" sea_shallow_color="2c4533" sea_foam_color="ffffff"
+           terrain_change_cost="-8;-1[F8E358CC]"
+           grass = "model/grass/grass09.x" grass_lowpoly = "model/grass/grass19.x"
+           rock = "model/grass/rock09.x" fence_x = "model/grass/fencex09.x" fence_y = "model/grass/fencey09.x"
+           sky_spring="map/sky/winter.jpg" sky_summer="map/sky/spring.jpg" sky_autumn="map/sky/summer.jpg" sky_winter="map/sky/autumn.jpg"
+           ambient_spring="435365" ambient_summer="3c4e61" ambient_autumn="344b5c" ambient_winter="5b5d6b"
+           light_spring="807064" light_summer="a69071" light_autumn="cea788" light_winter="7f746b"
+           backlight_spring="17303c" backlight_summer="292a10" backlight_autumn="212a0f" backlight_winter="342500"
+           fog_color_light_spring="d5deea" fog_color_light_summer="ffddfa" fog_color_light_autumn="cbe5f7" fog_color_light_winter="ffecca"
+           fog_color_dark_spring="6c8eb6" fog_color_dark_summer="bbcde6" fog_color_dark_autumn="97c3c8" fog_color_dark_winter="798ed2"
+           grass_color_dry_spring="6d7f7f" grass_color_dry_summer="9aa29e" grass_color_dry_autumn="b4b2b0" grass_color_dry_winter="a9a28d"
+           grass_color_spring="75727d" grass_color_summer="a39396" grass_color_autumn="8b9c89" grass_color_winter="bd8e7b"
+           grass_color_wet_spring="77827d" grass_color_wet_summer="7b8f7a" grass_color_wet_autumn="738981" grass_color_wet_winter="817f7a"
+           fog_density_spring="0.8" fog_density_summer="0.69" fog_density_autumn="0.7" fog_density_winter="0.68"
+           snow_height_spring="0.07" snow_height_summer="0.36" snow_height_autumn="0.48" snow_height_winter="0.32" >
+    <GeoNoise repeat="1" amount="1" />
+    <WaterErosion repeat="70" amount="1" />
+    <Median repeat="1" amount="1" />
+    <AdjustHeights repeat="1" amount="1" />
+</LandscapeType>
+
+<LandscapeType id="F3059847" iconId="B971C65A" name="980EEDFD"
+           texture_basic="map/terrain/desert_grass.jpg" texture_dry="map/terrain/desert_grass_dry.jpg" texture_wet="map/terrain/desert_grass_wet.jpg"
+           texture_rock="map/terrain/desert_rock.jpg" texture_snow="map/terrain/snow.dds"
+           sea_deep_color="1c1c1c" sea_shallow_color="55534f" sea_foam_color="c8dff0"
+           terrain_change_cost="-8;-1[F8E358CC]"
+           grass = "model/grass/desert_grass09.x" grass_lowpoly = "model/grass/desert_grass19.x"
+           rock = "model/grass/desert_rock09.x" fence_x = "model/grass/fencex09.x" fence_y = "model/grass/fencey09.x"
+           sky_spring="map/sky/winter.jpg" sky_summer="map/sky/spring.jpg" sky_autumn="map/sky/summer.jpg" sky_winter="map/sky/autumn.jpg"
+           ambient_spring="435365" ambient_summer="3c4e61" ambient_autumn="665659" ambient_winter="5b5d6b"
+           light_spring="807064" light_summer="a69071" light_autumn="898d87" light_winter="988d84"
+           backlight_spring="180e0d" backlight_summer="201810" backlight_autumn="1d1e0f" backlight_winter="1a120c"
+           fog_color_light_spring="d5ced0" fog_color_light_summer="ffe9ea" fog_color_light_autumn="e4d6c3" fog_color_light_winter="ffdbcf"
+           fog_color_dark_spring="9f8e82" fog_color_dark_summer="bdab9f" fog_color_dark_autumn="c9b3a4" fog_color_dark_winter="988b8c"
+           grass_color_dry_spring="b8b1b1" grass_color_dry_summer="cdbbb7" grass_color_dry_autumn="b2b3aa" grass_color_dry_winter="a9a2a6"
+           grass_color_spring="a78a96" grass_color_summer="a28a86" grass_color_autumn="b19795" grass_color_winter="af9594"
+           grass_color_wet_spring="908296" grass_color_wet_summer="7b7c7a" grass_color_wet_autumn="736f81" grass_color_wet_winter="b49893"
+           fog_density_spring="0.8" fog_density_summer="0.69" fog_density_autumn="0.7" fog_density_winter="0.68"
+           snow_height_spring="0.14" snow_height_summer="0.36" snow_height_autumn="0.48" snow_height_winter="0.32" >
+    <PerlinNoise repeat="1" param="5" amount="1" />
+    <Multiply repeat="1" param="0.35" amount="1" />
+    <WaterErosion repeat="10" amount="1" />
+    <ContourCut repeat="1" param="0.1" amount="0.09" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.08" amount="0" />
+    <Blur repeat="1" amount="0.3" />
+    <GeoNoise repeat="1" amount="0.3" />
+    <Median repeat="3" amount="1" />
+    <AdjustHeights repeat="1" amount="1" />
+</LandscapeType>
+
+
+<LandscapeType id="F3059848" iconId="B971C65A" name="980EEDFF"
+           texture_basic="map/terrain_v/volcano_grass.jpg" texture_dry="map/terrain_v/volcano_grass_dry.jpg" texture_wet="map/terrain_v/volcano_grass_wet.jpg"
+           texture_rock="map/terrain_v/volcano_rock.jpg" texture_snow="map/terrain/snow.dds"
+           sea_deep_color="1c1c1c" sea_shallow_color="55534f" sea_foam_color="c8dff0"
+           terrain_change_cost="-10;-2[F8E358CC]"
+           grass = "model/grass/grass09.x" grass_lowpoly = "model/grass/grass19.x"
+           rock = "model/grass/rock09.x" fence_x = "model/grass/fencex09.x" fence_y = "model/grass/fencey09.x"
+           sky_spring="map/sky_r/winter.jpg" sky_summer="map/sky_r/spring.jpg" sky_autumn="map/sky_r/summer.jpg" sky_winter="map/sky_r/autumn.jpg"
+           ambient_spring="435365" ambient_summer="4c4e61" ambient_autumn="344b5c" ambient_winter="5b5d6b"
+           light_spring="907064" light_summer="a69071" light_autumn="dea788" light_winter="7f746b"
+           backlight_spring="17303c" backlight_summer="292a10" backlight_autumn="212a0f" backlight_winter="342500"
+           fog_color_light_spring="e5deea" fog_color_light_summer="ffddfa" fog_color_light_autumn="dbe5f7" fog_color_light_winter="ffecca"
+           fog_color_dark_spring="6c8eb6" fog_color_dark_summer="bbcde6" fog_color_dark_autumn="97c3c8" fog_color_dark_winter="798ed2"
+           grass_color_dry_spring="6d7f7f" grass_color_dry_summer="9aa29e" grass_color_dry_autumn="b4b2b0" grass_color_dry_winter="a9a28d"
+           grass_color_spring="75727d" grass_color_summer="a39396" grass_color_autumn="8b9c89" grass_color_winter="bd8e7b"
+           grass_color_wet_spring="77827d" grass_color_wet_summer="7b8f7a" grass_color_wet_autumn="738981" grass_color_wet_winter="817f7a"
+           fog_density_spring="0.8" fog_density_summer="0.69" fog_density_autumn="0.7" fog_density_winter="0.68"
+           snow_height_spring="0.07" snow_height_summer="0.36" snow_height_autumn="0.48" snow_height_winter="0.32" >
+    <PerlinNoise repeat="1" param="5" amount="1" />
+    <Multiply repeat="1" param="0.35" amount="1" />
+    <WaterErosion repeat="10" amount="1" />
+    <ContourCut repeat="1" param="0.1" amount="0.09" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.08" amount="0" />
+    <Blur repeat="1" amount="0.3" />
+    <GeoNoise repeat="1" amount="0.3" />
+    <Median repeat="3" amount="1" />
+    <AdjustHeights repeat="1" amount="1" />
+</LandscapeType>
+
+<LandscapeType id="F3059849" iconId="B971C65A" name="980EEE40"
+           texture_basic="map/terrain_n/moss_grass.jpg" texture_dry="map/terrain_n/moss_grass_dry.jpg" texture_wet="map/terrain_n/moss_grass_wet.jpg"
+           texture_rock="map/terrain_n/moss_rock.jpg" texture_snow="map/terrain/snow.dds"
+           sea_deep_color="1c1c1c" sea_shallow_color="55534f" sea_foam_color="c8dff0"
+           terrain_change_cost="-1;-1[F8E358CC]"
+           grass = "model/grass/grass09.x" grass_lowpoly = "model/grass/grass19.x"
+           rock = "model/grass/rock09.x" fence_x = "model/grass/fencex09.x" fence_y = "model/grass/fencey09.x"
+           sky_spring="map/sky/winter.jpg" sky_summer="map/sky_r/spring.jpg" sky_autumn="map/sky/summer.jpg" sky_winter="map/sky_r/autumn.jpg"
+           ambient_spring="437365" ambient_summer="2c4e61" ambient_autumn="344b5c" ambient_winter="5b5d6b"
+           light_spring="907064" light_summer="a69071" light_autumn="dea788" light_winter="7f746b"
+           backlight_spring="17303c" backlight_summer="292a10" backlight_autumn="212a0f" backlight_winter="342500"
+           fog_color_light_spring="e5deea" fog_color_light_summer="ffddfa" fog_color_light_autumn="dbe5f7" fog_color_light_winter="ffecca"
+           fog_color_dark_spring="6c8eb6" fog_color_dark_summer="bbcde6" fog_color_dark_autumn="97c3c8" fog_color_dark_winter="798ed2"
+           grass_color_dry_spring="6d7f7f" grass_color_dry_summer="9aa29e" grass_color_dry_autumn="b4b2b0" grass_color_dry_winter="a9a28d"
+           grass_color_spring="75727d" grass_color_summer="a39396" grass_color_autumn="8b9c89" grass_color_winter="bd8e7b"
+           grass_color_wet_spring="77827d" grass_color_wet_summer="7b8f7a" grass_color_wet_autumn="738981" grass_color_wet_winter="817f7a"
+           fog_density_spring="0.8" fog_density_summer="0.69" fog_density_autumn="0.7" fog_density_winter="0.68"
+           snow_height_spring="0.07" snow_height_summer="0.36" snow_height_autumn="0.48" snow_height_winter="0.32" >
+    <PerlinNoise repeat="1" param="5" amount="1" />
+    <Multiply repeat="1" param="0.35" amount="1" />
+    <WaterErosion repeat="20" amount="1" />
+    <ContourCut repeat="1" param="0.1" amount="0.09" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.08" amount="0" />
+    <Blur repeat="1" amount="0.3" />
+    <GeoNoise repeat="3" amount="0.6" />
+    <Median repeat="4" amount="1" />
+    <AdjustHeights repeat="1" amount="1" />
+</LandscapeType>
+
+<LandscapeType id="F305984A" iconId="B971C65A" name="980EEE41"
+           texture_basic="map/terrain_s/sand_grass.jpg" texture_dry="map/terrain_s/sand_grass_dry.jpg" texture_wet="map/terrain_s/sand_grass_wet.jpg"
+           texture_rock="map/terrain_s/sand_rock.jpg" texture_snow="map/terrain/snow.dds"
+           sea_deep_color="1c2c3c" sea_shallow_color="55736f" sea_foam_color="c8efff"
+           terrain_change_cost="-50;-5[F8E358CC]"
+           grass = "" grass_lowpoly = "model/grass/desert_grass19.x"
+           rock = "odel/grass/grass09.x" fence_x = "model/grass/fencex09.x" fence_y = "model/grass/fencey09.x"
+           sky_spring="map/sky_s/winter.jpg" sky_summer="map/sky_s/spring.jpg" sky_autumn="map/sky_s/summer.jpg" sky_winter="map/sky_s/autumn.jpg"
+           ambient_spring="536365" ambient_summer="6c6e61" ambient_autumn="665639" ambient_winter="2b2d2b"
+           light_spring="807064" light_summer="c6c0a1" light_autumn="b9bd87" light_winter="988d84"
+           backlight_spring="180e0d" backlight_summer="201810" backlight_autumn="1d1e0f" backlight_winter="1a120c"
+           fog_color_light_spring="d5ced0" fog_color_light_summer="ffe9ea" fog_color_light_autumn="e4d6c3" fog_color_light_winter="ffdbcf"
+           fog_color_dark_spring="9f8e82" fog_color_dark_summer="bdab9f" fog_color_dark_autumn="c9b3a4" fog_color_dark_winter="988b8c"
+           grass_color_dry_spring="b8b1b1" grass_color_dry_summer="cdbbb7" grass_color_dry_autumn="b2b3aa" grass_color_dry_winter="a9a2a6"
+           grass_color_spring="a78a96" grass_color_summer="a28a86" grass_color_autumn="b19795" grass_color_winter="af9594"
+           grass_color_wet_spring="908296" grass_color_wet_summer="7b7c7a" grass_color_wet_autumn="736f81" grass_color_wet_winter="b49893"
+           fog_density_spring="0.8" fog_density_summer="0.69" fog_density_autumn="0.7" fog_density_winter="0.68"
+           snow_height_spring="0.14" snow_height_summer="0.36" snow_height_autumn="0.48" snow_height_winter="0.32" >
+    <PerlinNoise repeat="1" param="5" amount="1" />
+    <Multiply repeat="1" param="0.35" amount="1" />
+    <WaterErosion repeat="10" amount="1" />
+    <ContourCut repeat="1" param="0.1" amount="0.09" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.08" amount="0" />
+    <Blur repeat="1" amount="0.3" />
+    <GeoNoise repeat="1" amount="0.3" />
+    <Median repeat="3" amount="1" />
+    <AdjustHeights repeat="1" amount="1" />
+</LandscapeType>
+
+<LandscapeType id="F305984B" iconId="B971C65A" name="980EEE42"
+           texture_basic="map/terrain_o/onyx_grass.jpg" texture_dry="map/terrain_o/onyx_grass_dry.jpg" texture_wet="map/terrain_o/onyx_grass_wet.jpg"
+           texture_rock="map/terrain_o/onyx_rock.jpg" texture_snow="map/terrain/snow.dds"
+           sea_deep_color="1c1c3c" sea_shallow_color="55536f" sea_foam_color="c8dfff"
+           terrain_change_cost="-1[F07C5273];-1[F8E358CC]"
+           grass = "model/grass/desert_grass09.x" grass_lowpoly = "model/grass/desert_grass19.x"
+           rock = "model/grass/desert_rock09.x" fence_x = "model/grass/fencex09.x" fence_y = "model/grass/fencey09.x"
+           sky_spring="map/sky/winter.jpg" sky_summer="map/sky/spring.jpg" sky_autumn="map/sky/summer.jpg" sky_winter="map/sky/autumn.jpg"
+           ambient_spring="435365" ambient_summer="3c4e61" ambient_autumn="665659" ambient_winter="5b5d6b"
+           light_spring="807064" light_summer="a69071" light_autumn="898d87" light_winter="988d84"
+           backlight_spring="180e0d" backlight_summer="201810" backlight_autumn="1d1e0f" backlight_winter="1a120c"
+           fog_color_light_spring="d5ced0" fog_color_light_summer="ffe9ea" fog_color_light_autumn="e4d6c3" fog_color_light_winter="ffdbcf"
+           fog_color_dark_spring="9f8e82" fog_color_dark_summer="bdab9f" fog_color_dark_autumn="c9b3a4" fog_color_dark_winter="988b8c"
+           grass_color_dry_spring="b8b1b1" grass_color_dry_summer="cdbbb7" grass_color_dry_autumn="b2b3aa" grass_color_dry_winter="a9a2a6"
+           grass_color_spring="a78a96" grass_color_summer="a28a86" grass_color_autumn="b19795" grass_color_winter="af9594"
+           grass_color_wet_spring="908296" grass_color_wet_summer="7b7c7a" grass_color_wet_autumn="736f81" grass_color_wet_winter="b49893"
+           fog_density_spring="0.8" fog_density_summer="0.69" fog_density_autumn="0.7" fog_density_winter="0.68"
+           snow_height_spring="0.6" snow_height_summer="0.46" snow_height_autumn="0.88" snow_height_winter="0.52" >
+    <PerlinNoise repeat="1" param="5" amount="1" />
+    <Multiply repeat="1" param="0.35" amount="1" />
+    <WaterErosion repeat="20" amount="1" />
+    <ContourCut repeat="1" param="0.1" amount="0.09" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.09" amount="0" />
+    <ContourCut repeat="1" param="0.08" amount="0" />
+    <Blur repeat="1" amount="0.3" />
+    <GeoNoise repeat="1" amount="0.3" />
+    <Median repeat="3" amount="1" />
+    <AdjustHeights repeat="1" amount="1" />
+</LandscapeType>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="00223914" caption="English" icon="54A213EF">
+
+
+<string name="23aEE010">Sorting machine</string>
+<string name="23aEE011">Machine sorting increases efficiency.</string>
+<!-- Names of cargo types -->
+<string name="0BA45844">Mail red</string>
+<string name="0BA45845">Mail magenta</string>
+<string name="0BA45846">Mail green</string>
+
+
+
+</resources>
+
+
+
+
+
+<!--
+Deutsche Übersetzung
+-->
+<resources name="0279C016" caption="Deutsch" icon="80979E87">
+
+
+
+<string name="23aEE010">Sortiermaschine</string>
+<string name="23aEE011">Maschinelle Sortierung erhöht die Effizienz.</string>
+<!-- Names of cargo types -->
+<string name="0BA45844">Brief rot</string>
+<string name="0BA45845">Brief violet</string>
+<string name="0BA45846">Brief grün</string>
+
+</resources>
+

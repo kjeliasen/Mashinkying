@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-16"?>
+<!-- TEXTURE COORDS -->
+<Coord id="1C44E0E5" x="0" y="0" w="256" h="256" /> <!-- window border					-->
+<Coord id="FB4F9E43" x="192" y="384" w="256" h="256" /> <!-- window texture					-->
+<Coord id="81C97B83" x="448" y="384" w="256" h="256" /> <!-- window shadow					-->
+<Coord id="7346004C" x="64" y="104" w="32" h="32" /> <!-- window scale corner				-->
+<Coord id="732CC432" x="736" y="192" w="3" h="32" /> <!-- window separator horizontal	-->
+<Coord id="F783BB28" x="704" y="128" w="24" h="20" /> <!-- window close button				-->
+<Coord id="F6F90DFB" x="704" y="148" w="24" h="20" /> <!-- window close button highlighted	-->
+<Coord id="8C5E5AAF" x="728" y="128" w="24" h="20" /> <!-- window goto button -->
+<Coord id="945FBBA0" x="728" y="148" w="24" h="20" /> <!-- window goto button highlighted-->
+<Coord id="8F2C3C1C" x="704" y="168" w="24" h="20" /> <!-- window use button -->
+<Coord id="88DDF0C0" x="728" y="168" w="24" h="20" /> <!-- window use button highlighted-->
+<Coord id="9F2C3C1C" x="800" y="128" w="24" h="20" /> <!-- window rename button -->
+<Coord id="98DDF0C0" x="800" y="148" w="24" h="20" /> <!-- window rename button highlighted-->
+<Coord id="397115FE" x="784" y="256" w="16" h="16" /> <!-- window picture shadow			-->
+<Coord id="4A82260F" x="832" y="128" w="38" h="50" /> <!-- window picture gradient		-->
+<Coord id="ACD57630" x="64" y="64" w="40" h="40" /> <!-- frame 			-->
+<Coord id="DECDD915" x="776" y="272" w="12" h="4" /> <!-- line 			-->
+<Coord id="5850B261" x="776" y="277" w="12" h="3" /> <!-- thin line 			-->
+<Coord id="DEAFDEAF" x="704" y="384" w="316" h="2" /> <!-- paragparh line 			-->
+<Coord id="66C5AF60" x="512" y="448" w="128" h="40" /> <!-- button base						-->
+<Coord id="FF5116D7" x="512" y="488" w="128" h="40" /> <!-- button highlighted				-->
+<Coord id="5AEE64A9" x="512" y="528" w="128" h="40" /> <!-- button pushed					-->
+<Coord id="30B530DC" x="896" y="168" w="128" h="24" /> <!-- button extend base						-->
+<Coord id="566CD30F" x="896" y="192" w="128" h="24" /> <!-- button extend highlighted				-->
+<Coord id="50C30A0B" x="896" y="216" w="128" h="24" /> <!-- button extend pushed					-->
+<Coord id="3C5CCD65" x="152" y="104" w="40" h="40" /> <!-- button tutorial blinking					-->
+<Coord id="3C5CCD66" x="152" y="64" w="40" h="40" /> <!-- frame blinking					-->
+<Coord id="3C5CCD67" x="752" y="320" w="40" h="40" /> <!-- frame stretch overlay					-->
+<Coord id="A6BFCC03" x="768" y="128" w="32" h="40" /> <!-- progress button base		-->
+<Coord id="5ACCED87" x="768" y="168" w="32" h="40" /> <!-- progress button base highlighted		-->
+<Coord id="5233FD30" x="768" y="208" w="32" h="40" /> <!-- progress button base pushed		-->
+<Coord id="0D3F0B0A" x="704" y="224" w="32" h="24" /> <!-- progress button extend base		-->
+<Coord id="35EE50F3" x="768" y="176" w="32" h="24" /> <!-- progress button extend base highlighted		-->
+<Coord id="D509C890" x="768" y="216" w="32" h="24" /> <!-- progress button extend base pushed		-->
+<Coord id="DABC0FF6" x="800" y="128" w="32" h="40" /> <!-- progress button color		-->
+<Coord id="C5F50DF6" x="800" y="168" w="32" h="40" /> <!-- progress button color highlighted		-->
+<Coord id="35ACCED9" x="800" y="208" w="32" h="40" /> <!-- progress button color pushed		-->
+<Coord id="D70DCD09" x="736" y="224" w="32" h="24" /> <!-- progress button extend color		-->
+<Coord id="8F7B9098" x="800" y="176" w="32" h="24" /> <!-- progress button extend color highlighted		-->
+<Coord id="A09E8023" x="800" y="216" w="32" h="24" /> <!-- progress button extend color pushed		-->
+<Coord id="2FEB18BD" x="704" y="280" w="64" h="40" /> <!-- bar icon sharp					-->
+<Coord id="9284AC5D" x="704" y="320" w="64" h="40" /> <!-- bar icon smooth					-->
+<Coord id="91C549F7" x="768" y="320" w="64" h="40" /> <!-- bar icon use					-->
+<Coord id="E72C0838" x="984" y="248" w="40" h="40" /> <!-- bar button base					-->
+<Coord id="70A87FBF" x="984" y="288" w="40" h="40" /> <!-- bar button highlighted			-->
+<Coord id="0BB56849" x="984" y="328" w="40" h="40" /> <!-- bar button pushed				-->
+<Coord id="35E7C07D" x="832" y="248" w="24" h="24" /> <!-- scroll rider V      			-->
+<Coord id="2A741E58" x="856" y="248" w="24" h="24" /> <!-- scroll rider H					-->
+<Coord id="B30085CF" x="880" y="248" w="24" h="24" /> <!-- scroll line 				-->
+<Coord id="07B33EC4" x="832" y="272" w="24" h="24" /> <!-- scroll rider V highlighted			-->
+<Coord id="FF738EE3" x="856" y="272" w="24" h="24" /> <!-- scroll rider H highlighted		-->
+<Coord id="66321C45" x="880" y="272" w="24" h="24" /> <!-- scroll line highlighted		-->
+<Coord id="1F4E2D83" x="832" y="296" w="24" h="24" /> <!-- scroll rider V pushed			-->
+<Coord id="2A706D02" x="856" y="296" w="24" h="24" /> <!-- scroll rider H pushed 		-->
+<Coord id="D758BE5F" x="880" y="296" w="24" h="24" /> <!-- scroll line pushed			-->
+<Coord id="32E50C21" x="944" y="248" w="40" h="60" /> <!-- pointer caption					-->
+<Coord id="4061738F" x="944" y="308" w="40" h="60" /> <!-- pointer caption empty			-->
+<Coord id="7AA16A50" x="912" y="247" w="32" h="32" /> <!-- pointer caption train			-->
+<Coord id="FE085146" x="912" y="279" w="32" h="32" /> <!-- pointer caption station			-->
+<Coord id="E1152E0E" x="912" y="311" w="32" h="32" /> <!-- pointer caption depo			-->
+<Coord id="347C0909" x="832" y="128" w="38" h="60" /> <!-- pointer caption text			-->
+<Coord id="CDEF1230" x="912" y="343" w="32" h="32" /> <!-- pointer caption wagon		-->
+<Coord id="8452FCC0" x="832" y="320" w="40" h="60" /> <!-- pointer caption error		-->
+<Coord id="F3210C34" x="832" y="188" w="38" h="60" /> <!-- pointer caption error text			-->
+<Coord id="D52EF347" x="984" y="248" w="40" h="40" /> <!-- checkbox base					-->
+<Coord id="A8BB3548" x="984" y="288" w="40" h="40" /> <!-- checkbox highlighted			-->
+<Coord id="7EC8E85B" x="984" y="328" w="40" h="40" /> <!-- checkbox pushed					-->
+<Coord id="572FD029" x="984" y="248" w="40" h="40" /> <!-- radio base						-->
+<Coord id="63522FB8" x="984" y="288" w="40" h="40" /> <!-- radio highlighted				-->
+<Coord id="E0BAD64D" x="984" y="328" w="40" h="40" /> <!-- radio pushed					-->
+<Coord id="8C5E5BB0" x="864" y="0" w="32" h="32" /> <!-- goto big button -->
+<Coord id="5368BB7C" x="744" y="192" w="8" h="32" /> <!-- rule plus						-->
+<Coord id="1DF53EDE" x="752" y="192" w="16" h="32" /> <!-- rule arrow						-->
+<Coord id="8930FF00" x="752" y="160" w="16" h="32" /> <!-- rule arrow empty progress 0						-->
+<Coord id="8930FF01" x="754" y="160" w="14" h="32" /> <!-- rule arrow empty progress 1	 					-->
+<Coord id="8930FF02" x="756" y="160" w="12" h="32" /> <!-- rule arrow empty progress 2	 					-->
+<Coord id="8930FF03" x="758" y="160" w="10" h="32" /> <!-- rule arrow empty progress 3 					-->
+<Coord id="8930FF04" x="760" y="160" w="8" h="32" /> <!-- rule arrow empty progress 4	 					-->
+<Coord id="8930FF05" x="762" y="160" w="6" h="32" /> <!-- rule arrow empty progress 5 					-->
+<Coord id="8930FF06" x="764" y="160" w="4" h="32" /> <!-- rule arrow empty progress 6	 					-->
+<Coord id="8930FF07" x="766" y="160" w="2" h="32" /> <!-- rule arrow empty progress 7	 					-->
+<Coord id="00EDDE00" x="752" y="128" w="0" h="32" /> <!-- rule arrow full progress 0						-->
+<Coord id="00EDDE01" x="752" y="128" w="2" h="32" /> <!-- rule arrow full progress 1						-->
+<Coord id="00EDDE02" x="752" y="128" w="4" h="32" /> <!-- rule arrow full progress 2						-->
+<Coord id="00EDDE03" x="752" y="128" w="6" h="32" /> <!-- rule arrow full progress 3						-->
+<Coord id="00EDDE04" x="752" y="128" w="8" h="32" /> <!-- rule arrow full progress 4						-->
+<Coord id="00EDDE05" x="752" y="128" w="10" h="32" /> <!-- rule arrow full progress 5						-->
+<Coord id="00EDDE06" x="752" y="128" w="12" h="32" /> <!-- rule arrow full progress 6				-->
+<Coord id="00EDDE07" x="752" y="128" w="14" h="32" /> <!-- rule arrow full progress 7						-->
+<Coord id="00EDDE08" x="752" y="128" w="16" h="32" /> <!-- rule arrow full progress 8						-->
+<Coord id="8930FF20" x="768" y="160" w="8" h="32" /> <!-- rule arrow empty part progress 0						-->
+<Coord id="8930FF21" x="769" y="160" w="7" h="32" /> <!-- rule arrow empty part progress 1	 					-->
+<Coord id="8930FF22" x="770" y="160" w="6" h="32" /> <!-- rule arrow empty part progress 2	 					-->
+<Coord id="8930FF23" x="771" y="160" w="5" h="32" /> <!-- rule arrow empty part progress 3 					-->
+<Coord id="8930FF24" x="772" y="160" w="4" h="32" /> <!-- rule arrow empty part progress 4	 					-->
+<Coord id="8930FF25" x="773" y="160" w="3" h="32" /> <!-- rule arrow empty part progress 5 					-->
+<Coord id="8930FF26" x="774" y="160" w="2" h="32" /> <!-- rule arrow empty part progress 6	 					-->
+<Coord id="8930FF27" x="775" y="160" w="1" h="32" /> <!-- rule arrow empty part progress 7	 					-->
+<Coord id="00EDDE20" x="768" y="128" w="0" h="32" /> <!-- rule arrow full part progress 0						-->
+<Coord id="00EDDE21" x="768" y="128" w="1" h="32" /> <!-- rule arrow full part progress 1						-->
+<Coord id="00EDDE22" x="768" y="128" w="2" h="32" /> <!-- rule arrow full part progress 2						-->
+<Coord id="00EDDE23" x="768" y="128" w="3" h="32" /> <!-- rule arrow full part progress 3						-->
+<Coord id="00EDDE24" x="768" y="128" w="4" h="32" /> <!-- rule arrow full part progress 4						-->
+<Coord id="00EDDE25" x="768" y="128" w="5" h="32" /> <!-- rule arrow full part progress 5						-->
+<Coord id="00EDDE26" x="768" y="128" w="6" h="32" /> <!-- rule arrow full part progress 6				-->
+<Coord id="00EDDE27" x="768" y="128" w="7" h="32" /> <!-- rule arrow full part progress 7						-->
+<Coord id="00EDDE28" x="768" y="128" w="8" h="32" /> <!-- rule arrow full part progress 8						-->
+<Coord id="98763120" x="752" y="224" w="16" h="16" /> <!-- rule arrow mini						-->
+<Coord id="8930FF10" x="752" y="168" w="16" h="16" /> <!-- rule arrow mini empty progress 0						-->
+<Coord id="8930FF11" x="754" y="168" w="14" h="16" /> <!-- rule arrow mini empty progress 1	 					-->
+<Coord id="8930FF12" x="756" y="168" w="12" h="16" /> <!-- rule arrow mini empty progress 2	 					-->
+<Coord id="8930FF13" x="758" y="168" w="10" h="16" /> <!-- rule arrow mini empty progress 3 					-->
+<Coord id="8930FF14" x="760" y="168" w="8" h="16" /> <!-- rule arrow mini empty progress 4	 					-->
+<Coord id="8930FF15" x="762" y="168" w="6" h="16" /> <!-- rule arrow mini empty progress 5 					-->
+<Coord id="8930FF16" x="764" y="168" w="4" h="16" /> <!-- rule arrow mini empty progress 6	 					-->
+<Coord id="8930FF17" x="766" y="168" w="2" h="16" /> <!-- rule arrow mini empty progress 7	 					-->
+<Coord id="00EDDE10" x="752" y="136" w="0" h="16" /> <!-- rule arrow mini full progress 0						-->
+<Coord id="00EDDE11" x="752" y="136" w="2" h="16" /> <!-- rule arrow mini full progress 1						-->
+<Coord id="00EDDE12" x="752" y="136" w="4" h="16" /> <!-- rule arrow mini full progress 2						-->
+<Coord id="00EDDE13" x="752" y="136" w="6" h="16" /> <!-- rule arrow mini full progress 3						-->
+<Coord id="00EDDE14" x="752" y="136" w="8" h="16" /> <!-- rule arrow mini full progress 4						-->
+<Coord id="00EDDE15" x="752" y="136" w="10" h="16" /> <!-- rule arrow mini full progress 5						-->
+<Coord id="00EDDE16" x="752" y="136" w="12" h="16" /> <!-- rule arrow mini full progress 6				-->
+<Coord id="00EDDE17" x="752" y="136" w="14" h="16" /> <!-- rule arrow mini full progress 7						-->
+<Coord id="8930FF30" x="768" y="168" w="8" h="16" /> <!-- rule arrow mini empty part progress 0						-->
+<Coord id="8930FF31" x="769" y="168" w="7" h="16" /> <!-- rule arrow mini empty part progress 1	 					-->
+<Coord id="8930FF32" x="770" y="168" w="6" h="16" /> <!-- rule arrow mini empty part progress 2	 					-->
+<Coord id="8930FF33" x="771" y="168" w="5" h="16" /> <!-- rule arrow mini empty part progress 3 					-->
+<Coord id="8930FF34" x="772" y="168" w="4" h="16" /> <!-- rule arrow mini empty part progress 4	 					-->
+<Coord id="8930FF35" x="773" y="168" w="3" h="16" /> <!-- rule arrow mini empty part progress 5 					-->
+<Coord id="8930FF36" x="774" y="168" w="2" h="16" /> <!-- rule arrow mini empty part progress 6	 					-->
+<Coord id="8930FF37" x="775" y="168" w="1" h="16" /> <!-- rule arrow mini empty part progress 7	 					-->
+<Coord id="00EDDE30" x="768" y="136" w="0" h="16" /> <!-- rule arrow mini full part progress 0						-->
+<Coord id="00EDDE31" x="768" y="136" w="1" h="16" /> <!-- rule arrow mini full part progress 1						-->
+<Coord id="00EDDE32" x="768" y="136" w="2" h="16" /> <!-- rule arrow mini full part progress 2						-->
+<Coord id="00EDDE33" x="768" y="136" w="3" h="16" /> <!-- rule arrow mini full part progress 3						-->
+<Coord id="00EDDE34" x="768" y="136" w="4" h="16" /> <!-- rule arrow mini full part progress 4						-->
+<Coord id="00EDDE35" x="768" y="136" w="5" h="16" /> <!-- rule arrow mini full part progress 5						-->
+<Coord id="00EDDE36" x="768" y="136" w="6" h="16" /> <!-- rule arrow mini full part progress 6				-->
+<Coord id="00EDDE37" x="768" y="136" w="7" h="16" /> <!-- rule arrow mini full part progress 7						-->
+<Coord id="00EDDE38" x="768" y="136" w="8" h="16" /> <!-- rule arrow mini full part progress 8						-->
+<Coord id="4908FF0D" x="776" y="128" w="24" h="20" /> <!-- pin off						-->
+<Coord id="4908FF0F" x="776" y="148" w="24" h="20" /> <!-- pin on						-->
+<Coord id="980DD0A0" x="776" y="168" w="24" h="20" /> <!-- arrow right						-->
+<Coord id="987EFFC0" x="776" y="188" w="24" h="20" /> <!-- arrow left					-->
+
+
+<Coord id="103EF5FA" x="104" y="64" w="17" h="17" /> <!-- modal shadow			-->
+<Coord id="930EE0AE" x="930" y="132" w="8" h="8" /> <!-- white			-->
+<Coord id="0AD1F6E9" x="910" y="146" w="17" h="17" /> <!-- goto icon		-->
+<Coord id="004026ED" x="448" y="96" w="32" h="32" /> <!-- help info						-->
+<Coord id="1D36CB88" x="160" y="256" w="32" h="32" /> <!-- help error						-->
+<Coord id="6CB18D38" x="512" y="96" w="32" h="32" /> <!-- build road					-->
+<Coord id="5DB12B04" x="544" y="96" w="32" h="32" /> <!-- build sea					-->
+<Coord id="678880DC" x="576" y="96" w="32" h="32" /> <!-- build airport				-->
+<Coord id="AA200DF8" x="608" y="96" w="32" h="32" /> <!-- build runway				-->
+<Coord id="0F654FFD" x="640" y="96" w="32" h="32" /> <!-- build run path			-->
+<Coord id="1AC88576" x="128" y="128" w="32" h="32" /> <!-- key arrow top	-->
+<Coord id="65552085" x="160" y="128" w="32" h="32" /> <!-- key arrow right	-->
+<Coord id="81005DFF" x="128" y="160" w="32" h="32" /> <!-- key arrow down	-->
+<Coord id="97AA0563" x="160" y="160" w="32" h="32" /> <!-- key arrow left	-->
+<Coord id="DD8FF1C3" x="0" y="192" w="64" h="32" /> <!-- key space	-->
+<Coord id="8AAD0E00" x="64" y="192" w="32" h="32" /> <!-- key A	-->
+<Coord id="8220FBBB" x="96" y="192" w="32" h="32" /> <!-- key W	-->
+<Coord id="555777DC" x="128" y="192" w="32" h="32" /> <!-- key S -->
+<Coord id="00044412" x="160" y="192" w="32" h="32" /> <!-- key D	-->
+<Coord id="C8987709" x="480" y="96" w="32" h="32" /> <!-- transparency				-->
+<Coord id="FAB2E35C" x="320" y="32" w="32" h="32" /> <!-- info				-->
+<Coord id="82063148" x="352" y="32" w="32" h="32" /> <!-- cancel				-->
+<Coord id="A3930C07" x="384" y="32" w="32" h="32" /> <!-- ok				-->
+<Coord id="82063149" x="96" y="192" w="32" h="32" /> <!-- cancel highlighted				-->
+<Coord id="A3930C08" x="128" y="192" w="32" h="32" /> <!-- ok highlighted				-->
+
+<Coord id="0CEC672C" x="416" y="32" w="32" h="32" /> <!-- bridge up				-->
+<Coord id="672AD4BC" x="448" y="32" w="32" h="32" /> <!-- bridge down				-->
+
+<Coord id="B006563A" x="480" y="32" w="32" h="32" /> <!-- add stop				-->
+<Coord id="97C5E57D" x="512" y="32" w="32" h="32" /> <!-- rem stop				-->
+<Coord id="15CFF1A9" x="544" y="32" w="32" h="32" /> <!-- skip stop				-->
+<Coord id="A28CC81D" x="576" y="32" w="32" h="32" /> <!-- go to depo				-->
+<Coord id="59072CAF" x="608" y="32" w="32" h="32" /> <!-- skip semaphore				-->
+<Coord id="B618EC5E" x="640" y="32" w="32" h="32" /> <!-- full load				-->
+<Coord id="7C3D3081" x="672" y="32" w="32" h="32" /> <!-- full unload				-->
+<Coord id="32F6A6B6" x="704" y="32" w="32" h="32" /> <!-- turn train				-->
+<Coord id="7B8669C0" x="736" y="32" w="32" h="32" /> <!-- messages				-->
+
+<Coord id="02D833B5" x="0" y="64" w="32" h="32" /> <!-- track A						-->
+<Coord id="5525D2B6" x="32" y="64" w="32" h="32" /> <!-- track B						-->
+<Coord id="1D31D3F5" x="64" y="64" w="32" h="32" /> <!-- track C						-->
+<Coord id="98081756" x="96" y="64" w="32" h="32" /> <!-- track D						-->
+<Coord id="F5E12313" x="128" y="64" w="32" h="32" /> <!-- track E						-->
+<Coord id="9862ABCC" x="160" y="64" w="32" h="32" /> <!-- terrain up						-->
+<Coord id="1A49118F" x="192" y="64" w="32" h="32" /> <!-- terrain down					-->
+<Coord id="C5A0E0B8" x="384" y="96" w="32" h="32" /> <!-- terrain level					-->
+
+<Coord id="2387D0C0" x="704" y="0" w="32" h="32"  /> <!-- stamp 				-->
+<Coord id="2387D0C1" x="768" y="0" w="32" h="32"  /> <!-- stamp use					-->
+<Coord id="2387D0C2" x="736" y="0" w="32" h="32"  /> <!-- stamp record					-->
+
+
+<Coord id="2387D0C3" x="640" y="0" w="32" h="32"  /> <!-- paste 				-->
+<Coord id="2387D0C4" x="672" y="0" w="32" h="32"  /> <!-- copy					-->
+
+<Coord id="860DF9A0" x="96" y="256" w="32" h="32" /> <!-- heightmap raise					-->
+<Coord id="860DF9A1" x="128" y="256" w="32" h="32" /> <!-- heightmap lower					-->
+<Coord id="860DF9A2" x="96" y="224" w="32" h="32" /> <!-- heightmap hills raise					-->
+<Coord id="860DF9A3" x="128" y="224" w="32" h="32" /> <!-- heightmap hills lower					-->
+<Coord id="860DF9A4" x="160" y="256" w="32" h="32" /> <!-- heightmap blur					-->
+<Coord id="860DF9B0" x="64" y="256" w="32" h="32" /> <!-- latitude					-->
+<Coord id="860DF9B1" x="32" y="256" w="32" h="32" /> <!-- longitude					-->
+<Coord id="860DF9B2" x="0" y="256" w="32" h="32" /> <!-- undo					-->
+
+
+<Coord id="516EE71F" x="224" y="64" w="32" h="32" /> <!-- buldozer						-->
+<Coord id="00792ABE" x="256" y="64" w="32" h="32" /> <!-- tunel							-->
+<Coord id="3AAB92E2" x="288" y="64" w="32" h="32" /> <!-- bridge							-->
+<Coord id="18EEB9CD" x="320" y="64" w="32" h="32" /> <!-- stop							-->
+<Coord id="EAEB89AA" x="352" y="64" w="32" h="32" /> <!-- depo							-->
+<Coord id="009E09FC" x="384" y="64" w="32" h="32" /> <!-- signal						-->
+<Coord id="827A88FC" x="160" y="224" w="32" h="32" /> <!-- chain signal							-->
+<Coord id="9607D60E" x="128" y="224" w="32" h="32" /> <!-- auto signal							-->
+<Coord id="775DA75E" x="416" y="64" w="32" h="32" /> <!-- town							-->
+<Coord id="A0C3C3BA" x="896" y="64" w="32" h="32" /> <!-- industry						-->
+<Coord id="22AA397D" x="768" y="64" w="32" h="32" /> <!-- system group				-->
+<Coord id="8EB66346" x="576" y="64" w="32" h="32" /> <!-- new game						-->
+<Coord id="EAE56602" x="608" y="64" w="32" h="32" /> <!-- game speed normal			-->
+<Coord id="FDC125D0" x="960" y="96" w="32" h="32" /> <!-- game speed fast			-->
+<Coord id="25884230" x="160" y="192" w="32" h="32" /> <!-- game speed super fast			-->
+<Coord id="88772D20" x="992" y="96" w="32" h="32" /> <!-- game speed pause			-->
+<Coord id="313DF09D" x="992" y="128" w="32" h="32" /> <!-- wrench			-->
+<Coord id="09D313DF" x="960" y="128" w="32" h="32" /> <!-- graph			-->
+<Coord id="3AF17402" x="640" y="64" w="32" h="32" /> <!-- exit							-->
+<Coord id="E7D9B55F" x="672" y="64" w="32" h="32" /> <!-- player color					-->
+<Coord id="42660321" x="704" y="64" w="32" h="32" /> <!-- music							-->
+<Coord id="60426322" x="448" y="64" w="32" h="32" /> <!-- music shuffle							-->
+<Coord id="60426323" x="480" y="64" w="32" h="32" /> <!-- music prev							-->
+<Coord id="60426324" x="512" y="64" w="32" h="32" /> <!-- music next							-->
+<Coord id="860DFF21" x="896" y="32" w="32" h="32" /> <!-- music play							-->
+<Coord id="90ED00DF" x="928" y="32" w="32" h="32" /> <!-- search							-->
+<Coord id="C44C89E4" x="736" y="64" w="32" h="32" /> <!-- minimap						-->
+<Coord id="0E7EE127" x="544" y="64" w="32" h="32" /> <!-- upgrades					-->
+
+
+<Coord id="668D0C8E" x="128" y="256" w="32" h="32" /> <!-- speed limit 		-->
+
+<Coord id="ADB05942" x="800" y="64" w="32" h="32" /> <!-- statistics						-->
+<Coord id="0C18E623" x="832" y="64" w="32" h="32" /> <!-- net							-->
+<Coord id="7EFC708B" x="864" y="64" w="32" h="32" /> <!-- train list						-->
+<Coord id="DC89B294" x="928" y="64" w="32" h="32" /> <!-- balance money					-->
+<Coord id="59E16819" x="960" y="64" w="32" h="32" /> <!-- company						-->
+<Coord id="F29283B9" x="992" y="64" w="32" h="32" /> <!-- face							-->
+<Coord id="875DFA12" x="992" y="0" w="32" h="32 " /> <!-- map squares symbol						-->
+<Coord id="13AE8825" x="0" y="96" w="32" h="32" /> <!-- money plus					-->
+<Coord id="C086C961" x="32" y="96" w="32" h="32" /> <!-- money minus					-->
+<Coord id="116D2249" x="64" y="96" w="32" h="32" /> <!-- train stopped					-->
+<Coord id="67616981" x="672" y="128" w="32" h="32" /> <!-- train lost					-->
+<Coord id="16FA7124" x="96" y="96" w="32" h="32" /> <!-- train running					-->
+<Coord id="998F0AA0" x="128" y="160" w="32" h="32" /> <!-- train whistle					-->
+<Coord id="998AA0A0" x="160" y="160" w="32" h="32" /> <!-- remove track					-->
+<Coord id="9132AA11" x="96" y="256" w="32" h="32" /> <!-- upgrade track					-->
+<Coord id="C3AAF6D9" x="128" y="96" w="32" h="32" /> <!-- camera left					-->
+<Coord id="F2AD36FC" x="160" y="96" w="32" h="32" /> <!-- camera right					-->
+<Coord id="AEABD7E8" x="192" y="96" w="32" h="32" /> <!-- vagon prev						-->
+<Coord id="8A8230D9" x="224" y="96" w="32" h="32" /> <!-- vagon next						-->
+<Coord id="D7E8AEAB" x="544" y="128" w="32" h="32" /> <!-- building prev						-->
+<Coord id="30D98A82" x="576" y="128" w="32" h="32" /> <!-- building next						-->
+<Coord id="98763301" x="608" y="128" w="32" h="32" /> <!-- duplicate train						-->
+<Coord id="ED98ED99" x="640" y="128" w="32" h="32" /> <!-- replace train						-->
+<Coord id="B800ED08" x="896" y="0" w="32" h="32" /> <!-- remove cargo						-->
+<Coord id="E1E875D9" x="256" y="96" w="32" h="32" /> <!-- run straight					-->
+<Coord id="35C0C2F8" x="288" y="96" w="32" h="32" /> <!-- turn left						-->
+<Coord id="880D61F8" x="320" y="96" w="32" h="32" /> <!-- turn right						-->
+<Coord id="4FA6449C" x="352" y="96" w="32" h="32" /> <!-- newspapers					-->
+<Coord id="DE098BD0" x="768" y="32" w="32" h="32" /> <!-- capacity					-->
+<Coord id="B87AB512" x="800" y="32" w="32" h="32" /> <!-- loading speed				-->
+<Coord id="33CB00DA" x="832" y="32" w="32" h="32" /> <!-- remove switch				-->
+<Coord id="43CB01DB" x="864" y="32" w="32" h="32" /> <!-- add switch				-->
+<Coord id="6545AD6F" x="672" y="0" w="32" h="32" /> <!-- cargo					-->
+<Coord id="944FB088" x="0" y="0" w="32" h="32" /> <!-- oak tree						-->
+<Coord id="DB255BC1" x="32" y="0" w="32" h="32" /> <!-- acer tree						-->
+<Coord id="E5D7283D" x="64" y="0" w="32" h="32" /> <!-- pine tree						-->
+<Coord id="869DF0D0" x="96" y="0" w="32" h="32" /> <!-- birch				-->
+<Coord id="F2998ED0" x="128" y="0" w="32" h="32" /> <!-- pinus				-->
+<Coord id="8098EE09" x="160" y="0" w="32" h="32" /> <!-- acacia -->
+
+<Coord id="98079EED" x="288" y="0" w="32" h="32" /> <!-- poplar -->
+<Coord id="DE0D0EF0" x="256" y="0" w="32" h="32" /> <!-- abies -->
+<Coord id="98DA7980" x="224" y="0" w="32" h="32" /> <!-- pinus b -->
+<Coord id="32102DE0" x="192" y="0" w="32" h="32" /> <!-- picea b -->
+<Coord id="82005990" x="320" y="0" w="32" h="32" /> <!-- tilia -->
+<Coord id="45872168" x="352" y="0" w="32" h="32" /> <!-- quercus -->
+<Coord id="69541870" x="384" y="0" w="32" h="32" /> <!-- betula -->
+
+
+
+<Coord id="D0C0EC10" x="0" y="0" w="32" h="32" /> <!-- field wheat						-->
+<Coord id="98090838" x="32" y="0" w="32" h="32" /> <!-- field sunflower						-->
+<Coord id="A98FFC0C" x="64" y="0" w="32" h="32" /> <!-- field corn						-->
+<Coord id="00D00DF1" x="832" y="0" w="32" h="32" /> <!-- plant field						-->
+<Coord id="11D11F10" x="800" y="0" w="32" h="32" /> <!-- field remove						-->
+<Coord id="9653ED0A" x="960" y="32" w="32" h="32" /> <!-- train destroyed		-->
+<Coord id="9653ED0B" x="960" y="0" w="32" h="32" /> <!-- bug WIP		-->
+<Coord id="9653ED0C" x="928" y="0" w="32" h="32" /> <!-- bug solved		-->
+<Coord id="13E5D07E" x="416" y="96" w="32" h="32" /> <!-- random tree					-->
+<Coord id="8176DDF0" x="912" y="248" w="32" h="20" /> <!-- building status background				-->
+<Coord id="8176DDF1" x="768" y="288" w="16" h="16" /> <!-- building status upgrade				-->
+<Coord id="8176DDF2" x="768" y="304" w="16" h="16" /> <!-- building status population				-->
+<Coord id="08980ED0" x="912" y="268" w="32" h="20" /> <!-- overlay color				-->
+<Coord id="08980ED2" x="912" y="288" w="32" h="20" /> <!-- overlay empty				-->
+<Coord id="08980ED1" x="64" y="224" w="32" h="32" /> <!-- overlay icon				-->
+<Coord id="9FCD04E0" x="800" y="256" w="16" h="16" /> <!-- train status stop				-->
+<Coord id="98703501" x="784" y="288" w="16" h="16" /> <!-- train status lost				-->
+<Coord id="060D0A00" x="816" y="240" w="16" h="16" /> <!-- train status replacing			-->
+<Coord id="E370ADD6" x="816" y="256" w="16" h="16" /> <!-- train status start				-->
+<Coord id="7DD76F13" x="800" y="272" w="16" h="16" /> <!-- train status loading			-->
+<Coord id="1A1C9785" x="816" y="272" w="16" h="16" /> <!-- train status unloading			-->
+<Coord id="ECF232D7" x="800" y="288" w="16" h="16" /> <!-- train status depo				-->
+<Coord id="D3E7363E" x="816" y="288" w="16" h="16" /> <!-- train status station			-->
+<Coord id="D4CD0A24" x="800" y="304" w="16" h="16" /> <!-- train status broken				-->
+<Coord id="9879DD0C" x="816" y="304" w="16" h="16" /> <!-- train status destroyed				-->
+<Coord id="FC904DE0" x="777" y="256" w="6" h="16" /> <!-- technology connection line	-->
+<Coord id="914B1D2E" x="672" y="96" w="32" h="32" /> <!-- achievements icon	-->
+<Coord id="144DCA36" x="704" y="96" w="32" h="32" /> <!-- refresh 	-->
+<Coord id="24A364DC" x="736" y="96" w="32" h="32" /> <!-- world	-->
+<Coord id="8198EE10" x="96" y="224" w="32" h="32" /> <!-- world & computer -->
+<Coord id="4417DFC1" x="768" y="96" w="32" h="32" /> <!-- label	-->
+<Coord id="8DF01ACB" x="800" y="96" w="32" h="32" /> <!-- wagon	-->
+<Coord id="8DF01ACC" x="288" y="32" w="16" h="16" /> <!-- wagon mini	-->
+<Coord id="4355DF2B" x="832" y="96" w="32" h="32" /> <!-- camera	-->
+<Coord id="BDB17EE3" x="864" y="96" w="32" h="32" /> <!-- delete	-->
+<Coord id="97CCE213" x="896" y="96" w="32" h="32" /> <!-- save	-->
+<Coord id="EFE097ED" x="928" y="96" w="32" h="32" /> <!-- load	-->
+<Coord id="875463EE" x="992" y="32" w="32" h="32" /> <!-- time unit	-->
+	  <!--  -->
+
+<Coord id="603BC4CF" x="0" y="320" w="32" h="32" /> <!-- flag czech 3-->
+<Coord id="EF56EEE3" x="32" y="320" w="32" h="32" /> <!-- flag austria 0-->
+<Coord id="54A213EF" x="64" y="320" w="32" h="32" /> <!-- flag usa 11-->
+<Coord id="BCCD4BEF" x="96" y="320" w="32" h="32" /> <!-- flag ukrain 10-->
+<Coord id="9E879E87" x="128" y="320" w="32" h="32" /> <!-- flag dutch 4-->
+<Coord id="A4A40233" x="160" y="320" w="32" h="32" /> <!-- flag croatia 2-->
+
+<Coord id="8603B4CF" x="0" y="352" w="32" h="32" /> <!-- flag rusia d-->
+<Coord id="FEF56EE3" x="32" y="352" w="32" h="32" /> <!-- flag spain f-->
+<Coord id="C54A23EF" x="64" y="352" w="32" h="32" /> <!-- flag slovak e-->
+<Coord id="FBCC4BEF" x="96" y="352" w="32" h="32" /> <!-- flag brazil 1 -->
+<Coord id="09E79E87" x="128" y="352" w="32" h="32" /> <!-- flag poland c-->
+<Coord id="1A440233" x="160" y="352" w="32" h="32" /> <!-- flag italy b-->
+
+<Coord id="686034CF" x="0" y="384" w="32" h="32" /> <!-- flag hungary 8-->
+<Coord id="9FEF5EE3" x="32" y="384" w="32" h="32" /> <!-- flag india a-->
+<Coord id="CC54A3EF" x="64" y="384" w="32" h="32" /> <!-- flag greek 7-->
+<Coord id="AFBC4BEF" x="96" y="384" w="32" h="32" /> <!-- flag china 9-->
+<Coord id="80979E87" x="128" y="384" w="32" h="32" /> <!-- flag germany 6-->
+<Coord id="31A40233" x="160" y="384" w="32" h="32" /> <!-- flag franc 5-->
+
+<Coord id="0C0C0D00" x="0" y="416" w="32" h="32" /> <!-- flag Japanese -->
+<Coord id="98E98E92" x="32" y="416" w="32" h="32" /> <!-- flag Turkish-->
+<Coord id="12980E30" x="64" y="416" w="32" h="32" /> <!-- flag Vietnamese-->
+
+
+<Coord id="9813DFC2" x="0" y="0" w="64" h="32" /> <!-- bridge type 0 -->
+<Coord id="313099ED" x="64" y="0" w="64" h="32" /> <!-- bridge type 1 -->
+<Coord id="065A6CFF" x="128" y="0" w="64" h="32" /> <!-- bridge type 2 -->
+<Coord id="CD4BB990" x="0" y="0" w="64" h="32" /> <!-- bridge type 3 -->
+<Coord id="12979887" x="128" y="0" w="64" h="32" /> <!-- bridge type 4 -->
+<Coord id="863305AA" x="160" y="0" w="64" h="32" /> <!-- bridge type 5 -->
+
+
+<Coord id="59EEF7BD" x="0" y="224" w="32" h="32" /> <!-- terrain type 0 -->
+<Coord id="B971C65A" x="32" y="224" w="32" h="32" /> <!-- terrain type 1 -->
+
+<Coord id="E0D80B63" x="64" y="128" w="32" h="32" /> <!-- trees high-->
+<Coord id="80BE1223" x="32" y="128" w="32" h="32" /> <!-- hills high-->
+<Coord id="EABBC00F" x="0" y="128" w="32" h="32" /> <!-- map high-->
+<Coord id="065AECFB" x="96" y="128" w="32" h="32" /> <!-- Train speed -->
+<Coord id="0898065D" x="128" y="128" w="32" h="32" /> <!-- towns high-->
+
+<Coord id="BBD87E00" x="416" y="128" w="32" h="32" /> <!-- brush Geonoise -->
+<Coord id="BBD87E01" x="448" y="128" w="32" h="32" /> <!-- brush Perlin -->
+<Coord id="BBD87E02" x="480" y="128" w="32" h="32" /> <!-- brush Voronoi -->
+<Coord id="BBD87E03" x="512" y="128" w="32" h="32" /> <!-- brush Voronoi smooth -->
+<Coord id="BBD87E04" x="160" y="64" w="32" h="32" /> <!-- brush Bias -->
+<Coord id="BBD87E05" x="192" y="128" w="32" h="32" /> <!-- brush Multiply -->
+<Coord id="BBD87E06" x="192" y="64" w="32" h="32" /> <!-- brush Subtract -->
+<Coord id="BBD87E07" x="224" y="128" w="32" h="32" /> <!-- brush Divide -->
+<Coord id="BBD87E08" x="256" y="128" w="32" h="32" /> <!-- brush Blur -->
+<Coord id="BBD87E09" x="320" y="128" w="32" h="32" /> <!-- brush Median -->
+<Coord id="BBD87E0A" x="352" y="128" w="32" h="32" /> <!-- brush Set -->
+<Coord id="BBD87E0B" x="288" y="128" w="32" h="32" /> <!-- brush Water erosion -->
+<Coord id="BBD87E0C" x="384" y="96" w="32" h="32" /> <!-- brush Flatten -->
+<Coord id="BBD87E0D" x="384" y="128" w="32" h="32" /> <!-- brush Rivers -->
+<Coord id="BBD87E0E" x="480" y="160" w="32" h="32" /> <!-- brush Contour Cut -->
+
+<Coord id="BBD88800" x="224" y="160" w="32" h="32" /> <!-- brush -->
+<Coord id="BBD88801" x="192" y="160" w="32" h="32" /> <!-- brush fill -->
+<Coord id="BBD88802" x="256" y="160" w="32" h="32" /> <!-- terrain tools -->
+
+<Coord id="BBD88803" x="288" y="160" w="32" h="32" /> <!-- brush under water-->
+<Coord id="BBD88804" x="320" y="160" w="32" h="32" /> <!-- brush above water -->
+<Coord id="BBD88805" x="352" y="160" w="32" h="32" /> <!-- brush plants add-->
+<Coord id="BBD88806" x="384" y="160" w="32" h="32" /> <!-- brush plants remove -->
+<Coord id="BBD88807" x="416" y="160" w="32" h="32" /> <!-- brush humidity add-->
+<Coord id="BBD88808" x="448" y="160" w="32" h="32" /> <!-- brush humidity remove -->
+
+
+<!-- Special help texture -->
+<Coord id="BBD87E10" x="128" y="0" w="128" h="64" /> <!-- brush Geonoise -->
+<Coord id="BBD87E11" x="0" y="64" w="128" h="64" /> <!-- brush Perlin -->
+<Coord id="BBD87E12" x="256" y="0" w="128" h="64" /> <!-- brush Voronoi -->
+<Coord id="BBD87E13" x="384" y="0" w="128" h="64" /> <!-- brush Voronoi smooth -->
+<Coord id="BBD87E14" x="128" y="64" w="128" h="64" /> <!-- brush Bias -->
+<Coord id="BBD87E15" x="384" y="64" w="128" h="64" /> <!-- brush Multiply -->
+<Coord id="BBD87E16" x="256" y="64" w="128" h="64" /> <!-- brush Subtract -->
+<Coord id="BBD87E17" x="0" y="128" w="128" h="64" /> <!-- brush Divide -->
+<Coord id="BBD87E18" x="128" y="128" w="128" h="64" /> <!-- brush Blur -->
+<Coord id="BBD87E19" x="256" y="128" w="128" h="64" /> <!-- brush Median -->
+<Coord id="BBD87E1A" x="0" y="0" w="128" h="64" /> <!-- brush Set -->
+<Coord id="BBD87E1B" x="384" y="128" w="128" h="64" /> <!-- brush Water erosion -->
+<Coord id="BBD87E1C" x="0" y="192" w="128" h="64" /> <!-- brush Flatten -->
+<Coord id="BBD87E1D" x="128" y="192" w="128" h="64" /> <!-- brush Rivers -->
+<Coord id="BBD87E1E" x="0" y="256" w="128" h="64" /> <!-- brush Contour Cut -->
+
+<Coord id="BBD87E20" x="0" y="0" w="128" h="64" /> <!-- brush base flat -->
+<Coord id="BBD87E21" x="128" y="0" w="128" h="64" /> <!-- brush base terrain -->
+
+<Coord id="BBD87E22" x="256" y="192" w="128" h="64" /> <!-- brush forest -->
+<Coord id="BBD87E23" x="384" y="192" w="128" h="64" /> <!-- brush dry -->
+
+
+<Coord id="59EEF7B0" x="0" y="160" w="32" h="32" /> <!-- time agregte months -->
+<Coord id="B971C651" x="32" y="160" w="32" h="32" /> <!-- time agregte quartals -->
+<Coord id="F43ED302" x="64" y="160" w="32" h="32" /> <!-- time agregte years -->
+<Coord id="09C80F43" x="96" y="160" w="32" h="32" /> <!-- time agregte all	-->
+<Coord id="122ED844" x="0" y="192" w="32" h="32" /> <!-- incomes all -->
+<Coord id="1C80F775" x="32" y="192" w="32" h="32" /> <!-- incomes only	incomes -->
+<Coord id="513DFFC6" x="64" y="192" w="32" h="32" /> <!-- incomes only outcomes -->
+
+<Coord id="8900E000" x="870" y="168" w="6" h="14" /> <!-- quest Type 1 -->
+<Coord id="8900E001" x="876" y="168" w="6" h="14" /> <!-- quest Type 1 -->
+<Coord id="8900E002" x="882" y="168" w="6" h="14" /> <!-- quest Type 1 -->
+<Coord id="8900E003" x="888" y="168" w="6" h="14" /> <!-- quest Type 1 -->
+
+
+<Coord id="7DD80B69" x="176" y="24" w="48" h="24" /> <!-- Engine Electric 1 -->
+<Coord id="7DD80B6A" x="224" y="24" w="59" h="24" /> <!-- Engine Electric 2 -->
+<Coord id="7DD80B6B" x="283" y="24" w="69" h="24" /> <!-- Engine Electric 3 -->
+<Coord id="7DD80B6C" x="0" y="48" w="48" h="24" /> <!-- Wagon Gold 1 -->
+<Coord id="7DD80B6D" x="48" y="48" w="59" h="24" /> <!-- Wagon Gold 2 -->
+<Coord id="7DD80B6E" x="107" y="48" w="69" h="24" /> <!-- Wagon Gold 3 -->
+
+
+<Coord id="987D09CD" x="160" y="128" w="32" h="32" /> <!-- lakes high-->
+<Coord id="96350D80" x="0" y="0" w="256" h="170" /> <!-- terrain type 0 hills low-->
+<Coord id="C0C9D090" x="256" y="0" w="256" h="170" /> <!-- terrain type 0 hills medium-->
+<Coord id="855449E0" x="512" y="0" w="256" h="170" /> <!-- terrain type 0 hills high-->
+<Coord id="96350D81" x="0" y="171" w="256" h="170" /> <!-- terrain type 1 hills low-->
+<Coord id="C0C9D091" x="256" y="171" w="256" h="170" /> <!-- terrain type 1 hills medium-->
+<Coord id="855449E1" x="512" y="171" w="256" h="170" /> <!-- terrain type 1 hills high-->
+<Coord id="96350D82" x="0" y="0" w="256" h="0" /> <!-- terrain type 2 hills low-->
+<Coord id="C0C9D092" x="256" y="0" w="256" h="0" /> <!-- terrain type 2 hills medium-->
+<Coord id="855449E2" x="512" y="0" w="256" h="0" /> <!-- terrain type 2 hills high-->
+<Coord id="96350D83" x="0" y="0" w="256" h="0" /> <!-- terrain type 3 hills low-->
+<Coord id="C0C9D093" x="256" y="0" w="256" h="00" /> <!-- terrain type 3 hills medium-->
+<Coord id="855449E3" x="512" y="0" w="256" h="0" /> <!-- terrain type 3 hills high-->
+<Coord id="96350D84" x="0" y="0" w="256" h="0" /> <!-- terrain type 4 hills low-->
+<Coord id="C0C9D094" x="256" y="0" w="256" h="0" /> <!-- terrain type 4 hills medium-->
+<Coord id="855449E4" x="512" y="0" w="256" h="0" /> <!-- terrain type 4 hills high-->
+<Coord id="96350D85" x="0" y="0" w="256" h="0" /> <!-- terrain type 5 hills low-->
+<Coord id="C0C9D095" x="256" y="0" w="256" h="0" /> <!-- terrain type 5 hills medium-->
+<Coord id="855449E5" x="512" y="0" w="256" h="0" /> <!-- terrain type 5 hills high-->
+<Coord id="96350D86" x="0" y="0" w="256" h="0" /> <!-- terrain type 6 hills low-->
+<Coord id="C0C9D096" x="256" y="0" w="256" h="0" /> <!-- terrain type 6 hills medium-->
+<Coord id="855449E6" x="512" y="0" w="256" h="0" /> <!-- terrain type 6 hills high-->
+<Coord id="96350D87" x="0" y="0" w="256" h="0" /> <!-- terrain type 7 hills low-->
+<Coord id="C0C9D097" x="256" y="0" w="256" h="0" /> <!-- terrain type 7 hills medium-->
+<Coord id="855449E7" x="512" y="0" w="256" h="0" /> <!-- terrain type 7 hills high-->
+<Coord id="88FB009F" x="0" y="0" w="0" h="0" /> <!-- terrain tree low -->
+<Coord id="9E08D9E9" x="0" y="512" w="256" h="170" /> <!-- terrain tree medium -->
+<Coord id="B9925E9E" x="256" y="512" w="256" h="170" /> <!-- terrain tree high -->
+<Coord id="290C8311" x="0" y="854" w="256" h="0" /> <!-- terrain industry low -->
+<Coord id="00D80A32" x="0" y="854" w="256" h="170" /> <!-- terrain industry medium -->
+<Coord id="EC8997E0" x="256" y="854" w="256" h="170" /> <!-- terrain industry high -->
+<Coord id="EB3087F9" x="0" y="0" w="0" h="0" /> <!-- terrain town low -->
+<Coord id="C0B50684" x="0" y="683" w="256" h="170" /> <!-- terrain town medium -->
+<Coord id="3C58FD58" x="256" y="683" w="256" h="170" /> <!-- terrain town high -->
+<Coord id="3A30FE5C" x="0" y="0" w="0" h="0" /> <!-- terrain sea low -->
+<Coord id="0FFBD654" x="0" y="342" w="256" h="170" /> <!-- terrain sea medium -->
+<Coord id="EB1BDB4F" x="256" y="342" w="256" h="170" /> <!-- terrain sea high -->
+<Coord id="ECFB009F" x="0" y="0" w="0" h="0" /> <!-- terrain fields low -->
+<Coord id="EC08D9E9" x="512" y="342" w="256" h="170" /> <!-- terrain fields medium -->
+<Coord id="EC925E9E" x="768" y="342" w="256" h="170" /> <!-- terrain fields high -->
+
+
+<Coord id="98978EEF" x="0" y="170" w="128" h="170" /> <!-- background -->
+<Coord id="60C8D80B" x="0" y="0" w="79" h="107" /> <!-- face base	-->
+<Coord id="DC6E6A9B" x="79" y="0" w="102" h="88" /> <!-- face hair 0 -->
+
+<Coord id="173A6160" x="181" y="0" w="86" h="117" /> <!-- face hair 1 -->
+<Coord id="46FCB74E" x="267" y="0" w="69" h="55" /> <!-- face chin 0 -->
+<Coord id="EABCD0A3" x="336" y="0" w="85" h="67" /> <!-- face chin 1 -->
+<Coord id="CDF5DA31" x="421" y="0" w="52" h="36" /> <!-- face moustache 0 -->
+<Coord id="3EE988B4" x="421" y="36" w="52" h="36" /> <!-- face moustache 1 -->
+<Coord id="73BDC2C8" x="356" y="67" w="65" h="30" /> <!-- face eyes 0 -->
+<Coord id="BCDEFF76" x="356" y="97" w="65" h="30" /> <!-- face eyes 1 -->
+<Coord id="901AEC0B" x="0" y="107" w="128" h="62" /> <!-- face suit 0 -->
+<Coord id="A68BB30C" x="128" y="88" w="22" h="34" /> <!-- tie -->
+<Coord id="B68BB30C" x="79" y="88" w="33" h="18" /> <!-- tie Parson -->
+<Coord id="ABB30C68" x="384" y="341" w="128" h="170" /> <!-- face ??? -->
+
+<Coord id="9888FF00"  x="0" y="341" w="128" h="170" /> <!-- quest 0 -->
+<Coord id="9888FF01"  x="128" y="341" w="128" h="170" /> <!-- era 1 -->
+<Coord id="9888FF02"  x="256" y="341" w="128" h="170" /> <!-- era 2 -->
+<Coord id="9888FF03"  x="384" y="341" w="128" h="170" /> <!-- era 3 -->
+<Coord id="9888FF04"  x="0" y="512" w="128" h="170" /> <!-- era 4 -->
+<Coord id="9888FF05"  x="384" y="512" w="128" h="170" /> <!-- era 5 -->
+<Coord id="9888FF11"  x="128" y="170" w="128" h="170" /> <!-- quest 1 -->
+<Coord id="9888FF12"  x="256" y="170" w="128" h="170" /> <!-- quest 2 -->
+<Coord id="9888FF13"  x="384" y="170" w="128" h="170" /> <!-- quest 3 -->
+<Coord id="9888FF14"  x="128" y="512" w="128" h="170" /> <!-- quest 4 -->
+<Coord id="9888FF15"  x="256" y="512" w="128" h="170" /> <!-- quest 5 -->
+<Coord id="9888FF16"  x="0" y="682" w="128" h="170" /> <!-- quest 6 -->
+<Coord id="9888FF17"  x="128" y="682" w="128" h="170" /> <!-- quest 7 -->
+<Coord id="9888FF18"  x="256" y="682" w="128" h="170" /> <!-- quest 8 -->
+
+<!-- News and logo texture -->
+<Coord id="AD0DD68E"  x="192" y="192" w="512" h="191" /> <!-- logo -->
+<Coord id="98098DFF"  x="512" y="640" w="512" h="192" /> <!-- news back -->
+<Coord id="98098DF0"  x="512" y="832" w="512" h="64" /> <!-- news header -->
+<Coord id="98098DF1"  x="800" y="188" w="32" h="20" /> <!-- news pointer -->
+
+<Coord id="706DD000"  x="672" y="160" w="32" h="32" /> <!-- steam -->
+<Coord id="706DD001"  x="640" y="160" w="32" h="32" /> <!-- facebook -->
+<Coord id="706DD002"  x="608" y="160" w="32" h="32" /> <!-- twitter -->
+<Coord id="706DD003"  x="576" y="160" w="32" h="32" /> <!-- youtube -->
+<Coord id="706DD004"  x="544" y="160" w="32" h="32" /> <!-- wiki -->
+<Coord id="706DD005"  x="512" y="160" w="32" h="32" /> <!-- discord -->
+
+
+<Coord id="904B0000" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0001" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0002" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0003" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0004" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0005" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0006" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0007" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0008" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0009" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0010" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0011" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0012" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0013" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0014" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0015" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0016" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0017" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0018" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="904B0019" x="0" y="0" w="0" h="0" /> <!-- achievement -->
+<Coord id="9DD80B63" x="0" y="0" w="91" h="24" /> <!-- masinka 1A					-->
+<Coord id="4830DA9C" x="0" y="48" w="90" h="24" /> <!-- masinka 1B						-->
+<Coord id="D3180EFD" x="90" y="48" w="98" h="24" /> <!-- masinka 1C						-->
+<Coord id="D3180EFF" x="246" y="144" w="47" h="24" /> <!-- masinka 1D						-->
+<Coord id="EF4A5E8C" x="284" y="96" w="86" h="24" /> <!-- masinka 2A					-->
+<Coord id="97565FCB" x="64" y="144" w="64" h="16" /> <!-- masinka 2B						-->
+<Coord id="F760FC68" x="196" y="0" w="146" h="24" /> <!-- masinka 2C					-->
+<Coord id="49FC8B9C" x="89" y="144" w="36" h="24" /> <!-- masinka 3A					-->
+<Coord id="1B095B79" x="194" y="144" w="52" h="24" /> <!-- masinka 3B						-->
+<Coord id="7DD80B60" x="63" y="240" w="62" h="24" /> <!-- bangle						-->
+<Coord id="7DD80B6F" x="63" y="192" w="88" h="24" /> <!-- gp60m						-->
+<Coord id="52ED8550" x="125" y="144" w="69" h="24" /> <!-- emd f3					-->
+<Coord id="321E8551" x="151" y="192" w="86" h="24" /> <!-- v200					-->
+<Coord id="7DD80B61" x="274" y="192" w="77" h="24" /> <!-- sergej					-->
+<Coord id="1BF9868E" x="254" y="240" w="80" h="24" /> <!-- e118						-->
+<Coord id="980EDD0E" x="293" y="336" w="69" h="24" /> <!-- crocodile						-->
+<Coord id="5FD0E3AC" x="334" y="240" w="83" h="24" /> <!-- class 132						-->
+<Coord id="EFC0C0C1" x="362" y="336" w="97" h="24" /> <!-- azakase						-->
+<Coord id="EFC0C0C3" x="94" y="384" w="97" h="24" /> <!-- isumo						-->
+<Coord id="25C5DB18" x="0" y="192" w="64" h="16" /> <!-- masinka 5A					-->
+<Coord id="C978A99D" x="64" y="192" w="64" h="16" /> <!-- masinka 5B						-->
+<Coord id="52041014" x="128" y="192" w="64" h="16" /> <!-- masinka 5C						-->
+<Coord id="5D6B14CC" x="0" y="208" w="64" h="16" /> <!-- masinka 6A					-->
+<Coord id="009D602E" x="64" y="208" w="64" h="16" /> <!-- masinka 6B						-->
+<Coord id="6B2ABEF0" x="128" y="208" w="64" h="16" /> <!-- masinka 6C						-->
+<Coord id="8EB62580" x="0" y="224" w="64" h="16" /> <!-- masinka 7A					-->
+<Coord id="A22AD058" x="64" y="224" w="64" h="16" /> <!-- masinka 7B						-->
+<Coord id="2FA73B05" x="128" y="224" w="64" h="16" /> <!-- masinka 7C						-->
+<Coord id="F168213E" x="0" y="240" w="64" h="16" /> <!-- masinka 8A					-->
+<Coord id="44C00C39" x="64" y="240" w="64" h="16" /> <!-- masinka 8B						-->
+<Coord id="C5D80FA6" x="128" y="240" w="64" h="16" /> <!-- masinka 8C						-->
+<Coord id="F26544D4" x="91" y="0" w="105" h="24" /> <!-- vagonek 1A					-->
+<Coord id="E572119C" x="282" y="48" w="45" h="24" /> <!-- vagonek 1B						-->
+<Coord id="19FE881C" x="210" y="96" w="74" h="24" /> <!-- vagonek 1C						-->
+<Coord id="6F2CC018" x="0" y="96" w="105" h="24" /> <!-- vagonek 1D					-->
+<Coord id="88942006" x="105" y="96" w="105" h="24" /> <!-- vagonek 1E					-->
+<Coord id="90CD60FE" x="345" y="288" w="115" h="24" /> <!-- vagonek 1F					-->
+<Coord id="D1190C6E" x="0" y="336" w="115" h="24" /> <!-- vagonek 1G					-->
+<Coord id="987AA0C8" x="115" y="336" w="115" h="24" /> <!-- vagonek 1H					-->
+<Coord id="80060604" x="0" y="288" w="115" h="24" /> <!-- vagonek 1I					-->
+<Coord id="870809E9" x="115" y="288" w="115" h="24" /> <!-- vagonek 1J					-->
+<Coord id="90320DDD" x="230" y="288" w="115" h="24" /> <!-- vagonek 1K					-->
+<Coord id="BAB0625A" x="446" y="48" w="39" h="24" /> <!-- vagonek 2A					-->
+<Coord id="6763FE7D" x="64" y="272" w="64" h="16" /> <!-- vagonek 2B						-->
+<Coord id="13A1CBB1" x="128" y="272" w="64" h="16" /> <!-- vagonek 2C						-->
+<Coord id="45BDB01D" x="241" y="48" w="41" h="24" /> <!-- vagonek 3A					-->
+<Coord id="ADEE41F5" x="188" y="48" w="53" h="24" /> <!-- vagonek 3B						-->
+<Coord id="09FB01EB" x="128" y="288" w="64" h="16" /> <!-- vagonek 3C						-->
+<Coord id="36783709" x="0" y="304" w="64" h="16" /> <!-- vagonek 4A					-->
+<Coord id="38D0ED85" x="64" y="304" w="64" h="16" /> <!-- vagonek 4B						-->
+<Coord id="AB6C8994" x="128" y="304" w="64" h="16" /> <!-- vagonek 4C						-->
+<Coord id="B5430B28" x="327" y="48" w="56" h="24" /> <!-- vagonek 5A					-->
+<Coord id="E2815F24" x="0" y="144" w="89" h="24" /> <!-- vagonek 5B						-->
+<Coord id="93433962" x="128" y="320" w="64" h="16" /> <!-- vagonek 5C						-->
+<Coord id="CFF513B9" x="0" y="336" w="64" h="16" /> <!-- vagonek 6A					-->
+<Coord id="3736A481" x="383" y="48" w="63" h="24" /> <!-- vagonek 6B						-->
+<Coord id="65344CD2" x="0" y="384" w="94" h="24" /> <!-- vagonek 6C						-->
+<Coord id="AEF532E2" x="457" y="96" w="45" h="24" /> <!-- vagonek 7A diesel				-->
+<Coord id="7B2869DE" x="455" y="144" w="49" h="24" /> <!-- vagonek 7B						-->
+<Coord id="E6A5B790" x="0" y="0" w="1" h="24" /> <!-- vagonek 7C						-->
+<Coord id="1E308825" x="460" y="0" w="46" h="24" /> <!-- vagonek 8A goods					-->
+<Coord id="10F197F2" x="392" y="144" w="63" h="24" /> <!-- vagonek 8B					-->
+<Coord id="5A0E5AFD" x="0" y="0" w="1" h="24" /> <!-- vagonek 8C						-->
+<Coord id="123F0064" x="370" y="96" w="37" h="24" /> <!-- vagonek 9A					-->
+<Coord id="E5F1F68D" x="293" y="144" w="44" h="24" /> <!-- vagonek 9B						-->
+<Coord id="FCA477DF" x="337" y="144" w="55" h="24" /> <!-- vagonek 9C						-->
+<Coord id="B1897F4B" x="427" y="0" w="33" h="24" /> <!-- vagonek 10A					-->
+<Coord id="9FBC9626" x="383" y="0" w="44" h="24" /> <!-- vagonek 10B					-->
+<Coord id="06568F50" x="342" y="0" w="41" h="24" /> <!-- vagonek 10C						-->
+<Coord id="320869B7" x="0" y="416" w="64" h="16" /> <!-- vagonek 11A					-->
+<Coord id="CDE0AD18" x="64" y="416" w="64" h="16" /> <!-- vagonek 11B					-->
+<Coord id="32EE2CAD" x="128" y="416" w="64" h="16" /> <!-- vagonek 11C						-->
+<Coord id="0708C941" x="407" y="96" w="50" h="24" /> <!-- vagonek 12A iron					-->
+<Coord id="61B9CB3D" x="0" y="192" w="63" h="24" /> <!-- vagonek 12B					-->
+<Coord id="1C119A66" x="0" y="240" w="63" h="24" /> <!-- vagonek 12C						-->
+<Coord id="7DD80B63" x="237" y="192" w="37" h="24" /> <!-- vagonek 13A	sand				-->
+<Coord id="7dd80b64" x="125" y="240" w="46" h="24" /> <!-- vagonek 13B sand					-->
+<Coord id="9D6D510B" x="128" y="448" w="64" h="16" /> <!-- vagonek 13C						-->
+<Coord id="7DD80B66" x="351" y="192" w="50" h="24" /> <!-- vagonek 14A steel					-->
+<Coord id="7DD80B67" x="401" y="192" w="67" h="24" /> <!-- vagonek 14B					-->
+<Coord id="7DD80B68" x="171" y="240" w="83" h="24" /> <!-- vagonek 14C						-->
+<Coord id="041C2A71" x="417" y="240" w="81" h="24" /> <!-- vagonek 15A	food				-->
+<Coord id="27A99101" x="230" y="336" w="63" h="24" /> <!-- vagonek 15B	food			-->
+<Coord id="EDFEE3BC" x="128" y="480" w="64" h="16" /> <!-- vagonek 15C						-->
+<Coord id="C5AF33EB" x="0" y="480" w="64" h="16" /> <!-- vagonek 16A					-->
+<Coord id="EE85B58F" x="64" y="480" w="64" h="16" /> <!-- vagonek 16B					-->
+<Coord id="EAC8040F" x="128" y="480" w="64" h="16" /> <!-- vagonek 16C						-->
+<Coord id="444452D1" x="128" y="480" w="64" h="16" /> <!-- vagonek 17						-->
+<Coord id="A53CBCB9" x="128" y="480" w="64" h="16" /> <!-- car 1A					-->
+<Coord id="EB838BFB" x="128" y="480" w="64" h="16" /> <!-- car 2A							-->
+<Coord id="F49FB1C8" x="0" y="24" w="91" h="24" /> <!-- masinka color mask 1A			-->
+<Coord id="18F6741F" x="0" y="72" w="90" h="24" /> <!-- masinka color mask 1B			-->
+<Coord id="97B6D010" x="90" y="72" w="98" h="24" /> <!-- masinka color mask 1C			-->
+<Coord id="97B6D011" x="246" y="168" w="47" h="24" /> <!-- masinka color mask 1D			-->
+<Coord id="D1F84843" x="284" y="120" w="86" h="24" /> <!-- masinka color mask 2A		-->
+<Coord id="F3F43DBF" x="64" y="144" w="1" h="1" /> <!-- masinka color mask 2B			-->
+<Coord id="1681A43F" x="196" y="24" w="146" h="24" /> <!-- masinka color mask 2C			-->
+<Coord id="B9B30091" x="89" y="168" w="36" h="24" /> <!-- masinka color mask 3A		-->
+<Coord id="804F9FBB" x="194" y="168" w="52" h="24" /> <!-- masinka color mask 3B			-->
+<Coord id="B8F22CE8" x="63" y="264" w="62" h="24" /> <!-- bangle						-->
+<Coord id="76313C54" x="63" y="216" w="88" h="24" /> <!-- gp60m						-->
+<Coord id="8A0FFCC5" x="125" y="168" w="69" h="24" /> <!-- emd f3		-->
+<Coord id="9090EED0" x="151" y="216" w="86" h="24" /> <!-- v200		-->
+<Coord id="7090EED0" x="274" y="216" w="77" h="24" /> <!-- sergej					-->
+<Coord id="96313C54" x="254" y="264" w="80" h="24" /> <!-- e118			-->
+<Coord id="980EDD0F" x="293" y="360" w="69" h="24" /> <!-- crocodile						-->
+<Coord id="E898175F" x="334" y="264" w="83" h="24" /> <!-- class 132			-->
+<Coord id="EFC0C0C2" x="362" y="360" w="97" h="24" /> <!-- azakase						-->
+<Coord id="EFC0C0C4" x="94" y="408" w="97" h="24" /> <!-- isumo						-->
+<Coord id="DF8D1BA7" x="0" y="192" w="1" h="1" /> <!-- masinka color mask 5A		-->
+<Coord id="98992DE5" x="64" y="192" w="1" h="1" /> <!-- masinka color mask 5B			-->
+<Coord id="66CC43C0" x="128" y="192" w="1" h="1" /> <!-- masinka color mask 5C			-->
+<Coord id="46572127" x="0" y="208" w="1" h="1" /> <!-- masinka color mask 6A		-->
+<Coord id="2109D6EF" x="64" y="208" w="1" h="1" /> <!-- masinka color mask 6B			-->
+<Coord id="4315DB5B" x="128" y="208" w="1" h="1" /> <!-- masinka color mask 6C			-->
+<Coord id="12D55CDB" x="457" y="120" w="45" h="24" /> <!-- masinka color mask 7A		-->
+<Coord id="ADE14565" x="455" y="168" w="49" h="24" /> <!-- masinka color mask 7B			-->
+<Coord id="DC927CE6" x="0" y="0" w="1" h="24" /> <!-- masinka color mask 7C			-->
+<Coord id="932E0CF1" x="460" y="24" w="46" h="24" /> <!-- masinka color mask 8A		-->
+<Coord id="DB1E597D" x="392" y="168" w="63" h="24" /> <!-- masinka color mask 8B			-->
+<Coord id="FC39DD77" x="0" y="0" w="1" h="24" /> <!-- masinka color mask 8C			-->
+<Coord id="7F10434A" x="91" y="24" w="105" h="24" /> <!-- vagonek color mask 1A			-->
+<Coord id="FD2B79FE" x="282" y="72" w="45" h="24" /> <!-- vagonek color mask 1B			-->
+<Coord id="86A98681" x="210" y="120" w="74" h="24" /> <!-- vagonek color mask 1C			-->
+<Coord id="C6F2C018" x="0" y="120" w="105" h="24" /> <!-- vagonek color mask 1D					-->
+<Coord id="855100AA" x="105" y="120" w="105" h="24" /> <!-- vagonek color mask 1E					-->
+<Coord id="690CD6FE" x="345" y="312" w="115" h="24" /> <!-- vagonek color mask 1F					-->
+<Coord id="6D110C6E" x="0" y="360" w="115" h="24" /> <!-- vagonek color mask 1G					-->
+<Coord id="6068068A" x="115" y="360" w="115" h="24" /> <!-- vagonek color mask 1H					-->
+<Coord id="90065064" x="0" y="312" w="115" h="24" /> <!-- vagonek color mask 1I					-->
+<Coord id="608AAA05" x="115" y="312" w="115" h="24" /> <!-- vagonek color mask 1J					-->
+<Coord id="30DE0D2D" x="230" y="312" w="115" h="24" /> <!-- vagonek color mask 1K					-->
+<Coord id="D800618C" x="446" y="72" w="39" h="24" /> <!-- vagonek color mask 2A		-->
+<Coord id="B3E7DA7D" x="64" y="272" w="1" h="1" /> <!-- vagonek color mask 2B			-->
+<Coord id="369A9C17" x="128" y="272" w="1" h="1" /> <!-- vagonek color mask 2C			-->
+<Coord id="095B8230" x="241" y="72" w="41" h="24" /> <!-- vagonek color mask 3A			-->
+<Coord id="058ED2CF" x="188" y="72" w="53" h="24" /> <!-- vagonek color mask 3B			-->
+<Coord id="10CC0AD0" x="128" y="288" w="1" h="1" /> <!-- vagonek color mask 3C			-->
+<Coord id="91230E8F" x="0" y="304" w="1" h="1" /> <!-- vagonek color mask 4A		-->
+<Coord id="37654D27" x="64" y="304" w="1" h="1" /> <!-- vagonek color mask 4B			-->
+<Coord id="C0E2B49E" x="128" y="304" w="1" h="1" /> <!-- vagonek color mask 4C			-->
+<Coord id="33A48538" x="327" y="72" w="56" h="24"  /> <!-- vagonek color mask 5A			-->
+<Coord id="1E8BEF28" x="0" y="168" w="89" h="24" /> <!-- vagonek color mask 5B			-->
+<Coord id="5A3DC97F" x="128" y="320" w="1" h="1" /> <!-- vagonek color mask 5C			-->
+<Coord id="0249CABE" x="0" y="336" w="1" h="1" /> <!-- vagonek color mask 6A		-->
+<Coord id="4C7B32E1" x="383" y="72" w="63" h="24" /> <!-- vagonek color mask 6B			-->
+<Coord id="62940405" x="0" y="408" w="94" h="24" /> <!-- vagonek color mask 6C			-->
+<Coord id="4FC73BF1" x="0" y="352" w="1" h="1" /> <!-- vagonek color mask 7A		-->
+<Coord id="87ADD539" x="64" y="352" w="1" h="1" /> <!-- vagonek color mask 7B			-->
+<Coord id="74088EC3" x="128" y="352" w="1" h="1" /> <!-- vagonek color mask 7C			-->
+<Coord id="0D5493A4" x="0" y="368" w="1" h="1" /> <!-- vagonek color mask 8A		-->
+<Coord id="A605BE44" x="64" y="368" w="1" h="1" /> <!-- vagonek color mask 8B			-->
+<Coord id="68C6A46D" x="128" y="368" w="1" h="1" /> <!-- vagonek color mask 8C			-->
+<Coord id="D1F82545" x="370" y="120" w="37" h="24" /> <!-- vagonek color mask 9A			-->
+<Coord id="455F1C2B" x="293" y="168" w="46" h="24" /> <!-- vagonek color mask 9B			-->
+<Coord id="97B6F826" x="337" y="168" w="55" h="24" /> <!-- vagonek color mask 9C			-->
+<Coord id="D378D27D" x="427" y="24" w="33" h="24" /> <!-- vagonek color mask 10A		-->
+<Coord id="3BA96254" x="383" y="24" w="46" h="24" /> <!-- vagonek color mask 10B		-->
+<Coord id="F535E6B6" x="342" y="24" w="41" h="24" /> <!-- vagonek color mask 10C			-->
+<Coord id="C6675ABC" x="0" y="416" w="1" h="1" /> <!-- vagonek color mask 11A		-->
+<Coord id="0D9A75C5" x="64" y="416" w="1" h="1" /> <!-- vagonek color mask 11B		-->
+<Coord id="3C8F506F" x="128" y="416" w="1" h="1" /> <!-- vagonek color mask 11C			-->
+<Coord id="1766BA50" x="407" y="120" w="50" h="24" /> <!-- vagonek color mask 12A		-->
+<Coord id="EA18B089" x="0" y="216" w="63" h="24" /> <!-- vagonek color mask 12B		-->
+<Coord id="0B24A5E5" x="0" y="264" w="63" h="24" /> <!-- vagonek color mask 12C			-->
+<Coord id="0DB10089" x="237" y="216" w="37" h="24" /> <!-- vagonek color mask 13A	sand	-->
+<Coord id="F0CEEC41" x="125" y="264" w="46" h="24" /> <!-- vagonek color mask 13B sand		-->
+<Coord id="144A43C1" x="128" y="448" w="1" h="1" /> <!-- vagonek color mask 13C			-->
+<Coord id="16D6BE75" x="351" y="216" w="50" h="24" /> <!-- vagonek color mask 14A		-->
+<Coord id="72E37E5B" x="401" y="216" w="67" h="24" /> <!-- vagonek color mask 14B		-->
+<Coord id="F24A720B" x="171" y="264" w="83" h="24" /> <!-- vagonek color mask 14C			-->
+<Coord id="911C9AD0" x="417" y="264" w="81" h="24" /> <!-- vagonek color mask 15A food		-->
+<Coord id="5BA81D22" x="230" y="360" w="63" h="24" /> <!-- vagonek color mask 15B		-->
+<Coord id="57DA5DB2" x="128" y="480" w="1" h="1" /> <!-- vagonek color mask 15C			-->
+<Coord id="618C3A2D" x="0" y="480" w="1" h="1" /> <!-- vagonek color mask 16A		-->
+<Coord id="B64FD313" x="64" y="480" w="1" h="1" /> <!-- vagonek color mask 16B		-->
+<Coord id="29F194BD" x="128" y="480" w="1" h="1" /> <!-- vagonek color mask 16C			-->
+<Coord id="7DA43DA3" x="128" y="480" w="1" h="1" /> <!-- vagonek color mask 17			-->
+<Coord id="1232560F" x="128" y="480" w="1" h="1" /> <!-- car color 1A					-->
+<Coord id="9E1684E2" x="128" y="480" w="1" h="1" /> <!-- car color 2A					-->
+<Coord id="1BE1510B" x="0" y="0" w="32" h="32 " /> <!-- prvni material (passengers-->
+<Coord id="21D57F07" x="32" y="0" w="32" h="32 " /> <!-- mail	                  -->
+<Coord id="733C5A02" x="64" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="46B99CF2" x="96" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="9B91E911" x="128" y="0" w="32" h="32 " /> <!-- logs									-->
+<Coord id="EDF8C41C" x="160" y="0" w="32" h="32 " /> <!-- woods									-->
+<Coord id="8EBAAE5A" x="192" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="48755D03" x="224" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="6981426F" x="256" y="0" w="32" h="32 " /> <!-- iron ore							-->
+<Coord id="8DE905C6" x="288" y="0" w="32" h="32 " /> <!-- coal									-->
+<Coord id="517647C6" x="320" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="3D29FC8E" x="352" y="0" w="32" h="32 " /> <!-- iron									-->
+<Coord id="97B64A50" x="384" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="98B2980B" x="416" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="0CF5769F" x="448" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="B7715F1A" x="480" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="0DA6B071" x="512" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="BD9A9260" x="544" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="908DACC2" x="704" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="0DE08E0B" x="576" y="0" w="32" h="32 " /> <!-- tools									-->
+<Coord id="AF22DA6D" x="608" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="39686FB3" x="640" y="0" w="32" h="32 " /> <!-- 											-->
+<Coord id="C11D5E48" x="672" y="0" w="32" h="32 " /> <!-- 				-->
+<Coord id="0EED0980" x="768" y="0" w="32" h="32 " /> <!-- posledni material					-->
+<Coord id="98A68565" x="704" y="32" w="32" h="32 " /> <!-- prvni zeton / Twood  	-->
+<Coord id="729B3189" x="736" y="32" w="32" h="32 " /> <!-- Tcoal									-->
+<Coord id="A1711D23" x="768" y="32" w="32" h="32 " /> <!-- Tiron									-->
+<Coord id="4633EBA8" x="800" y="32" w="32" h="32 " /> <!-- 											-->
+<Coord id="BA7207E6" x="832" y="32" w="32" h="32 " /> <!-- 											-->
+<Coord id="675A4833" x="864" y="32" w="32" h="32 " /> <!-- 											-->
+<Coord id="DF8BD80A" x="896" y="32" w="32" h="32 " /> <!-- 											-->
+<Coord id="713EAA3A" x="928" y="32" w="32" h="32 " /> <!-- 											-->
+<Coord id="3C98A8F0" x="960" y="32" w="32" h="32 " /> <!-- posledni zeton / Tcash-->
+
+<Coord id="2BE1510B" x="0" y="32" w="16" h="16" /> <!-- prvni mini material							-->
+<Coord id="31D57F07" x="16" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="833C5A02" x="32" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="56B99CF2" x="48" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="AB91E911" x="64" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="FDF8C41C" x="80" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="9EBAAE5A" x="96" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="58755D03" x="112" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="7981426F" x="128" y="32" w="16" h="16" /> <!-- iron ore  						-->
+<Coord id="9DE905C6" x="144" y="32" w="16" h="16" /> <!-- coal									-->
+<Coord id="617647C6" x="160" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="4D29FC8E" x="176" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="A7B64A50" x="192" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="A8B2980B" x="208" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="1CF5769F" x="224" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="C7715F1A" x="240" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="1DA6B071" x="0" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="CD9A9260" x="16" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="680EE0D1" x="256" y="32" w="16" h="16" /> <!-- 											-->
+<Coord id="1DE08E0B" x="32" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="BF22DA6D" x="48" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="49686FB3" x="64" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="D11D5E48" x="80" y="48" w="16" h="16" /> <!-- 				-->
+<Coord id="0EED0981" x="272" y="32" w="16" h="16" /> <!-- posledni mini material					-->
+
+<Coord id="A8A68565" x="96" y="48" w="16" h="16" /> <!-- prvni mini zeton							-->
+<Coord id="829B3189" x="112" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="B1711D23" x="128" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="5633EBA8" x="144" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="CA7207E6" x="160" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="775A4833" x="176" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="EF8BD80A" x="192" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="813EAA3A" x="208" y="48" w="16" h="16" /> <!-- 											-->
+<Coord id="4C98A8F0" x="224" y="48" w="16" h="16" /> <!-- posledni mini zeton							-->
+<Coord id="975DFA12" x="240" y="48" w="16" h="16" /> <!-- map squares mini symbol						-->
+<Coord id="63AC455E" x="256" y="32" w="16" h="16" /> <!-- train list mini 						-->
+<Coord id="4CADF543" x="256" y="48" w="16" h="16" /> <!-- stop list mini 						-->
+<Coord id="355E4571" x="272" y="32" w="16" h="16" /> <!-- industry list mini 						-->
+<Coord id="571DCA0D" x="272" y="48" w="16" h="16" /> <!-- town list mini 						-->
+<Coord id="AA3548ED" x="784" y="304" w="16" h="16" /> <!-- delete mini						-->
+<Coord id="890EED09" x="736" y="0" w="32" h="32" /> <!-- glassworks						-->
+                                               
+<Coord id="184B255C" x="192" y="692" w="8" h="8 " /> <!-- map ctverecek-->
+<Coord id="AE7CDED8" x="200" y="692" w="8" h="8 " /> <!-- map cursor-->
+<Coord id="32D85166" x="0" y="500" w="128" h="24" /> <!-- -------------OLD------------- button -->
+<Coord id="60D6F9B8" x="0" y="524" w="128" h="24" /> <!-- button highlighted						-->
+<Coord id="92E2FE14" x="0" y="548" w="128" h="24 " /> <!-- button disabled							-->
+<Coord id="556F3015" x="0" y="572" w="24" h="24 " /> <!-- check									-->
+<Coord id="B65699FC" x="24" y="572" w="24" h="24 " /> <!-- check checked							-->
+<Coord id="4BD4B249" x="0" y="596" w="24" h="24 " /> <!-- check highlighted						-->
+<Coord id="D83C69DD" x="24" y="596" w="24" h="24 " /> <!-- check checked highlighted				-->
+<Coord id="1B7932E3" x="0" y="620" w="24" h="24 " /> <!-- check disabled							-->
+<Coord id="1F82F72C" x="24" y="620" w="24" h="24 " /> <!-- check checked disabled					-->
+<Coord id="4D90AF6E" x="0" y="644" w="24" h="24 " /> <!-- scroll line 							-->
+<Coord id="EE4289AC" x="24" y="644" w="24" h="24 " /> <!-- scroll rider								-->
+<Coord id="785E7146" x="0" y="668" w="24" h="24 " /> <!-- scroll line highlighted					-->
+<Coord id="ED81A4F3" x="24" y="668" w="24" h="24 " /> <!-- scroll rider highlighted					-->
+<Coord id="B11EE6F4" x="0" y="692" w="24" h="24 " /> <!-- scroll line disabled					-->
+<Coord id="6C75B52D" x="24" y="692" w="24" h="24 " /> <!-- scroll rider disabled					-->
+<Coord id="4DB1A141" x="48" y="572" w="24" h="24 " /> <!-- radio 									-->
+<Coord id="BFA81714" x="72" y="572" w="24" h="24 " /> <!-- radio checked							-->
+<Coord id="038F7432" x="48" y="596" w="24" h="24 " /> <!-- radio highlighted						-->
+<Coord id="F50CDFD7" x="72" y="596" w="24" h="24 " /> <!-- radio checked highlighted				-->
+<Coord id="8F19B761" x="48" y="620" w="24" h="24 " /> <!-- radio disabled							-->
+<Coord id="28A52ED7" x="72" y="620" w="24" h="24 " /> <!-- radio checked disabled					-->
+<Coord id="22570C43" x="48" y="620" w="24" h="24 " /> <!-- 											-->
+<Coord id="B13F24FB" x="48" y="644" w="24" h="24 " /> <!-- 											-->
+<Coord id="BFC92AF7" x="48" y="668" w="24" h="24 " /> <!-- 											-->
+<Coord id="195678C9" x="128" y="500" w="80" h="32 " /> <!-- prazdny upgrade ramecek 				-->
+<Coord id="D5BE47F2" x="208" y="500" w="80" h="32 " /> <!-- plny upgrade ramecek					-->
+<Coord id="DFCAF452" x="128" y="724" w="24" h="24 " /> <!-- multiplayer								-->
+<Coord id="178BEA72" x="152" y="724" w="24" h="24 " /> <!-- stavba trati								-->
+<Coord id="8D3EA043" x="176" y="724" w="24" h="24 " /> <!-- stavba silnice							-->
+<Coord id="5B7DBFBF" x="200" y="724" w="24" h="24 " /> <!-- uprava terenu								-->
+<Coord id="27DCEA22" x="224" y="724" w="24" h="24 " /> <!-- grafy										-->
+<Coord id="568D1193" x="272" y="724" w="24" h="24 " /> <!-- dynamit									-->
+<Coord id="9A9913EA" x="128" y="748" w="24" h="24 " /> <!-- kolej										-->
+<Coord id="8E570E70" x="152" y="748" w="24" h="24 " /> <!-- depo										-->
+<Coord id="EF58DF76" x="176" y="748" w="24" h="24 " /> <!-- zastavka									-->
+<Coord id="3C21FB33" x="200" y="748" w="24" h="24 " /> <!-- silnice									-->
+<Coord id="D316CA0B" x="224" y="748" w="24" h="24 " /> <!-- most										-->
+<Coord id="757DCA95" x="248" y="748" w="24" h="24 " /> <!-- tunel										-->
+<Coord id="827A66FC" x="272" y="748" w="24" h="24 " /> <!-- semafor									-->
+<Coord id="3F3DF210" x="294" y="748" w="24" h="24 " /> <!-- negace									-->
+<Coord id="BCC8B6A1" x="128" y="772" w="24" h="24 " /> <!-- zvyseni terenu							-->
+<Coord id="1A114481" x="152" y="772" w="24" h="24 " /> <!-- snizeni terenu							-->
+<Coord id="47AE7AB0" x="176" y="772" w="24" h="24 " /> <!-- zbozi										-->
+<Coord id="53AC1516" x="272" y="772" w="24" h="24 " /> <!-- mesto										-->
+<Coord id="A08421D4" x="294" y="772" w="24" h="24 " /> <!-- vyzkum									-->
+<Coord id="9910CDD9" x="128" y="794" w="24" h="24 " /> <!-- semafor off								-->
+<Coord id="A22B0397" x="152" y="794" w="24" h="24 " /> <!-- semafor on								-->
+<Coord id="25DEC431" x="176" y="794" w="24" h="24 " /> <!-- penize									-->
+<Coord id="802C21C0" x="200" y="794" w="24" h="24 " /> <!-- otocit									-->
+<Coord id="7674CB83" x="224" y="794" w="24" h="24 " /> <!-- koupit novy								-->
+<Coord id="8B8DC8CC" x="248" y="794" w="24" h="24 " /> <!-- zbozi										-->
+<Coord id="8EE57E38" x="272" y="794" w="24" h="24 " /> <!-- stop										-->
+<Coord id="955A1D57" x="294" y="794" w="24" h="24 " /> <!-- stop ignorovat							-->
+<Coord id="69E75F47" x="128" y="818" w="24" h="24 " /> <!-- OK										-->
+<Coord id="F4CF83B8" x="152" y="818" w="24" h="24 " /> <!-- preskocit									-->
+<Coord id="BA9793A3" x="176" y="818" w="24" h="24 " /> <!-- zpet										-->
+<Coord id="8D5989CC" x="200" y="818" w="24" h="24 " /> <!-- pridat									-->
+<Coord id="AE557E39" x="224" y="818" w="24" h="24 " /> <!-- odebrat									-->
+<Coord id="0B3E9AF6" x="248" y="818" w="24" h="24 " /> <!-- do depa									-->
+<Coord id="97E14543" x="320" y="500" w="64" h="16 " /> <!-- prvni vagonek/masinka-->
+<Coord id="0A899ECE" x="384" y="500" w="64" h="16 " /> <!--  -->
+<Coord id="C46E7A71" x="448" y="500" w="64" h="16 " /> <!--  -->
+<Coord id="66D1738D" x="320" y="516" w="64" h="16 " /> <!--  -->
+<Coord id="8CAF30D8" x="384" y="516" w="64" h="16 " /> <!--  -->
+<Coord id="3B13DBC9" x="448" y="516" w="64" h="16 " /> <!--  -->
+<Coord id="DA53D281" x="320" y="532" w="64" h="16 " /> <!--  -->
+<Coord id="AD11A13C" x="384" y="532" w="64" h="16 " /> <!--  -->
+<Coord id="3A7958B0" x="448" y="532" w="64" h="16 " /> <!--  -->
+<Coord id="2B2A678E" x="320" y="548" w="64" h="16 " /> <!--  -->
+<Coord id="AF5DAA3B" x="384" y="548" w="64" h="16 " /> <!--  -->
+<Coord id="9335C2DA" x="448" y="548" w="64" h="16 " /> <!--  -->
+<Coord id="2D9C8418" x="320" y="564" w="64" h="16 " /> <!--  -->
+<Coord id="34039499" x="384" y="564" w="64" h="16 " /> <!--  -->
+<Coord id="34012337" x="448" y="564" w="64" h="16 " /> <!--  -->
+<Coord id="621BB40A" x="320" y="580" w="64" h="16 " /> <!--  -->
+<Coord id="D829428E" x="384" y="580" w="64" h="16 " /> <!--  -->
+<Coord id="5A00B851" x="448" y="580" w="64" h="16 " /> <!--  -->
+<Coord id="094FAF19" x="320" y="596" w="64" h="16 " /> <!--  -->
+<Coord id="D7686ED6" x="384" y="596" w="64" h="16 " /> <!--  -->
+<Coord id="E3A697E6" x="448" y="596" w="64" h="16 " /> <!--  -->
+<Coord id="E38C85F1" x="320" y="612" w="64" h="16 " /> <!--  -->
+<Coord id="274A7AF1" x="384" y="612" w="64" h="16 " /> <!--  -->
+<Coord id="CCF1D057" x="448" y="612" w="64" h="16 " /> <!--  -->
+<Coord id="D819A8C8" x="320" y="628" w="64" h="16 " /> <!--  -->
+<Coord id="B2568EAF" x="384" y="628" w="64" h="16 " /> <!--  -->
+<Coord id="277E593E" x="448" y="628" w="64" h="16 " /> <!--  -->
+<Coord id="5960D78C" x="320" y="644" w="64" h="16 " /> <!--  -->
+<Coord id="86E3958B" x="384" y="644" w="64" h="16 " /> <!--  -->
+<Coord id="E146E168" x="448" y="644" w="64" h="16 " /> <!--  -->
+<Coord id="D76F5FC4" x="320" y="660" w="64" h="16 " /> <!--  -->
+<Coord id="7B874306" x="384" y="660" w="64" h="16 " /> <!--  -->
+<Coord id="0352D6C4" x="448" y="660" w="64" h="16 " /> <!--  -->
+<Coord id="B5B9E65F" x="320" y="676" w="64" h="16 " /> <!--  -->
+<Coord id="1EB6FE22" x="384" y="676" w="64" h="16 " /> <!--  -->
+<Coord id="FCEEADEF" x="448" y="676" w="64" h="16 " /> <!--  -->
+<Coord id="6006797E" x="320" y="692" w="64" h="16 " /> <!--  -->
+<Coord id="B343DC5A" x="384" y="692" w="64" h="16 " /> <!--  -->
+<Coord id="251FEA0E" x="448" y="692" w="64" h="16 " /> <!--  -->
+<Coord id="1BA98794" x="320" y="708" w="64" h="16 " /> <!--  -->
+<Coord id="62C22A8E" x="384" y="708" w="64" h="16 " /> <!--  -->
+<Coord id="4E6A6727" x="448" y="708" w="64" h="16 " /> <!--  -->
+<Coord id="3FDC5AAD" x="320" y="724" w="64" h="16 " /> <!--  -->
+<Coord id="D484B003" x="384" y="724" w="64" h="16 " /> <!--  -->
+<Coord id="06764E41" x="448" y="724" w="64" h="16 " /> <!--  -->
+<Coord id="D2587599" x="320" y="740" w="64" h="16 " /> <!--  -->
+<Coord id="26F0B660" x="384" y="740" w="64" h="16 " /> <!--  -->
+<Coord id="99A80FEC" x="448" y="740" w="64" h="16 " /> <!--  -->
+<Coord id="249A7157" x="320" y="756" w="64" h="16 " /> <!--  -->
+<Coord id="1A1D5704" x="384" y="756" w="64" h="16 " /> <!--  -->
+<Coord id="D30EE123" x="448" y="756" w="64" h="16 " /> <!--  -->
+<Coord id="EB70DEFD" x="320" y="772" w="64" h="16 " /> <!--  -->
+<Coord id="78BD0D53" x="384" y="772" w="64" h="16 " /> <!--  -->
+<Coord id="3DB05958" x="448" y="772" w="64" h="16 " /> <!--  -->
+<Coord id="A82330FC" x="320" y="788" w="64" h="16 " /> <!--  -->
+<Coord id="F77146BE" x="384" y="728" w="64" h="16 " /> <!--  -->
+<Coord id="CA18C5B8" x="448" y="728" w="64" h="16 " /> <!--  -->
+<Coord id="4A897BAA" x="320" y="804" w="64" h="16 " /> <!--  -->
+<Coord id="BCC69879" x="384" y="804" w="64" h="16 " /> <!--  -->
+<Coord id="478455BC" x="448" y="804" w="64" h="16 " /> <!--  -->
+<Coord id="A086C94C" x="320" y="820" w="64" h="16 " /> <!--  -->
+<Coord id="197AC4F9" x="384" y="820" w="64" h="16 " /> <!--  -->
+<Coord id="C59277DA" x="448" y="820" w="64" h="16 " /> <!--  -->
+<Coord id="E9E0C202" x="320" y="836" w="64" h="16 " /> <!--  -->
+<Coord id="3E88F3DA" x="384" y="836" w="64" h="16 " /> <!--  -->
+<Coord id="D0137D78" x="448" y="836" w="64" h="16 " /> <!--  -->
+<Coord id="52E08B1C" x="320" y="852" w="64" h="16 " /> <!--  -->
+<Coord id="391B9CB8" x="384" y="852" w="64" h="16 " /> <!--  -->
+<Coord id="A30143DC" x="448" y="852" w="64" h="16 " /> <!--  -->
+<Coord id="8C683BA9" x="448" y="852" w="64" h="16 " /> <!--  -->
+<Coord id="B81A15F0" x="448" y="852" w="64" h="16 " /> <!--  -->
+<Coord id="F3170310" x="448" y="852" w="64" h="16 " /> <!-- posledni vagonek/masinka-->
+<Coord id="961A4300" x="0" y="884" w="0" h="14 " /> <!-- pismeno 0-->
+<Coord id="961A4301" x="0" y="884" w="0" h="14 " /> <!-- pismeno 1-->
+<Coord id="961A4302" x="0" y="884" w="0" h="14 " /> <!-- pismeno 2-->
+<Coord id="961A4303" x="0" y="884" w="0" h="14 " /> <!-- pismeno 3-->
+<Coord id="961A4304" x="0" y="884" w="0" h="14 " /> <!-- pismeno 4-->
+<Coord id="961A4305" x="0" y="884" w="0" h="14 " /> <!-- pismeno 5-->
+<Coord id="961A4306" x="0" y="884" w="0" h="14 " /> <!-- pismeno 6-->
+<Coord id="961A4307" x="0" y="884" w="0" h="14 " /> <!-- pismeno 7-->
+<Coord id="961A4308" x="0" y="884" w="0" h="14 " /> <!-- pismeno 8-->
+<Coord id="961A4309" x="0" y="884" w="0" h="14 " /> <!-- pismeno 9-->
+<Coord id="961A430A" x="0" y="884" w="0" h="14 " /> <!-- pismeno 10-->
+<Coord id="961A430B" x="0" y="884" w="0" h="14 " /> <!-- pismeno 11-->
+<Coord id="961A430C" x="0" y="884" w="0" h="14 " /> <!-- pismeno 12-->
+<Coord id="961A430D" x="0" y="884" w="0" h="14 " /> <!-- pismeno 13-->
+<Coord id="961A430E" x="0" y="884" w="0" h="14 " /> <!-- pismeno 14-->
+<Coord id="961A430F" x="0" y="884" w="0" h="14 " /> <!-- pismeno 15-->
+<Coord id="961A4310" x="0" y="884" w="0" h="14 " /> <!-- pismeno 16-->
+<Coord id="961A4311" x="0" y="884" w="0" h="14 " /> <!-- pismeno 17-->
+<Coord id="961A4312" x="0" y="884" w="0" h="14 " /> <!-- pismeno 18-->
+<Coord id="961A4313" x="0" y="884" w="0" h="14 " /> <!-- pismeno 19-->
+<Coord id="961A4314" x="0" y="884" w="0" h="14 " /> <!-- pismeno 20-->
+<Coord id="961A4315" x="0" y="884" w="0" h="14 " /> <!-- pismeno 21-->
+<Coord id="961A4316" x="0" y="884" w="0" h="14 " /> <!-- pismeno 22-->
+<Coord id="961A4317" x="0" y="884" w="0" h="14 " /> <!-- pismeno 23-->
+<Coord id="961A4318" x="0" y="884" w="0" h="14 " /> <!-- pismeno 24-->
+<Coord id="961A4319" x="0" y="884" w="0" h="14 " /> <!-- pismeno 25-->
+<Coord id="961A431A" x="0" y="884" w="0" h="14 " /> <!-- pismeno 26-->
+<Coord id="961A431B" x="0" y="884" w="0" h="14 " /> <!-- pismeno 27-->
+<Coord id="961A431C" x="0" y="884" w="0" h="14 " /> <!-- pismeno 28-->
+<Coord id="961A431D" x="0" y="884" w="0" h="14 " /> <!-- pismeno 29-->
+<Coord id="961A431E" x="0" y="884" w="0" h="14 " /> <!-- pismeno 30-->
+<Coord id="961A431F" x="0" y="884" w="0" h="14 " /> <!-- pismeno 31-->
+<Coord id="961A4320" x="0" y="884" w="3" h="14 " /> <!-- pismeno 32-->
+<Coord id="961A4321" x="4" y="884" w="2" h="14 " /> <!-- pismeno 33-->
+<Coord id="961A4322" x="7" y="884" w="4" h="14 " /> <!-- pismeno 34-->
+<Coord id="961A4323" x="12" y="884" w="6" h="14 " /> <!-- pismeno 35-->
+<Coord id="961A4324" x="19" y="884" w="5" h="14 " /> <!-- pismeno 36-->
+<Coord id="961A4325" x="25" y="884" w="9" h="14 " /> <!-- pismeno 37-->
+<Coord id="961A4326" x="35" y="884" w="6" h="14 " /> <!-- pismeno 38-->
+<Coord id="961A4327" x="42" y="884" w="2" h="14 " /> <!-- pismeno 39-->
+<Coord id="961A4328" x="45" y="884" w="3" h="14 " /> <!-- pismeno 40-->
+<Coord id="961A4329" x="49" y="884" w="3" h="14 " /> <!-- pismeno 41-->
+<Coord id="961A432A" x="53" y="884" w="4" h="14 " /> <!-- pismeno 42-->
+<Coord id="961A432B" x="58" y="884" w="5" h="14 " /> <!-- pismeno 43-->
+<Coord id="961A432C" x="64" y="884" w="2" h="14 " /> <!-- pismeno 44-->
+<Coord id="961A432D" x="67" y="884" w="3" h="14 " /> <!-- pismeno 45-->
+<Coord id="961A432E" x="71" y="884" w="1" h="14 " /> <!-- pismeno 46-->
+<Coord id="961A432F" x="73" y="884" w="4" h="14 " /> <!-- pismeno 47-->
+<Coord id="961A4330" x="78" y="884" w="5" h="14 " /> <!-- pismeno 48-->
+<Coord id="961A4331" x="84" y="884" w="3" h="14 " /> <!-- pismeno 49-->
+<Coord id="961A4332" x="88" y="884" w="5" h="14 " /> <!-- pismeno 50-->
+<Coord id="961A4333" x="94" y="884" w="5" h="14 " /> <!-- pismeno 51-->
+<Coord id="961A4334" x="100" y="884" w="5" h="14 " /> <!-- pismeno 52-->
+<Coord id="961A4335" x="106" y="884" w="5" h="14 " /> <!-- pismeno 53-->
+<Coord id="961A4336" x="112" y="884" w="5" h="14 " /> <!-- pismeno 54-->
+<Coord id="961A4337" x="118" y="884" w="4" h="14 " /> <!-- pismeno 55-->
+<Coord id="961A4338" x="123" y="884" w="5" h="14 " /> <!-- pismeno 56-->
+<Coord id="961A4339" x="129" y="884" w="5" h="14 " /> <!-- pismeno 57-->
+<Coord id="961A433A" x="135" y="884" w="2" h="14 " /> <!-- pismeno 58-->
+<Coord id="961A433B" x="138" y="884" w="2" h="14 " /> <!-- pismeno 59-->
+<Coord id="961A433C" x="141" y="884" w="5" h="14 " /> <!-- pismeno 60-->
+<Coord id="961A433D" x="147" y="884" w="6" h="14 " /> <!-- pismeno 61-->
+<Coord id="961A433E" x="154" y="884" w="5" h="14 " /> <!-- pismeno 62-->
+<Coord id="961A433F" x="160" y="884" w="5" h="14 " /> <!-- pismeno 63-->
+<Coord id="961A4340" x="166" y="884" w="10" h="14 " /> <!-- pismeno 64-->
+<Coord id="961A4341" x="177" y="884" w="7" h="14 " /> <!-- pismeno 65-->
+<Coord id="961A4342" x="185" y="884" w="6" h="14 " /> <!-- pismeno 66-->
+<Coord id="961A4343" x="192" y="884" w="7" h="14 " /> <!-- pismeno 67-->
+<Coord id="961A4344" x="200" y="884" w="7" h="14 " /> <!-- pismeno 68-->
+<Coord id="961A4345" x="208" y="884" w="5" h="14 " /> <!-- pismeno 69-->
+<Coord id="961A4346" x="214" y="884" w="5" h="14 " /> <!-- pismeno 70-->
+<Coord id="961A4347" x="220" y="884" w="6" h="14 " /> <!-- pismeno 71-->
+<Coord id="961A4348" x="227" y="884" w="6" h="14 " /> <!-- pismeno 72-->
+<Coord id="961A4349" x="234" y="884" w="2" h="14 " /> <!-- pismeno 73-->
+<Coord id="961A434A" x="237" y="884" w="5" h="14 " /> <!-- pismeno 74-->
+<Coord id="961A434B" x="243" y="884" w="7" h="14 " /> <!-- pismeno 75-->
+<Coord id="961A434C" x="251" y="884" w="5" h="14 " /> <!-- pismeno 76-->
+<Coord id="961A434D" x="257" y="884" w="7" h="14 " /> <!-- pismeno 77-->
+<Coord id="961A434E" x="265" y="884" w="6" h="14 " /> <!-- pismeno 78-->
+<Coord id="961A434F" x="272" y="884" w="7" h="14 " /> <!-- pismeno 79-->
+<Coord id="961A4350" x="280" y="884" w="6" h="14 " /> <!-- pismeno 80-->
+<Coord id="961A4351" x="287" y="884" w="8" h="14 " /> <!-- pismeno 81-->
+<Coord id="961A4352" x="296" y="884" w="7" h="14 " /> <!-- pismeno 82-->
+<Coord id="961A4353" x="304" y="884" w="6" h="14 " /> <!-- pismeno 83-->
+<Coord id="961A4354" x="311" y="884" w="6" h="14 " /> <!-- pismeno 84-->
+<Coord id="961A4355" x="318" y="884" w="6" h="14 " /> <!-- pismeno 85-->
+<Coord id="961A4356" x="325" y="884" w="7" h="14 " /> <!-- pismeno 86-->
+<Coord id="961A4357" x="333" y="884" w="10" h="14 " /> <!-- pismeno 87-->
+<Coord id="961A4358" x="344" y="884" w="7" h="14 " /> <!-- pismeno 88-->
+<Coord id="961A4359" x="352" y="884" w="7" h="14 " /> <!-- pismeno 89-->
+<Coord id="961A435A" x="360" y="884" w="5" h="14 " /> <!-- pismeno 90-->
+<Coord id="961A435B" x="366" y="884" w="2" h="14 " /> <!-- pismeno 91-->
+<Coord id="961A435C" x="369" y="884" w="3" h="14 " /> <!-- pismeno 92-->
+<Coord id="961A435D" x="373" y="884" w="3" h="14 " /> <!-- pismeno 93-->
+<Coord id="961A435E" x="377" y="884" w="5" h="14 " /> <!-- pismeno 94-->
+<Coord id="961A435F" x="383" y="884" w="7" h="14 " /> <!-- pismeno 95-->
+<Coord id="961A4360" x="391" y="884" w="3" h="14 " /> <!-- pismeno 96-->
+<Coord id="961A4361" x="395" y="884" w="5" h="14 " /> <!-- pismeno 97-->
+<Coord id="961A4362" x="401" y="884" w="5" h="14 " /> <!-- pismeno 98-->
+<Coord id="961A4363" x="407" y="884" w="5" h="14 " /> <!-- pismeno 99-->
+<Coord id="961A4364" x="413" y="884" w="5" h="14 " /> <!-- pismeno 100-->
+<Coord id="961A4365" x="419" y="884" w="5" h="14 " /> <!-- pismeno 101-->
+<Coord id="961A4366" x="425" y="884" w="3" h="14 " /> <!-- pismeno 102-->
+<Coord id="961A4367" x="0" y="898" w="5" h="14 " /> <!-- pismeno 103-->
+<Coord id="961A4368" x="6" y="898" w="5" h="14 " /> <!-- pismeno 104-->
+<Coord id="961A4369" x="12" y="898" w="2" h="14 " /> <!-- pismeno 105-->
+<Coord id="961A436A" x="15" y="898" w="3" h="14 " /> <!-- pismeno 106-->
+<Coord id="961A436B" x="19" y="898" w="4" h="14 " /> <!-- pismeno 107-->
+<Coord id="961A436C" x="24" y="898" w="2" h="14 " /> <!-- pismeno 108-->
+<Coord id="961A436D" x="27" y="898" w="8" h="14 " /> <!-- pismeno 109-->
+<Coord id="961A436E" x="36" y="898" w="5" h="14 " /> <!-- pismeno 110-->
+<Coord id="961A436F" x="42" y="898" w="5" h="14 " /> <!-- pismeno 111-->
+<Coord id="961A4370" x="48" y="898" w="5" h="14 " /> <!-- pismeno 112-->
+<Coord id="961A4371" x="54" y="898" w="5" h="14 " /> <!-- pismeno 113-->
+<Coord id="961A4372" x="60" y="898" w="3" h="14 " /> <!-- pismeno 114-->
+<Coord id="961A4373" x="64" y="898" w="4" h="14 " /> <!-- pismeno 115-->
+<Coord id="961A4374" x="69" y="898" w="3" h="14 " /> <!-- pismeno 116-->
+<Coord id="961A4375" x="73" y="898" w="5" h="14 " /> <!-- pismeno 117-->
+<Coord id="961A4376" x="79" y="898" w="5" h="14 " /> <!-- pismeno 118-->
+<Coord id="961A4377" x="85" y="898" w="7" h="14 " /> <!-- pismeno 119-->
+<Coord id="961A4378" x="93" y="898" w="4" h="14 " /> <!-- pismeno 120-->
+<Coord id="961A4379" x="98" y="898" w="5" h="14 " /> <!-- pismeno 121-->
+<Coord id="961A437A" x="104" y="898" w="4" h="14 " /> <!-- pismeno 122-->
+<Coord id="961A437B" x="109" y="898" w="4" h="14 " /> <!-- pismeno 123-->
+<Coord id="961A437C" x="114" y="898" w="2" h="14 " /> <!-- pismeno 124-->
+<Coord id="961A437D" x="117" y="898" w="3" h="14 " /> <!-- pismeno 125-->
+<Coord id="961A437E" x="121" y="898" w="6" h="14 " /> <!-- pismeno 126-->
+<Coord id="961A437F" x="0" y="884" w="0" h="14 " /> <!-- pismeno 127-->
+<Coord id="961A4380" x="128" y="898" w="7" h="14 " /> <!-- pismeno 128-->
+<Coord id="961A4381" x="136" y="898" w="5" h="14 " /> <!-- pismeno 129-->
+<Coord id="961A4382" x="142" y="898" w="5" h="14 " /> <!-- pismeno 130-->
+<Coord id="961A4383" x="148" y="898" w="5" h="14 " /> <!-- pismeno 131-->
+<Coord id="961A4384" x="154" y="898" w="5" h="14 " /> <!-- pismeno 132-->
+<Coord id="961A4385" x="160" y="898" w="5" h="14 " /> <!-- pismeno 133-->
+<Coord id="961A4386" x="166" y="898" w="5" h="14 " /> <!-- pismeno 134-->
+<Coord id="961A4387" x="172" y="898" w="5" h="14 " /> <!-- pismeno 135-->
+<Coord id="961A4388" x="178" y="898" w="3" h="14 " /> <!-- pismeno 136-->
+<Coord id="961A4389" x="182" y="898" w="5" h="14 " /> <!-- pismeno 137-->
+<Coord id="961A438A" x="188" y="898" w="7" h="14 " /> <!-- pismeno 138-->
+<Coord id="961A438B" x="196" y="898" w="5" h="14 " /> <!-- pismeno 139-->
+<Coord id="961A438C" x="202" y="898" w="3" h="14 " /> <!-- pismeno 140-->
+<Coord id="961A438D" x="206" y="898" w="5" h="14 " /> <!-- pismeno 141-->
+<Coord id="961A438E" x="212" y="898" w="7" h="14 " /> <!-- pismeno 142-->
+<Coord id="961A438F" x="220" y="898" w="7" h="14 " /> <!-- pismeno 143-->
+<Coord id="961A4390" x="228" y="898" w="5" h="14 " /> <!-- pismeno 144-->
+<Coord id="961A4391" x="234" y="898" w="5" h="14 " /> <!-- pismeno 145-->
+<Coord id="961A4392" x="240" y="898" w="2" h="14 " /> <!-- pismeno 146-->
+<Coord id="961A4393" x="243" y="898" w="5" h="14 " /> <!-- pismeno 147-->
+<Coord id="961A4394" x="249" y="898" w="5" h="14 " /> <!-- pismeno 148-->
+<Coord id="961A4395" x="255" y="898" w="5" h="14 " /> <!-- pismeno 149-->
+<Coord id="961A4396" x="261" y="898" w="3" h="14 " /> <!-- pismeno 150-->
+<Coord id="961A4397" x="265" y="898" w="6" h="14 " /> <!-- pismeno 151-->
+<Coord id="961A4398" x="272" y="898" w="4" h="14 " /> <!-- pismeno 152-->
+<Coord id="961A4399" x="277" y="898" w="7" h="14 " /> <!-- pismeno 153-->
+<Coord id="961A439A" x="285" y="898" w="6" h="14 " /> <!-- pismeno 154-->
+<Coord id="961A439B" x="292" y="898" w="6" h="14 " /> <!-- pismeno 155-->
+<Coord id="961A439C" x="299" y="898" w="5" h="14 " /> <!-- pismeno 156-->
+<Coord id="961A439D" x="305" y="898" w="5" h="14 " /> <!-- pismeno 157-->
+<Coord id="961A439E" x="311" y="898" w="5" h="14 " /> <!-- pismeno 158-->
+<Coord id="961A439F" x="317" y="898" w="5" h="14 " /> <!-- pismeno 159-->
+<Coord id="961A43A0" x="323" y="898" w="5" h="14 " /> <!-- pismeno 160-->
+<Coord id="961A43A1" x="329" y="898" w="2" h="14 " /> <!-- pismeno 161-->
+<Coord id="961A43A2" x="332" y="898" w="5" h="14 " /> <!-- pismeno 162-->
+<Coord id="961A43A3" x="338" y="898" w="5" h="14 " /> <!-- pismeno 163-->
+<Coord id="961A43A4" x="344" y="898" w="7" h="14 " /> <!-- pismeno 164-->
+<Coord id="961A43A5" x="352" y="898" w="5" h="14 " /> <!-- pismeno 165-->
+<Coord id="961A43A6" x="358" y="898" w="5" h="14 " /> <!-- pismeno 166-->
+<Coord id="961A43A7" x="364" y="898" w="5" h="14 " /> <!-- pismeno 167-->
+<Coord id="961A43A8" x="370" y="898" w="5" h="14 " /> <!-- pismeno 168-->
+<Coord id="961A43A9" x="376" y="898" w="5" h="14 " /> <!-- pismeno 169-->
+<Coord id="961A43AA" x="382" y="898" w="6" h="14 " /> <!-- pismeno 170-->
+<Coord id="961A43AB" x="389" y="898" w="4" h="14 " /> <!-- pismeno 171-->
+<Coord id="961A43AC" x="394" y="898" w="7" h="14 " /> <!-- pismeno 172-->
+<Coord id="961A43AD" x="402" y="898" w="4" h="14 " /> <!-- pismeno 173-->
+<Coord id="961A43AE" x="407" y="898" w="5" h="14 " /> <!-- pismeno 174-->
+<Coord id="961A43AF" x="413" y="898" w="5" h="14 " /> <!-- pismeno 175-->
+<Coord id="961A43B0" x="0" y="884" w="0" h="14 " /> <!-- pismeno 176-->
+<Coord id="961A43B1" x="0" y="884" w="0" h="14 " /> <!-- pismeno 177-->
+<Coord id="961A43B2" x="0" y="884" w="0" h="14 " /> <!-- pismeno 178-->
+<Coord id="961A43B3" x="0" y="884" w="0" h="14 " /> <!-- pismeno 179-->
+<Coord id="961A43B4" x="0" y="884" w="0" h="14 " /> <!-- pismeno 180-->
+<Coord id="961A43B5" x="419" y="898" w="7" h="14 " /> <!-- pismeno 181-->
+<Coord id="961A43B6" x="0" y="912" w="8" h="14 " /> <!-- pismeno 182-->
+<Coord id="961A43B7" x="9" y="912" w="5" h="14 " /> <!-- pismeno 183-->
+<Coord id="961A43B8" x="15" y="912" w="6" h="14 " /> <!-- pismeno 184-->
+<Coord id="961A43B9" x="0" y="884" w="0" h="14 " /> <!-- pismeno 185-->
+<Coord id="961A43BA" x="0" y="884" w="0" h="14 " /> <!-- pismeno 186-->
+<Coord id="961A43BB" x="0" y="884" w="0" h="14 " /> <!-- pismeno 187-->
+<Coord id="961A43BC" x="0" y="884" w="0" h="14 " /> <!-- pismeno 188-->
+<Coord id="961A43BD" x="22" y="912" w="5" h="14 " /> <!-- pismeno 189-->
+<Coord id="961A43BE" x="28" y="912" w="4" h="14 " /> <!-- pismeno 190-->
+<Coord id="961A43BF" x="0" y="884" w="0" h="14 " /> <!-- pismeno 191-->
+<Coord id="961A43C0" x="0" y="884" w="0" h="14 " /> <!-- pismeno 192-->
+<Coord id="961A43C1" x="0" y="884" w="0" h="14 " /> <!-- pismeno 193-->
+<Coord id="961A43C2" x="0" y="884" w="0" h="14 " /> <!-- pismeno 194-->
+<Coord id="961A43C3" x="0" y="884" w="0" h="14 " /> <!-- pismeno 195-->
+<Coord id="961A43C4" x="0" y="884" w="0" h="14 " /> <!-- pismeno 196-->
+<Coord id="961A43C5" x="0" y="884" w="0" h="14 " /> <!-- pismeno 197-->
+<Coord id="961A43C6" x="33" y="912" w="7" h="14 " /> <!-- pismeno 198-->
+<Coord id="961A43C7" x="41" y="912" w="5" h="14 " /> <!-- pismeno 199-->
+<Coord id="961A43C8" x="0" y="884" w="0" h="14 " /> <!-- pismeno 200-->
+<Coord id="961A43C9" x="0" y="884" w="0" h="14 " /> <!-- pismeno 201-->
+<Coord id="961A43CA" x="0" y="884" w="0" h="14 " /> <!-- pismeno 202-->
+<Coord id="961A43CB" x="0" y="884" w="0" h="14 " /> <!-- pismeno 203-->
+<Coord id="961A43CC" x="0" y="884" w="0" h="14 " /> <!-- pismeno 204-->
+<Coord id="961A43CD" x="0" y="884" w="0" h="14 " /> <!-- pismeno 205-->
+<Coord id="961A43CE" x="0" y="884" w="0" h="14 " /> <!-- pismeno 206-->
+<Coord id="961A43CF" x="0" y="884" w="0" h="14 " /> <!-- pismeno 207-->
+<Coord id="961A43D0" x="47" y="912" w="6" h="14 " /> <!-- pismeno 208-->
+<Coord id="961A43D1" x="54" y="912" w="8" h="14 " /> <!-- pismeno 209-->
+<Coord id="961A43D2" x="63" y="912" w="7" h="14 " /> <!-- pismeno 210-->
+<Coord id="961A43D3" x="71" y="912" w="5" h="14 " /> <!-- pismeno 211-->
+<Coord id="961A43D4" x="77" y="912" w="7" h="14 " /> <!-- pismeno 212-->
+<Coord id="961A43D5" x="85" y="912" w="6" h="14 " /> <!-- pismeno 213-->
+<Coord id="961A43D6" x="92" y="912" w="2" h="14 " /> <!-- pismeno 214-->
+<Coord id="961A43D7" x="95" y="912" w="4" h="14 " /> <!-- pismeno 215-->
+<Coord id="961A43D8" x="100" y="912" w="5" h="14 " /> <!-- pismeno 216-->
+<Coord id="961A43D9" x="0" y="884" w="0" h="14 " /> <!-- pismeno 217-->
+<Coord id="961A43DA" x="0" y="884" w="0" h="14 " /> <!-- pismeno 218-->
+<Coord id="961A43DB" x="0" y="884" w="0" h="14 " /> <!-- pismeno 219-->
+<Coord id="961A43DC" x="0" y="884" w="0" h="14 " /> <!-- pismeno 220-->
+<Coord id="961A43DD" x="106" y="912" w="6" h="14 " /> <!-- pismeno 221-->
+<Coord id="961A43DE" x="113" y="912" w="6" h="14 " /> <!-- pismeno 222-->
+<Coord id="961A43DF" x="0" y="884" w="0" h="14 " /> <!-- pismeno 223-->
+<Coord id="961A43E0" x="120" y="912" w="7" h="14 " /> <!-- pismeno 224-->
+<Coord id="961A43E1" x="128" y="912" w="5" h="14 " /> <!-- pismeno 225-->
+<Coord id="961A43E2" x="134" y="912" w="7" h="14 " /> <!-- pismeno 226-->
+<Coord id="961A43E3" x="142" y="912" w="6" h="14 " /> <!-- pismeno 227-->
+<Coord id="961A43E4" x="149" y="912" w="5" h="14 " /> <!-- pismeno 228-->
+<Coord id="961A43E5" x="155" y="912" w="5" h="14 " /> <!-- pismeno 229-->
+<Coord id="961A43E6" x="161" y="912" w="6" h="14 " /> <!-- pismeno 230-->
+<Coord id="961A43E7" x="168" y="912" w="4" h="14 " /> <!-- pismeno 231-->
+<Coord id="961A43E8" x="173" y="912" w="7" h="14 " /> <!-- pismeno 232-->
+<Coord id="961A43E9" x="181" y="912" w="6" h="14 " /> <!-- pismeno 233-->
+<Coord id="961A43EA" x="188" y="912" w="3" h="14 " /> <!-- pismeno 234-->
+<Coord id="961A43EB" x="192" y="912" w="6" h="14 " /> <!-- pismeno 235-->
+<Coord id="961A43EC" x="199" y="912" w="5" h="14 " /> <!-- pismeno 236-->
+<Coord id="961A43ED" x="205" y="912" w="7" h="14 " /> <!-- pismeno 237-->
+<Coord id="961A43EE" x="213" y="912" w="3" h="14 " /> <!-- pismeno 238-->
+<Coord id="961A43EF" x="217" y="912" w="3" h="14 " /> <!-- pismeno 239-->
+<Coord id="961A43F0" x="221" y="912" w="6" h="14 " /> <!-- pismeno 240-->
+<Coord id="961A43F1" x="228" y="912" w="5" h="14 " /> <!-- pismeno 241-->
+<Coord id="961A43F2" x="234" y="912" w="2" h="14 " /> <!-- pismeno 242-->
+<Coord id="961A43F3" x="237" y="912" w="3" h="14 " /> <!-- pismeno 243-->
+<Coord id="961A43F4" x="241" y="912" w="4" h="14 " /> <!-- pismeno 244-->
+<Coord id="961A43F5" x="246" y="912" w="5" h="14 " /> <!-- pismeno 245-->
+<Coord id="961A43F6" x="252" y="912" w="5" h="14 " /> <!-- pismeno 246-->
+<Coord id="961A43F7" x="258" y="912" w="2" h="14 " /> <!-- pismeno 247-->
+<Coord id="961A43F8" x="261" y="912" w="3" h="14 " /> <!-- pismeno 248-->
+<Coord id="961A43F9" x="0" y="884" w="0" h="14 " /> <!-- pismeno 249-->
+<Coord id="961A43FA" x="0" y="884" w="0" h="14 " /> <!-- pismeno 250-->
+<Coord id="961A43FB" x="265" y="912" w="5" h="14 " /> <!-- pismeno 251-->
+<Coord id="961A43FC" x="271" y="912" w="7" h="14 " /> <!-- pismeno 252-->
+<Coord id="961A43FD" x="279" y="912" w="3" h="14 " /> <!-- pismeno 253-->
+<Coord id="961A43FE" x="0" y="884" w="0" h="14 " /> <!-- pismeno 254-->
+<Coord id="961A43FF" x="0" y="884" w="0" h="14 " /> <!-- pismeno 255-->
+<Coord id = "961A4400" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 0 -->
+<Coord id = "961A4401" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 1 -->
+<Coord id = "961A4402" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 2 -->
+<Coord id = "961A4403" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 3 -->
+<Coord id = "961A4404" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 4 -->
+<Coord id = "961A4405" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 5 -->
+<Coord id = "961A4406" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 6 -->
+<Coord id = "961A4407" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 7 -->
+<Coord id = "961A4408" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 8 -->
+<Coord id = "961A4409" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 9 -->
+<Coord id = "961A440A" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 10 -->
+<Coord id = "961A440B" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 11 -->
+<Coord id = "961A440C" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 12 -->
+<Coord id = "961A440D" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 13 -->
+<Coord id = "961A440E" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 14 -->
+<Coord id = "961A440F" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 15 -->
+<Coord id = "961A4410" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 16 -->
+<Coord id = "961A4411" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 17 -->
+<Coord id = "961A4412" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 18 -->
+<Coord id = "961A4413" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 19 -->
+<Coord id = "961A4414" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 20 -->
+<Coord id = "961A4415" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 21 -->
+<Coord id = "961A4416" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 22 -->
+<Coord id = "961A4417" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 23 -->
+<Coord id = "961A4418" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 24 -->
+<Coord id = "961A4419" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 25 -->
+<Coord id = "961A441A" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 26 -->
+<Coord id = "961A441B" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 27 -->
+<Coord id = "961A441C" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 28 -->
+<Coord id = "961A441D" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 29 -->
+<Coord id = "961A441E" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 30 -->
+<Coord id = "961A441F" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 31 -->
+<Coord id = "961A4420" x = "0"	y = "926"	w = "3"		h = "22" / > <!--pismeno 32 -->
+<Coord id = "961A4421" x = "4"	y = "926"	w = "3"		h = "22" / > <!--pismeno 33 --> 
+<Coord id = "961A4422" x = "10"	y = "926"	w = "5"		h = "22" / > <!--pismeno 34 -->
+<Coord id = "961A4423" x = "18"	y = "926"	w = "9"	h = "22" / > <!--pismeno 35 -->
+<Coord id = "961A4424" x = "30"	y = "926"	w = "10"	h = "22" / > <!--pismeno 36 -->
+<Coord id = "961A4425" x = "43"	y = "926"	w = "12"	h = "22" / > <!--pismeno 37 -->
+<Coord id = "961A4426" x = "58"	y = "926"	w = "12"	h = "22" / > <!--pismeno 38 -->
+<Coord id = "961A4427" x = "73"	y = "926"	w = "2"		h = "22" / > <!--pismeno 39 -->
+<Coord id = "961A4428" x = "78"	y = "926"	w = "3"		h = "22" / > <!--pismeno 40 -->
+<Coord id = "961A4429" x = "84"	y = "926"	w = "5"		h = "22" / > <!--pismeno 41	 -->
+<Coord id = "961A442A" x = "92"	y = "926"	w = "7"		h = "22" / > <!--pismeno 42	 -->
+<Coord id = "961A442B" x = "102"	y = "926"	w = "9"	h = "22" / > <!--pismeno 43	 -->
+<Coord id = "961A442C" x = "114"	y = "926"	w = "2"		h = "22" / > <!--pismeno 44	 -->
+<Coord id = "961A442D" x = "119"	y = "926"	w = "4"		h = "22" / > <!--pismeno 45	 -->
+<Coord id = "961A442E" x = "126"	y = "926"	w = "2"		h = "22" / > <!--pismeno 46	 -->
+<Coord id = "961A442F" x = "131"	y = "926"	w = "9"	h = "22" / > <!--pismeno 47	 -->
+<Coord id = "961A4430" x = "143"	y = "926"	w = "9"	h = "22" / > <!--pismeno 48	 -->
+<Coord id = "961A4431" x = "155"	y = "926"	w = "9"	h = "22" / > <!--pismeno 49	 -->
+<Coord id = "961A4432" x = "167"	y = "926"	w = "9"	h = "22" / > <!--pismeno 50  -->
+<Coord id = "961A4433" x = "179"	y = "926"	w = "9"	h = "22" / > <!--pismeno 51	 -->
+<Coord id = "961A4434" x = "191"	y = "926"	w = "9"	h = "22" / > <!--pismeno 52	 -->
+<Coord id = "961A4435" x = "203"	y = "926"	w = "9"	h = "22" / > <!--pismeno 53	 -->
+<Coord id = "961A4436" x = "215"	y = "926"	w = "9"	h = "22" / > <!--pismeno 54	 -->
+<Coord id = "961A4437" x = "227"	y = "926"	w = "8"	h = "22" / > <!--pismeno 55	 -->
+<Coord id = "961A4438" x = "238"	y = "926"	w = "10"	h = "22" / > <!--pismeno 56	 -->
+<Coord id = "961A4439" x = "251"	y = "926"	w = "9"	h = "22" / > <!--pismeno 57	 -->
+<Coord id = "961A443A" x = "263"	y = "926"	w = "2"		h = "22" / > <!--pismeno 58	 -->
+<Coord id = "961A443B" x = "268"	y = "926"	w = "2"		h = "22" / > <!--pismeno 59	 -->
+<Coord id = "961A443C" x = "273"	y = "926"	w = "8"	h = "22" / > <!--pismeno 60  -->
+<Coord id = "961A443D" x = "284"	y = "926"	w = "9"	h = "22" / > <!--pismeno 61  -->
+<Coord id = "961A443E" x = "296"	y = "926"	w = "8"	h = "22" / > <!--pismeno 62  -->
+<Coord id = "961A443F" x = "307"	y = "926"	w = "8"	h = "22" / > <!--pismeno 63  -->
+<Coord id = "961A4440" x = "318"	y = "926"	w = "12"	h = "22" / > <!--pismeno 64  -->
+<Coord id = "961A4441" x = "333"	y = "926"	w = "10"	h = "22" / > <!--pismeno 65  -->
+<Coord id = "961A4442" x = "346"	y = "926"	w = "9"	h = "22" / > <!--pismeno 66	 -->
+<Coord id = "961A4443" x = "358"	y = "926"	w = "9"	h = "22" / > <!--pismeno 67	 -->
+<Coord id = "961A4444" x = "370"	y = "926"	w = "10"	h = "22" / > <!--pismeno 68	 -->
+<Coord id = "961A4445" x = "383"	y = "926"	w = "8"	h = "22" / > <!--pismeno 69	 -->
+<Coord id = "961A4446" x = "394"	y = "926"	w = "7"		h = "22" / > <!--pismeno 70  -->
+<Coord id = "961A4447" x = "404"	y = "926"	w = "10"	h = "22" / > <!--pismeno 71  -->
+<Coord id = "961A4448" x = "417"	y = "926"	w = "11"	h = "22" / > <!--pismeno 72  -->   
+<Coord id = "961A4449" x = "429"	y = "926"	w = "2"		h = "22" / > <!--pismeno 73  -->
+<Coord id = "961A444A" x = "434"	y = "926"	w = "5"		h = "22" / > <!--pismeno 74  -->
+<Coord id = "961A444B" x = "442"	y = "926"	w = "9"	h = "22" / > <!--pismeno 75  -->
+<Coord id = "961A444C" x = "454"	y = "926"	w = "7"		h = "22" / > <!--pismeno 76  -->
+<Coord id = "961A444D" x = "464"	y = "926"	w = "12"	h = "22" / > <!--pismeno 77  -->
+<Coord id = "961A444E" x = "479"	y = "926"	w = "10"	h = "22" / > <!--pismeno 78	 -->
+<Coord id = "961A444F" x = "491"	y = "926"	w = "10"	h = "22" / > <!--pismeno 79	 -->
+<Coord id = "961A4450" x = "504"	y = "926"	w = "9"	h = "22" / > <!--pismeno 80  -->
+<Coord id = "961A4451" x = "516"	y = "926"	w = "10"	h = "22" / > <!--pismeno 81  -->
+<Coord id = "961A4452" x = "529"	y = "926"	w = "9"	h = "22" / > <!--pismeno 82  -->
+<Coord id = "961A4453" x = "541"	y = "926"	w = "11"	h = "22" / > <!--pismeno 83  -->
+<Coord id = "961A4454" x = "554"	y = "926"	w = "8"	h = "22" / > <!--pismeno 84  -->
+<Coord id = "961A4455" x = "565"	y = "926"	w = "8"	h = "22" / > <!--pismeno 85  -->
+<Coord id = "961A4456" x = "576"	y = "926"	w = "9"	h = "22" / > <!--pismeno 86  -->
+<Coord id = "961A4457" x = "588"	y = "926"	w = "15"	h = "22" / > <!--pismeno 87  -->
+<Coord id = "961A4458" x = "606"	y = "926"	w = "10"	h = "22" / > <!--pismeno 88	 -->
+<Coord id = "961A4459" x = "619"	y = "926"	w = "10"	h = "22" / > <!--pismeno 89	 -->
+<Coord id = "961A445A" x = "632"	y = "926"	w = "9"	h = "22" / > <!--pismeno 90	 -->
+<Coord id = "961A445B" x = "644"	y = "926"	w = "3"		h = "22" / > <!--pismeno 91  -->
+<Coord id = "961A445C" x = "650"	y = "926"	w = "9"	h = "22" / > <!--pismeno 92  -->
+<Coord id = "961A445D" x = "662"	y = "926"	w = "3"		h = "22" / > <!--pismeno 93	 -->
+<Coord id = "961A445E" x = "668"	y = "926"	w = "8"	h = "22" / > <!--pismeno 94	 -->
+<Coord id = "961A445F" x = "679"	y = "926"	w = "9"	h = "22" / > <!--pismeno 95	 -->
+<Coord id = "961A4460" x = "691"	y = "926"	w = "3"		h = "22" / > <!--pismeno 96	 -->
+<Coord id = "961A4461" x = "697"	y = "926"	w = "9"	h = "22" / > <!--pismeno 97	 -->
+<Coord id = "961A4462" x = "708"	y = "926"	w = "8"	h = "22" / > <!--pismeno 98	 -->
+<Coord id = "961A4463" x = "719"	y = "926"	w = "7"		h = "22" / > <!--pismeno 99	 -->
+<Coord id = "961A4464" x = "729"	y = "926"	w = "9"	h = "22" / > <!--pismeno 100 -->
+<Coord id = "961A4465" x = "740"	y = "926"	w = "8"	h = "22" / > <!--pismeno 101 -->
+<Coord id = "961A4466" x = "751"	y = "926"	w = "5"		h = "22" / > <!--pismeno 102 -->
+<Coord id = "961A4467" x = "759"	y = "926"	w = "9"	h = "22" / > <!--pismeno 103 -->
+<Coord id = "961A4468" x = "771"	y = "926"	w = "8"		h = "22" / > <!--pismeno 104 -->
+<Coord id = "961A4469" x = "781"	y = "926"	w = "3"		h = "22" / > <!--pismeno 105 -->
+<Coord id = "961A446A" x = "786"	y = "926"	w = "4"		h = "22" / > <!--pismeno 106 -->
+<Coord id = "961A446B" x = "793"	y = "926"	w = "8"	h = "22" / > <!--pismeno 107 -->
+<Coord id = "961A446C" x = "804"	y = "926"	w = "3"		h = "22" / > <!--pismeno 108 -->
+<Coord id = "961A446D" x = "809"	y = "926"	w = "14"	h = "22" / > <!--pismeno 109 -->
+<Coord id = "961A446E" x = "825"	y = "926"	w = "7"		h = "22" / > <!--pismeno 110 -->
+<Coord id = "961A446F" x = "835"	y = "926"	w = "9"	h = "22" / > <!--pismeno 111 -->
+<Coord id = "961A4470" x = "846"	y = "926"	w = "8"	h = "22" / > <!--pismeno 112 -->
+<Coord id = "961A4471" x = "857"	y = "926"	w = "8"	h = "22" / > <!--pismeno 113 -->
+<Coord id = "961A4472" x = "868"	y = "926"	w = "4"		h = "22" / > <!--pismeno 114 -->
+<Coord id = "961A4473" x = "875"	y = "926"	w = "7"		h = "22" / > <!--pismeno 115 -->
+<Coord id = "961A4474" x = "885"	y = "926"	w = "5"		h = "22" / > <!--pismeno 116 -->
+<Coord id = "961A4475" x = "893"	y = "926"	w = "8"		h = "22" / > <!--pismeno 117 -->
+<Coord id = "961A4476" x = "904"	y = "926"	w = "7"		h = "22" / > <!--pismeno 118 -->
+<Coord id = "961A4477" x = "913"	y = "926"	w = "12"	h = "22" / > <!--pismeno 119 -->
+<Coord id = "961A4478" x = "928"	y = "926"	w = "7"		h = "22" / > <!--pismeno 120 -->
+<Coord id = "961A4479" x = "938"	y = "926"	w = "8"		h = "22" / > <!--pismeno 121 -->
+<Coord id = "961A447A" x = "948"	y = "926"	w = "6"		h = "22" / > <!--pismeno 122 -->
+<Coord id = "961A447B" x = "957"	y = "926"	w = "4"		h = "22" / > <!--pismeno 123 -->
+<Coord id = "961A447C" x = "964"	y = "926"	w = "2"		h = "22" / > <!--pismeno 124 -->
+<Coord id = "961A447D" x = "969"	y = "926"	w = "4"		h = "22" / > <!--pismeno 125 -->
+<Coord id = "961A447E" x = "976"	y = "926"	w = "8"	h = "22" / > <!--pismeno 126 -->
+<Coord id = "961A447F" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 127 -->
+<Coord id = "961A4480" x = "987"	y = "926"	w = "9"	h = "22" / > <!--pismeno 128 -->
+<Coord id = "961A4481" x = "999"	y = "926"	w = "7"		h = "22" / > <!--pismeno 129 -->
+<Coord id = "961A4482" x = "1009"	y = "926"	w = "8"	h = "22" / > <!--pismeno 130 -->
+<Coord id = "961A4483" x = "0"	y = "948"	w = "8"	h = "22" / > <!--pismeno 131 -->  
+<Coord id = "961A4484" x = "11"	y = "948"	w = "8"	h = "22" / > <!--pismeno 132-->
+<Coord id = "961A4485" x = "22"	y = "948"	w = "7"		h = "22" / > <!--pismeno 133-->
+<Coord id = "961A4486" x = "32"	y = "948"	w = "7"		h = "22" / > <!--pismeno 134-->
+<Coord id = "961A4487" x = "42"	y = "948"	w = "7"		h = "22" / > <!--pismeno 135 -->
+<Coord id = "961A4488" x = "52"	y = "948"	w = "4"		h = "22" / > <!--pismeno 136 -->
+<Coord id = "961A4489" x = "59"	y = "948"	w = "8"	h = "22" / > <!--pismeno 137 -->
+<Coord id = "961A448A" x = "70"	y = "948"	w = "10"	h = "22" / > <!--pismeno 138 -->
+<Coord id = "961A448B" x = "83"	y = "948"	w = "8"	h = "22" / > <!--pismeno 139 -->
+<Coord id = "961A448C" x = "94"	y = "948"	w = "5"		h = "22" / > <!--pismeno 140-->
+<Coord id = "961A448D" x = "102"	y = "948"	w = "9"	h = "22" / > <!--pismeno 141-->
+<Coord id = "961A448E" x = "114"	y = "948"	w = "10"	h = "22" / > <!--pismeno 142-->
+<Coord id = "961A448F" x = "127"	y = "948"	w = "9"	h = "22" / > <!--pismeno 143-->
+<Coord id = "961A4490" x = "139"	y = "948"	w = "8"	h = "22" / > <!--pismeno 144-->
+<Coord id = "961A4491" x = "150"	y = "948"	w = "7"		h = "22" / > <!--pismeno 145 -->
+<Coord id = "961A4492" x = "160"	y = "948"	w = "3"		h = "22" / > <!--pismeno 146 -->
+<Coord id = "961A4493" x = "166"	y = "948"	w = "8"	h = "22" / > <!--pismeno 147 -->
+<Coord id = "961A4494" x = "177"	y = "948"	w = "8"	h = "22" / > <!--pismeno 148 -->
+<Coord id = "961A4495" x = "188"	y = "948"	w = "7"		h = "22" / > <!--pismeno 149 -->
+<Coord id = "961A4496" x = "198"	y = "948"	w = "5"		h = "22" / > <!--pismeno 150-->
+<Coord id = "961A4497" x = "206"	y = "948"	w = "10"	h = "22" / > <!--pismeno 151-->
+<Coord id = "961A4498" x = "219"	y = "948"	w = "8"	h = "22" / > <!--pismeno 152-->
+<Coord id = "961A4499" x = "230"	y = "948"	w = "10"	h = "22" / > <!--pismeno 153 -->
+<Coord id = "961A449A" x = "243"	y = "948"	w = "8"	h = "22" / > <!--pismeno 154 -->
+<Coord id = "961A449B" x = "254"	y = "948"	w = "8"	h = "22" / > <!--pismeno 155 -->
+<Coord id = "961A449C" x = "265"	y = "948"	w = "6"		h = "22" / > <!--pismeno 156 -->
+<Coord id = "961A449D" x = "274"	y = "948"	w = "8"	h = "22" / > <!--pismeno 157 -->
+<Coord id = "961A449E" x = "285"	y = "948"	w = "7"		h = "22" / > <!--pismeno 158 -->
+<Coord id = "961A449F" x = "295"	y = "948"	w = "7"		h = "22" / > <!--pismeno 159 -->
+<Coord id = "961A44A0" x = "305"	y = "948"	w = "8"	h = "22" / > <!--pismeno 160-->
+<Coord id = "961A44A1" x = "316"	y = "948"	w = "4"		h = "22" / > <!--pismeno 161-->
+<Coord id = "961A44A2" x = "323"	y = "948"	w = "8"	h = "22" / > <!--pismeno 162-->
+<Coord id = "961A44A3" x = "334"	y = "948"	w = "7"		h = "22" / > <!--pismeno 163-->
+<Coord id = "961A44A4" x = "344"	y = "948"	w = "11"	h = "22" / > <!--pismeno 164 -->
+<Coord id = "961A44A5" x = "358"	y = "948"	w = "8"	h = "22" / > <!--pismeno 165 -->
+<Coord id = "961A44A6" x = "369"	y = "948"	w = "9"	h = "22" / > <!--pismeno 166 -->
+<Coord id = "961A44A7" x = "381"	y = "948"	w = "6"		h = "22" / > <!--pismeno 167 -->
+<Coord id = "961A44A8" x = "390"	y = "948"	w = "8"	h = "22" / > <!--pismeno 168 -->
+<Coord id = "961A44A9" x = "401"	y = "948"	w = "8"	h = "22" / > <!--pismeno 169 -->
+<Coord id = "961A44AA" x = "412"	y = "948"	w = "8"	h = "22" / > <!--pismeno 170-->
+<Coord id = "961A44AB" x = "423"	y = "948"	w = "6"		h = "22" / > <!--pismeno 171-->
+<Coord id = "961A44AC" x = "432"	y = "948"	w = "9"	h = "22" / > <!--pismeno 172-->
+<Coord id = "961A44AD" x = "444"	y = "948"	w = "8"	h = "22" / > <!--pismeno 173-->
+<Coord id = "961A44AE" x = "455"	y = "948"	w = "4"		h = "22" / > <!--pismeno 174-->
+<Coord id = "961A44AF" x = "462"	y = "948"	w = "5"		h = "22" / > <!--pismeno 175-->
+<Coord id = "961A44B0" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 176 -->
+<Coord id = "961A44B1" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 177 -->
+<Coord id = "961A44B2" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 178 -->
+<Coord id = "961A44B3" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 179 -->
+<Coord id = "961A44B4" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 180 -->
+<Coord id = "961A44B5" x = "470"	y = "948"	w = "10"	h = "22" / > <!--pismeno 181-->
+<Coord id = "961A44B6" x = "483"	y = "948"	w = "10"	h = "22" / > <!--pismeno 182 -->
+<Coord id = "961A44B7" x = "496"	y = "948"	w = "8"	h = "22" / > <!--pismeno 183 -->
+<Coord id = "961A44B8" x = "507"	y = "948"	w = "10"	h = "22" / > <!--pismeno 184 -->
+<Coord id = "961A44B9" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 185 -->
+<Coord id = "961A44BA" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 186 -->
+<Coord id = "961A44BB" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 187 -->
+<Coord id = "961A44BC" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 188 -->
+<Coord id = "961A44BD" x = "520"	y = "948"	w = "9"	h = "22" / > <!--pismeno 189 -->
+<Coord id = "961A44BE" x = "532"	y = "948"	w = "6"		h = "22" / > <!--pismeno 190 -->
+<Coord id = "961A44BF" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 191 -->
+<Coord id = "961A44C0" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 192 -->
+<Coord id = "961A44C1" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 193 -->
+<Coord id = "961A44C2" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 194 -->
+<Coord id = "961A44C3" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 195 -->
+<Coord id = "961A44C4" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 196 -->
+<Coord id = "961A44C5" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 197 -->
+<Coord id = "961A44C6" x = "541"	y = "948"	w = "10"	h = "22" / > <!--pismeno 198 -->
+<Coord id = "961A44C7" x = "554"	y = "948"	w = "8"	h = "22" / > <!--pismeno 199 -->
+<Coord id = "961A44C8" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 200 -->
+<Coord id = "961A44C9" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 201 -->
+<Coord id = "961A44CA" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 202 -->
+<Coord id = "961A44CB" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 203 -->
+<Coord id = "961A44CC" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 204 -->
+<Coord id = "961A44CD" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 205 -->
+<Coord id = "961A44CE" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 206 -->
+<Coord id = "961A44CF" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 207 -->
+<Coord id = "961A44D0" x = "565"	y = "948"	w = "8"	h = "22" / > <!--pismeno 208 -->
+<Coord id = "961A44D1" x = "576"	y = "948"	w = "11"	h = "22" / > <!--pismeno 209 -->
+<Coord id = "961A44D2" x = "590"	y = "948"	w = "10"	h = "22" / > <!--pismeno 210 -->
+<Coord id = "961A44D3" x = "603"	y = "948"	w = "8"	h = "22" / > <!--pismeno 211 -->
+<Coord id = "961A44D4" x = "614"	y = "948"	w = "10"	h = "22" / > <!--pismeno 212 -->
+<Coord id = "961A44D5" x = "627"	y = "948"	w = "9"	h = "22" / > <!--pismeno 213 -->
+<Coord id = "961A44D6" x = "639"	y = "948"	w = "4"		h = "22" / > <!--pismeno 214 -->
+<Coord id = "961A44D7" x = "646"	y = "948"	w = "5"		h = "22" / > <!--pismeno 215 -->
+<Coord id = "961A44D8" x = "654"	y = "948"	w = "8"	h = "22" / > <!--pismeno 216 -->
+<Coord id = "961A44D9" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 217 -->
+<Coord id = "961A44DA" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 218 -->
+<Coord id = "961A44DB" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 219 -->
+<Coord id = "961A44DC" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 220 -->
+<Coord id = "961A44DD" x = "665"	y = "948"	w = "9"	h = "22" / > <!--pismeno 221 -->
+<Coord id = "961A44DE" x = "677"	y = "948"	w = "8"	h = "22" / > <!--pismeno 222 -->
+<Coord id = "961A44DF" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 223 -->
+<Coord id = "961A44E0" x = "688"	y = "948"	w = "10"	h = "22" / > <!--pismeno 224 -->
+<Coord id = "961A44E1" x = "701"	y = "948"	w = "9"	h = "22" / > <!--pismeno 225 -->
+<Coord id = "961A44E2" x = "713"	y = "948"	w = "10"	h = "22" / > <!--pismeno 226 -->
+<Coord id = "961A44E3" x = "726"	y = "948"	w = "9"	h = "22" / > <!--pismeno 227 -->
+<Coord id = "961A44E4" x = "738"	y = "948"	w = "7"		h = "22" / > <!--pismeno 228 -->
+<Coord id = "961A44E5" x = "748"	y = "948"	w = "7"		h = "22" / > <!--pismeno 229 -->
+<Coord id = "961A44E6" x = "758"	y = "948"	w = "10"	h = "22" / > <!--pismeno 230 -->
+<Coord id = "961A44E7" x = "771"	y = "948"	w = "7"		h = "22" / > <!--pismeno 231 -->
+<Coord id = "961A44E8" x = "781"	y = "948"	w = "9"	h = "22" / > <!--pismeno 232 -->
+<Coord id = "961A44E9" x = "793"	y = "948"	w = "8"	h = "22" / > <!--pismeno 233 -->
+<Coord id = "961A44EA" x = "804"	y = "948"	w = "4"		h = "22" / > <!--pismeno 234 -->
+<Coord id = "961A44EB" x = "811"	y = "948"	w = "8"	h = "22" / > <!--pismeno 235 -->
+<Coord id = "961A44EC" x = "822"	y = "948"	w = "7"		h = "22" / > <!--pismeno 236 -->
+<Coord id = "961A44ED" x = "832"	y = "948"	w = "10"	h = "22" / > <!--pismeno 237 -->
+<Coord id = "961A44EE" x = "845"	y = "948"	w = "5"		h = "22" / > <!--pismeno 238 -->
+<Coord id = "961A44EF" x = "853"	y = "948"	w = "3"		h = "22" / > <!--pismeno 239 -->
+<Coord id = "961A44F0" x = "859"	y = "948"	w = "4"		h = "22" / > <!--pismeno 240 -->
+<Coord id = "961A44F1" x = "866"	y = "948"	w = "6"		h = "22" / > <!--pismeno 241 -->
+<Coord id = "961A44F2" x = "875"	y = "948"	w = "3"		h = "22" / > <!--pismeno 242 -->
+<Coord id = "961A44F3" x = "881"	y = "948"	w = "5"		h = "22" / > <!--pismeno 243 -->
+<Coord id = "961A44F4" x = "889"	y = "948"	w = "5"		h = "22" / > <!--pismeno 244 -->
+<Coord id = "961A44F5" x = "897"	y = "948"	w = "8"	h = "22" / > <!--pismeno 245 -->
+<Coord id = "961A44F6" x = "908"	y = "948"	w = "9"	h = "22" / > <!--pismeno 246 -->
+<Coord id = "961A44F7" x = "920"	y = "948"	w = "3"		h = "22" / > <!--pismeno 247 -->
+<Coord id = "961A44F8" x = "926"	y = "948"	w = "5"		h = "22" / > <!--pismeno 248 -->
+<Coord id = "961A44F9" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 249 -->
+<Coord id = "961A44FA" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 250 -->
+<Coord id = "961A44FB" x = "934"	y = "948"	w = "7"		h = "22" / > <!--pismeno 251 -->
+<Coord id = "961A44FC" x = "944"	y = "948"	w = "9"	h = "22" / > <!--pismeno 252 -->
+<Coord id = "961A44FD" x = "956"	y = "948"	w = "6"		h = "22" / > <!--pismeno 253 -->
+<Coord id = "961A44FE" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 254 -->
+<Coord id = "961A44FF" x = "0"	y = "926"	w = "0"		h = "22" / > <!--pismeno 255 -->
+
+<Coord id = "961A4500" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 0 -->
+<Coord id = "961A4501" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 1 -->
+<Coord id = "961A4502" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 2 -->
+<Coord id = "961A4503" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 3 -->
+<Coord id = "961A4504" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 4 -->
+<Coord id = "961A4505" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 5 -->
+<Coord id = "961A4506" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 6 -->
+<Coord id = "961A4507" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 7 -->
+<Coord id = "961A4508" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 8 -->
+<Coord id = "961A4509" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 9 -->
+<Coord id = "961A450A" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 10 -->
+<Coord id = "961A450B" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 11 -->
+<Coord id = "961A450C" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 12 -->
+<Coord id = "961A450D" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 13 -->
+<Coord id = "961A450E" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 14 -->
+<Coord id = "961A450F" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 15 -->
+<Coord id = "961A4510" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 16 -->
+<Coord id = "961A4511" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 17 -->
+<Coord id = "961A4512" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 18 -->
+<Coord id = "961A4513" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 19 -->
+<Coord id = "961A4514" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 20 -->
+<Coord id = "961A4515" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 21 -->
+<Coord id = "961A4516" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 22 -->
+<Coord id = "961A4517" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 23 -->
+<Coord id = "961A4518" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 24 -->
+<Coord id = "961A4519" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 25 -->
+<Coord id = "961A451A" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 26 -->
+<Coord id = "961A451B" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 27 -->
+<Coord id = "961A451C" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 28 -->
+<Coord id = "961A451D" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 29 -->
+<Coord id = "961A451E" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 30 -->
+<Coord id = "961A451F" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 31 -->
+<Coord id = "961A4520" x = "0"		y = "970"	w = "3"		h = "22" / > <!--pismeno 32 -->
+<Coord id = "961A4521" x = "4"		y = "970"	w = "3"		h = "22" / > <!--pismeno 33 -->
+<Coord id = "961A4522" x = "10"		y = "970"	w = "5"		h = "22" / > <!--pismeno 34 -->
+<Coord id = "961A4523" x = "18"		y = "970"	w = "9"	h = "22" / > <!--pismeno 35 -->
+<Coord id = "961A4524" x = "30"		y = "970"	w = "10"	h = "22" / > <!--pismeno 36 -->
+<Coord id = "961A4525" x = "43"		y = "970"	w = "12"	h = "22" / > <!--pismeno 37 -->
+<Coord id = "961A4526" x = "58"		y = "970"	w = "12"	h = "22" / > <!--pismeno 38 -->
+<Coord id = "961A4527" x = "73"		y = "970"	w = "2"		h = "22" / > <!--pismeno 39 -->
+<Coord id = "961A4528" x = "78"		y = "970"	w = "3"		h = "22" / > <!--pismeno 40 -->
+<Coord id = "961A4529" x = "84"		y = "970"	w = "5"		h = "22" / > <!--pismeno 41	 -->
+<Coord id = "961A452A" x = "92"		y = "970"	w = "7"		h = "22" / > <!--pismeno 42	 -->
+<Coord id = "961A452B" x = "102"	y = "970"	w = "9"	h = "22" / > <!--pismeno 43	 -->
+<Coord id = "961A452C" x = "114"	y = "970"	w = "2"		h = "22" / > <!--pismeno 44	 -->
+<Coord id = "961A452D" x = "119"	y = "970"	w = "4"		h = "22" / > <!--pismeno 45	 -->
+<Coord id = "961A452E" x = "126"	y = "970"	w = "2"		h = "22" / > <!--pismeno 46	 -->
+<Coord id = "961A452F" x = "131"	y = "970"	w = "9"	h = "22" / > <!--pismeno 47	 -->
+<Coord id = "961A4530" x = "143"	y = "970"	w = "9"	h = "22" / > <!--pismeno 48	 -->
+<Coord id = "961A4531" x = "155"	y = "970"	w = "9"	h = "22" / > <!--pismeno 49	 -->
+<Coord id = "961A4532" x = "167"	y = "970"	w = "9"	h = "22" / > <!--pismeno 50  -->
+<Coord id = "961A4533" x = "179"	y = "970"	w = "9"	h = "22" / > <!--pismeno 51	 -->
+<Coord id = "961A4534" x = "191"	y = "970"	w = "9"	h = "22" / > <!--pismeno 52	 -->
+<Coord id = "961A4535" x = "203"	y = "970"	w = "9"	h = "22" / > <!--pismeno 53	 -->
+<Coord id = "961A4536" x = "215"	y = "970"	w = "9"	h = "22" / > <!--pismeno 54	 -->
+<Coord id = "961A4537" x = "227"	y = "970"	w = "8"	h = "22" / > <!--pismeno 55	 -->
+<Coord id = "961A4538" x = "238"	y = "970"	w = "10"	h = "22" / > <!--pismeno 56	 -->
+<Coord id = "961A4539" x = "251"	y = "970"	w = "9"	h = "22" / > <!--pismeno 57	 -->
+<Coord id = "961A453A" x = "263"	y = "970"	w = "2"		h = "22" / > <!--pismeno 58	 -->
+<Coord id = "961A453B" x = "268"	y = "970"	w = "2"		h = "22" / > <!--pismeno 59	 -->
+<Coord id = "961A453C" x = "273"	y = "970"	w = "8"	h = "22" / > <!--pismeno 60  -->
+<Coord id = "961A453D" x = "284"	y = "970"	w = "9"	h = "22" / > <!--pismeno 61  -->
+<Coord id = "961A453E" x = "296"	y = "970"	w = "8"	h = "22" / > <!--pismeno 62  -->
+<Coord id = "961A453F" x = "307"	y = "970"	w = "8"	h = "22" / > <!--pismeno 63  -->
+<Coord id = "961A4540" x = "318"	y = "970"	w = "12"	h = "22" / > <!--pismeno 64  -->
+<Coord id = "961A4541" x = "333"	y = "970"	w = "10"	h = "22" / > <!--pismeno 65  -->
+<Coord id = "961A4542" x = "346"	y = "970"	w = "9"	h = "22" / > <!--pismeno 66	 -->
+<Coord id = "961A4543" x = "358"	y = "970"	w = "9"	h = "22" / > <!--pismeno 67	 -->
+<Coord id = "961A4544" x = "370"	y = "970"	w = "10"	h = "22" / > <!--pismeno 68	 -->
+<Coord id = "961A4545" x = "383"	y = "970"	w = "8"	h = "22" / > <!--pismeno 69	 -->
+<Coord id = "961A4546" x = "394"	y = "970"	w = "7"		h = "22" / > <!--pismeno 70  -->
+<Coord id = "961A4547" x = "404"	y = "970"	w = "10"	h = "22" / > <!--pismeno 71  -->
+<Coord id = "961A4548" x = "417"	y = "970"	w = "11"	h = "22" / > <!--pismeno 72  -->
+<Coord id = "961A4549" x = "429"	y = "970"	w = "2"		h = "22" / > <!--pismeno 73  -->
+<Coord id = "961A454A" x = "434"	y = "970"	w = "5"		h = "22" / > <!--pismeno 74  -->
+<Coord id = "961A454B" x = "442"	y = "970"	w = "9"	h = "22" / > <!--pismeno 75  -->
+<Coord id = "961A454C" x = "454"	y = "970"	w = "7"		h = "22" / > <!--pismeno 76  -->
+<Coord id = "961A454D" x = "464"	y = "970"	w = "12"	h = "22" / > <!--pismeno 77  -->
+<Coord id = "961A454E" x = "479"	y = "970"	w = "10"	h = "22" / > <!--pismeno 78	 -->
+<Coord id = "961A454F" x = "491"	y = "970"	w = "10"	h = "22" / > <!--pismeno 79	 -->
+<Coord id = "961A4550" x = "504"	y = "970"	w = "9"	h = "22" / > <!--pismeno 80  -->
+<Coord id = "961A4551" x = "516"	y = "970"	w = "10"	h = "22" / > <!--pismeno 81  -->
+<Coord id = "961A4552" x = "529"	y = "970"	w = "9"	h = "22" / > <!--pismeno 82  -->
+<Coord id = "961A4553" x = "541"	y = "970"	w = "11"	h = "22" / > <!--pismeno 83  -->
+<Coord id = "961A4554" x = "554"	y = "970"	w = "8"	h = "22" / > <!--pismeno 84  -->
+<Coord id = "961A4555" x = "565"	y = "970"	w = "8"	h = "22" / > <!--pismeno 85  -->
+<Coord id = "961A4556" x = "576"	y = "970"	w = "9"	h = "22" / > <!--pismeno 86  -->
+<Coord id = "961A4557" x = "588"	y = "970"	w = "15"	h = "22" / > <!--pismeno 87  -->
+<Coord id = "961A4558" x = "606"	y = "970"	w = "10"	h = "22" / > <!--pismeno 88	 -->
+<Coord id = "961A4559" x = "619"	y = "970"	w = "10"	h = "22" / > <!--pismeno 89	 -->
+<Coord id = "961A455A" x = "632"	y = "970"	w = "9"	h = "22" / > <!--pismeno 90	 -->
+<Coord id = "961A455B" x = "644"	y = "970"	w = "3"		h = "22" / > <!--pismeno 91  -->
+<Coord id = "961A455C" x = "650"	y = "970"	w = "9"	h = "22" / > <!--pismeno 92  -->
+<Coord id = "961A455D" x = "662"	y = "970"	w = "3"		h = "22" / > <!--pismeno 93	 -->
+<Coord id = "961A455E" x = "668"	y = "970"	w = "8"	h = "22" / > <!--pismeno 94	 -->
+<Coord id = "961A455F" x = "679"	y = "970"	w = "9"	h = "22" / > <!--pismeno 95	 -->
+<Coord id = "961A4560" x = "691"	y = "970"	w = "3"		h = "22" / > <!--pismeno 96	 -->
+<Coord id = "961A4561" x = "697"	y = "970"	w = "9"	h = "22" / > <!--pismeno 97	 -->
+<Coord id = "961A4562" x = "708"	y = "970"	w = "8"	h = "22" / > <!--pismeno 98	 -->
+<Coord id = "961A4563" x = "719"	y = "970"	w = "7"		h = "22" / > <!--pismeno 99	 -->
+<Coord id = "961A4564" x = "729"	y = "970"	w = "9"	h = "22" / > <!--pismeno 100 -->
+<Coord id = "961A4565" x = "740"	y = "970"	w = "8"	h = "22" / > <!--pismeno 101 -->
+<Coord id = "961A4566" x = "751"	y = "970"	w = "5"		h = "22" / > <!--pismeno 102 -->
+<Coord id = "961A4567" x = "759"	y = "970"	w = "9"	h = "22" / > <!--pismeno 103 -->
+<Coord id = "961A4568" x = "771"	y = "970"	w = "8"		h = "22" / > <!--pismeno 104 -->
+<Coord id = "961A4569" x = "781"	y = "970"	w = "3"		h = "22" / > <!--pismeno 105 -->
+<Coord id = "961A456A" x = "786"	y = "970"	w = "4"		h = "22" / > <!--pismeno 106 -->
+<Coord id = "961A456B" x = "793"	y = "970"	w = "8"	h = "22" / > <!--pismeno 107 -->
+<Coord id = "961A456C" x = "804"	y = "970"	w = "3"		h = "22" / > <!--pismeno 108 -->
+<Coord id = "961A456D" x = "809"	y = "970"	w = "14"	h = "22" / > <!--pismeno 109 -->
+<Coord id = "961A456E" x = "825"	y = "970"	w = "7"		h = "22" / > <!--pismeno 110 -->
+<Coord id = "961A456F" x = "835"	y = "970"	w = "9"	h = "22" / > <!--pismeno 111 -->
+<Coord id = "961A4570" x = "846"	y = "970"	w = "8"	h = "22" / > <!--pismeno 112 -->
+<Coord id = "961A4571" x = "857"	y = "970"	w = "8"	h = "22" / > <!--pismeno 113 -->
+<Coord id = "961A4572" x = "868"	y = "970"	w = "4"		h = "22" / > <!--pismeno 114 -->
+<Coord id = "961A4573" x = "875"	y = "970"	w = "7"		h = "22" / > <!--pismeno 115 -->
+<Coord id = "961A4574" x = "885"	y = "970"	w = "5"		h = "22" / > <!--pismeno 116 -->
+<Coord id = "961A4575" x = "893"	y = "970"	w = "8"		h = "22" / > <!--pismeno 117 -->
+<Coord id = "961A4576" x = "904"	y = "970"	w = "7"		h = "22" / > <!--pismeno 118 -->
+<Coord id = "961A4577" x = "913"	y = "970"	w = "12"	h = "22" / > <!--pismeno 119 -->
+<Coord id = "961A4578" x = "928"	y = "970"	w = "7"		h = "22" / > <!--pismeno 120 -->
+<Coord id = "961A4579" x = "938"	y = "970"	w = "8"		h = "22" / > <!--pismeno 121 -->
+<Coord id = "961A457A" x = "948"	y = "970"	w = "6"		h = "22" / > <!--pismeno 122 -->
+<Coord id = "961A457B" x = "957"	y = "970"	w = "4"		h = "22" / > <!--pismeno 123 -->
+<Coord id = "961A457C" x = "964"	y = "970"	w = "2"		h = "22" / > <!--pismeno 124 -->
+<Coord id = "961A457D" x = "969"	y = "970"	w = "4"		h = "22" / > <!--pismeno 125 -->
+<Coord id = "961A457E" x = "976"	y = "970"	w = "8"	h = "22" / > <!--pismeno 126 -->
+<Coord id = "961A457F" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 127 -->
+<Coord id = "961A4580" x = "987"	y = "970"	w = "9"	h = "22" / > <!--pismeno 128 -->
+<Coord id = "961A4581" x = "999"	y = "970"	w = "7"		h = "22" / > <!--pismeno 129 -->
+<Coord id = "961A4582" x = "1009"	y = "970"	w = "8"	h = "22" / > <!--pismeno 130 -->
+<Coord id = "961A4583" x = "0"		y = "992"	w = "8"	h = "22" / > <!--pismeno 131 -->
+<Coord id = "961A4584" x = "11"		y = "992"	w = "8"	h = "22" / > <!--pismeno 132-->
+<Coord id = "961A4585" x = "22"		y = "992"	w = "7"		h = "22" / > <!--pismeno 133-->
+<Coord id = "961A4586" x = "32"		y = "992"	w = "7"		h = "22" / > <!--pismeno 134-->
+<Coord id = "961A4587" x = "42"		y = "992"	w = "7"		h = "22" / > <!--pismeno 135 -->
+<Coord id = "961A4588" x = "52"		y = "992"	w = "4"		h = "22" / > <!--pismeno 136 -->
+<Coord id = "961A4589" x = "59"		y = "992"	w = "8"	h = "22" / > <!--pismeno 137 -->
+<Coord id = "961A458A" x = "70"		y = "992"	w = "10"	h = "22" / > <!--pismeno 138 -->
+<Coord id = "961A458B" x = "83"		y = "992"	w = "8"	h = "22" / > <!--pismeno 139 -->
+<Coord id = "961A458C" x = "94"		y = "992"	w = "5"		h = "22" / > <!--pismeno 140-->
+<Coord id = "961A458D" x = "102"	y = "992"	w = "9"	h = "22" / > <!--pismeno 141-->
+<Coord id = "961A458E" x = "114"	y = "992"	w = "10"	h = "22" / > <!--pismeno 142-->
+<Coord id = "961A458F" x = "127"	y = "992"	w = "9"	h = "22" / > <!--pismeno 143-->
+<Coord id = "961A4590" x = "139"	y = "992"	w = "8"	h = "22" / > <!--pismeno 144-->
+<Coord id = "961A4591" x = "150"	y = "992"	w = "7"		h = "22" / > <!--pismeno 145 -->
+<Coord id = "961A4592" x = "160"	y = "992"	w = "3"		h = "22" / > <!--pismeno 146 -->
+<Coord id = "961A4593" x = "166"	y = "992"	w = "8"	h = "22" / > <!--pismeno 147 -->
+<Coord id = "961A4594" x = "177"	y = "992"	w = "8"	h = "22" / > <!--pismeno 148 -->
+<Coord id = "961A4595" x = "188"	y = "992"	w = "7"		h = "22" / > <!--pismeno 149 -->
+<Coord id = "961A4596" x = "198"	y = "992"	w = "5"		h = "22" / > <!--pismeno 150-->
+<Coord id = "961A4597" x = "206"	y = "992"	w = "10"	h = "22" / > <!--pismeno 151-->
+<Coord id = "961A4598" x = "219"	y = "992"	w = "8"	h = "22" / > <!--pismeno 152-->
+<Coord id = "961A4599" x = "230"	y = "992"	w = "10"	h = "22" / > <!--pismeno 153 -->
+<Coord id = "961A459A" x = "243"	y = "992"	w = "8"	h = "22" / > <!--pismeno 154 -->
+<Coord id = "961A459B" x = "254"	y = "992"	w = "8"	h = "22" / > <!--pismeno 155 -->
+<Coord id = "961A459C" x = "265"	y = "992"	w = "6"		h = "22" / > <!--pismeno 156 -->
+<Coord id = "961A459D" x = "274"	y = "992"	w = "8"	h = "22" / > <!--pismeno 157 -->
+<Coord id = "961A459E" x = "285"	y = "992"	w = "7"		h = "22" / > <!--pismeno 158 -->
+<Coord id = "961A459F" x = "295"	y = "992"	w = "7"		h = "22" / > <!--pismeno 159 -->
+<Coord id = "961A45A0" x = "305"	y = "992"	w = "8"	h = "22" / > <!--pismeno 160-->
+<Coord id = "961A45A1" x = "316"	y = "992"	w = "4"		h = "22" / > <!--pismeno 161-->
+<Coord id = "961A45A2" x = "323"	y = "992"	w = "8"	h = "22" / > <!--pismeno 162-->
+<Coord id = "961A45A3" x = "334"	y = "992"	w = "7"		h = "22" / > <!--pismeno 163-->
+<Coord id = "961A45A4" x = "344"	y = "992"	w = "11"	h = "22" / > <!--pismeno 164 -->
+<Coord id = "961A45A5" x = "358"	y = "992"	w = "8"	h = "22" / > <!--pismeno 165 -->
+<Coord id = "961A45A6" x = "369"	y = "992"	w = "9"	h = "22" / > <!--pismeno 166 -->
+<Coord id = "961A45A7" x = "381"	y = "992"	w = "6"		h = "22" / > <!--pismeno 167 -->
+<Coord id = "961A45A8" x = "390"	y = "992"	w = "8"	h = "22" / > <!--pismeno 168 -->
+<Coord id = "961A45A9" x = "401"	y = "992"	w = "8"	h = "22" / > <!--pismeno 169 -->
+<Coord id = "961A45AA" x = "412"	y = "992"	w = "8"	h = "22" / > <!--pismeno 170-->
+<Coord id = "961A45AB" x = "423"	y = "992"	w = "6"		h = "22" / > <!--pismeno 171-->
+<Coord id = "961A45AC" x = "432"	y = "992"	w = "9"	h = "22" / > <!--pismeno 172-->
+<Coord id = "961A45AD" x = "444"	y = "992"	w = "8"	h = "22" / > <!--pismeno 173-->
+<Coord id = "961A45AE" x = "455"	y = "992"	w = "4"		h = "22" / > <!--pismeno 174-->
+<Coord id = "961A45AF" x = "462"	y = "992"	w = "5"		h = "22" / > <!--pismeno 175-->
+<Coord id = "961A45B0" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 176 -->
+<Coord id = "961A45B1" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 177 -->
+<Coord id = "961A45B2" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 178 -->
+<Coord id = "961A45B3" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 179 -->
+<Coord id = "961A45B4" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 180 -->
+<Coord id = "961A45B5" x = "470"	y = "992"	w = "10"	h = "22" / > <!--pismeno 181-->
+<Coord id = "961A45B6" x = "483"	y = "992"	w = "10"	h = "22" / > <!--pismeno 182 -->
+<Coord id = "961A45B7" x = "496"	y = "992"	w = "8"	h = "22" / > <!--pismeno 183 -->
+<Coord id = "961A45B8" x = "507"	y = "992"	w = "10"	h = "22" / > <!--pismeno 184 -->
+<Coord id = "961A45B9" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 185 -->
+<Coord id = "961A45BA" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 186 -->
+<Coord id = "961A45BB" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 187 -->
+<Coord id = "961A45BC" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 188 -->
+<Coord id = "961A45BD" x = "520"	y = "992"	w = "9"	h = "22" / > <!--pismeno 189 -->
+<Coord id = "961A45BE" x = "532"	y = "992"	w = "6"		h = "22" / > <!--pismeno 190 -->
+<Coord id = "961A45BF" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 191 -->
+<Coord id = "961A45C0" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 192 -->
+<Coord id = "961A45C1" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 193 -->
+<Coord id = "961A45C2" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 194 -->
+<Coord id = "961A45C3" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 195 -->
+<Coord id = "961A45C4" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 196 -->
+<Coord id = "961A45C5" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 197 -->
+<Coord id = "961A45C6" x = "541"	y = "992"	w = "10"	h = "22" / > <!--pismeno 198 -->
+<Coord id = "961A45C7" x = "554"	y = "992"	w = "8"	h = "22" / > <!--pismeno 199 -->
+<Coord id = "961A45C8" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 200 -->
+<Coord id = "961A45C9" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 201 -->
+<Coord id = "961A45CA" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 202 -->
+<Coord id = "961A45CB" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 203 -->
+<Coord id = "961A45CC" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 204 -->
+<Coord id = "961A45CD" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 205 -->
+<Coord id = "961A45CE" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 206 -->
+<Coord id = "961A45CF" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 207 -->
+<Coord id = "961A45D0" x = "565"	y = "992"	w = "8"	h = "22" / > <!--pismeno 208 -->
+<Coord id = "961A45D1" x = "576"	y = "992"	w = "11"	h = "22" / > <!--pismeno 209 -->
+<Coord id = "961A45D2" x = "590"	y = "992"	w = "10"	h = "22" / > <!--pismeno 210 -->
+<Coord id = "961A45D3" x = "603"	y = "992"	w = "8"	h = "22" / > <!--pismeno 211 -->
+<Coord id = "961A45D4" x = "614"	y = "992"	w = "10"	h = "22" / > <!--pismeno 212 -->
+<Coord id = "961A45D5" x = "627"	y = "992"	w = "9"	h = "22" / > <!--pismeno 213 -->
+<Coord id = "961A45D6" x = "639"	y = "992"	w = "4"		h = "22" / > <!--pismeno 214 -->
+<Coord id = "961A45D7" x = "646"	y = "992"	w = "5"		h = "22" / > <!--pismeno 215 -->
+<Coord id = "961A45D8" x = "654"	y = "992"	w = "8"	h = "22" / > <!--pismeno 216 -->
+<Coord id = "961A45D9" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 217 -->
+<Coord id = "961A45DA" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 218 -->
+<Coord id = "961A45DB" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 219 -->
+<Coord id = "961A45DC" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 220 -->
+<Coord id = "961A45DD" x = "665"	y = "992"	w = "9"	h = "22" / > <!--pismeno 221 -->
+<Coord id = "961A45DE" x = "677"	y = "992"	w = "8"	h = "22" / > <!--pismeno 222 -->
+<Coord id = "961A45DF" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 223 -->
+<Coord id = "961A45E0" x = "688"	y = "992"	w = "10"	h = "22" / > <!--pismeno 224 -->
+<Coord id = "961A45E1" x = "701"	y = "992"	w = "9"	h = "22" / > <!--pismeno 225 -->
+<Coord id = "961A45E2" x = "713"	y = "992"	w = "10"	h = "22" / > <!--pismeno 226 -->
+<Coord id = "961A45E3" x = "726"	y = "992"	w = "9"	h = "22" / > <!--pismeno 227 -->
+<Coord id = "961A45E4" x = "738"	y = "992"	w = "7"		h = "22" / > <!--pismeno 228 -->
+<Coord id = "961A45E5" x = "748"	y = "992"	w = "7"		h = "22" / > <!--pismeno 229 -->
+<Coord id = "961A45E6" x = "758"	y = "992"	w = "10"	h = "22" / > <!--pismeno 230 -->
+<Coord id = "961A45E7" x = "771"	y = "992"	w = "7"		h = "22" / > <!--pismeno 231 -->
+<Coord id = "961A45E8" x = "781"	y = "992"	w = "9"	h = "22" / > <!--pismeno 232 -->
+<Coord id = "961A45E9" x = "793"	y = "992"	w = "8"	h = "22" / > <!--pismeno 233 -->
+<Coord id = "961A45EA" x = "804"	y = "992"	w = "4"		h = "22" / > <!--pismeno 234 -->
+<Coord id = "961A45EB" x = "811"	y = "992"	w = "8"	h = "22" / > <!--pismeno 235 -->
+<Coord id = "961A45EC" x = "822"	y = "992"	w = "7"		h = "22" / > <!--pismeno 236 -->
+<Coord id = "961A45ED" x = "832"	y = "992"	w = "10"	h = "22" / > <!--pismeno 237 -->
+<Coord id = "961A45EE" x = "845"	y = "992"	w = "5"		h = "22" / > <!--pismeno 238 -->
+<Coord id = "961A45EF" x = "853"	y = "992"	w = "3"		h = "22" / > <!--pismeno 239 -->
+<Coord id = "961A45F0" x = "859"	y = "992"	w = "4"		h = "22" / > <!--pismeno 240 -->
+<Coord id = "961A45F1" x = "866"	y = "992"	w = "6"		h = "22" / > <!--pismeno 241 -->
+<Coord id = "961A45F2" x = "875"	y = "992"	w = "3"		h = "22" / > <!--pismeno 242 -->
+<Coord id = "961A45F3" x = "881"	y = "992"	w = "5"		h = "22" / > <!--pismeno 243 -->
+<Coord id = "961A45F4" x = "889"	y = "992"	w = "5"		h = "22" / > <!--pismeno 244 -->
+<Coord id = "961A45F5" x = "897"	y = "992"	w = "8"	h = "22" / > <!--pismeno 245 -->
+<Coord id = "961A45F6" x = "908"	y = "992"	w = "9"	h = "22" / > <!--pismeno 246 -->
+<Coord id = "961A45F7" x = "920"	y = "992"	w = "3"		h = "22" / > <!--pismeno 247 -->
+<Coord id = "961A45F8" x = "926"	y = "992"	w = "5"		h = "22" / > <!--pismeno 248 -->
+<Coord id = "961A45F9" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 249 -->
+<Coord id = "961A45FA" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 250 -->
+<Coord id = "961A45FB" x = "934"	y = "992"	w = "7"		h = "22" / > <!--pismeno 251 -->
+<Coord id = "961A45FC" x = "944"	y = "992"	w = "9"	h = "22" / > <!--pismeno 252 -->
+<Coord id = "961A45FD" x = "956"	y = "992"	w = "6"		h = "22" / > <!--pismeno 253 -->
+<Coord id = "961A45FE" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 254 -->
+<Coord id = "961A45FF" x = "0"		y = "970"	w = "0"		h = "22" / > <!--pismeno 255 -->
